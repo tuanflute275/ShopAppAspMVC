@@ -1,0 +1,111 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin Panel</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/images/logo.ico" /> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Admin/css/bootstrap.min.css">
+    <!-- Typography CSS -->
+    <link rel="stylesheet" href="~/Admin/css/typography.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="~/Admin/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="~/Admin/css/responsive.css">
+    <script src="https://cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script>
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <!-- loader Start -->
+    <div id="loading">
+        <div id="loading-center">
+        </div>
+    </div>
+    <!-- loader END -->
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        @Html.Partial("_Sidebar")
+        <!-- Sidebar END  -->
+        
+        <!-- TOP Nav Bar -->
+        @Html.Partial("_Header")
+        <!-- TOP Nav Bar END -->
+
+        <!-- Page Content  -->
+        @RenderBody()
+        <!-- End Page Content  -->
+    </div>
+    <!-- Wrapper END -->
+    <!-- Footer -->
+    @Html.Partial("_Footer")
+    <!-- Footer END -->
+    <!-- color-customizer -->
+    <!-- color-customizer END -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="~/Admin/js/jquery.min.js"></script>
+    <script src="~/Admin/js/popper.min.js"></script>
+    <script src="~/Admin/js/bootstrap.min.js"></script>
+    <!-- Appear JavaScript -->
+    <script src="~/Admin/js/jquery.appear.js"></script>
+    <!-- Countdown JavaScript -->
+    <script src="~/Admin/js/countdown.min.js"></script>
+    <!-- Counterup JavaScript -->
+    <script src="~/Admin/js/waypoints.min.js"></script>
+    <script src="~/Admin/js/jquery.counterup.min.js"></script>
+    <!-- Wow JavaScript -->
+    <script src="~/Admin/js/wow.min.js"></script>
+    <!-- Apexcharts JavaScript -->
+    <script src="~/Admin/js/apexcharts.js"></script>
+    <!-- Slick JavaScript -->
+    <script src="~/Admin/js/slick.min.js"></script>
+    <!-- Select2 JavaScript -->
+    <script src="~/Admin/js/select2.min.js"></script>
+    <!-- Owl Carousel JavaScript -->
+    <script src="~/Admin/js/owl.carousel.min.js"></script>
+    <!-- Magnific Popup JavaScript -->
+    <script src="~/Admin/js/jquery.magnific-popup.min.js"></script>
+    <!-- Smooth Scrollbar JavaScript -->
+    <script src="~/Admin/js/smooth-scrollbar.js"></script>
+    <!-- lottie JavaScript -->
+    <script src="~/Admin/js/lottie.js"></script>
+    <!-- am core JavaScript -->
+    <script src="~/Admin/js/core.js"></script>
+    <!-- am charts JavaScript -->
+    <script src="~/Admin/js/charts.js"></script>
+    <!-- am animated JavaScript -->
+    <script src="~/Admin/js/animated.js"></script>
+    <!-- am kelly JavaScript -->
+    <script src="~/Admin/js/kelly.js"></script>
+    <!-- am maps JavaScript -->
+    <script src="~/Admin/js/maps.js"></script>
+    <!-- am worldLow JavaScript -->
+    <script src="~/Admin/js/worldLow.js"></script>
+    <!-- Raphael-min JavaScript -->
+    <script src="~/Admin/js/raphael-min.js"></script>
+    <!-- Morris JavaScript -->
+    <script src="~/Admin/js/morris.js"></script>
+    <!-- Morris min JavaScript -->
+    <script src="~/Admin/js/morris.min.js"></script>
+    <!-- Flatpicker Js -->
+    <script src="~/Admin/js/flatpickr.js"></script>
+    <!-- Style Customizer -->
+    <script src="~/Admin/js/style-customizer.js"></script>
+    <!-- Chart Custom JavaScript -->
+    <script src="~/Admin/js/chart-custom.js"></script>
+    <script src="~/Admin/js/chart-custom2.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="~/Admin/js/custom.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    @* <script>
+        $.widget.bridge('uibutton', $.ui.button)
+    </script> *@
+
+    @await RenderSectionAsync("Scripts", required: false)
+    @await Component.InvokeAsync("NToastNotify")
+    @await Component.InvokeAsync("Notyf")
+</body>
+</html>

@@ -1,0 +1,2141 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DELL\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\noty.js",
+      "PackagePath": "staticwebassets\\noty.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\toastr.js",
+      "PackagePath": "staticwebassets\\toastr.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ShopApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\Chart.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\Chart.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Admin\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\developer.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\developer.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\dripicons.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\dripicons.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\flatpickr.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\line-awesome.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\line-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Admin\\css\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\remixicon.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\remixicon.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\select2.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\slick-theme.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\slick.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\slick.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\style-customizer.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\style-customizer.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\typography.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\typography.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\css\\variable.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\variable.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\AvenirLTStd-Black.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\AvenirLTStd-Black.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\AvenirLTStd-Book.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\AvenirLTStd-Book.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\AvenirLTStd-Roman.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\AvenirLTStd-Roman.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\Now-Bold.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\Now-Bold.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\Now-Bold.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\Now-Bold.woff2"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\Now-Regular.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\Now-Regular.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\Now-Regular.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\Now-Regular.woff2"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\dripicons-v2.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\dripicons-v2.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\dripicons-v2.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\dripicons-v2.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\dripicons-v2.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\dripicons-v2.ttf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\dripicons-v2.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\dripicons-v2.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-brands-400.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-brands-400.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-brands-400.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-regular-400.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-regular-400.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-regular-400.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-solid-900.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-solid-900.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-solid-900.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\la-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\la-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\remixicon.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\remixicon.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\remixicon.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\remixicon.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\remixicon.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\remixicon.ttf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\remixicon.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\remixicon.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\remixicon.woff2"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\slick.eot"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\slick.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\slick.woff"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\bootstrap\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\bootstrap\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\bootstrap\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\bootstrap\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\bootstrap\\main.css",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\bootstrap\\main.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\bootstrap\\main.d.ts",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\bootstrap\\main.d.ts"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\bootstrap\\main.esm.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\bootstrap\\main.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\bootstrap\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\bootstrap\\main.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\bootstrap\\main.min.css",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\bootstrap\\main.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\bootstrap\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\bootstrap\\main.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\bootstrap\\package.json",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\bootstrap\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales-all.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales-all.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales-all.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales-all.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\af.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\af.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ar-dz.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ar-dz.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ar-kw.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ar-kw.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ar-ly.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ar-ly.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ar-ma.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ar-ma.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ar-sa.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ar-sa.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ar-tn.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ar-tn.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ar.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ar.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\bg.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\bg.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\bs.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\bs.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ca.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ca.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\cs.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\cs.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\da.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\da.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\de.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\de.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\el.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\el.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\en-au.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\en-au.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\en-gb.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\en-gb.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\en-nz.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\en-nz.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\es-us.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\es-us.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\es.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\es.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\et.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\et.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\eu.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\eu.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\fa.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\fa.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\fi.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\fi.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\fr-ca.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\fr-ch.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\fr-ch.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\fr.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\fr.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\gl.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\gl.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\he.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\he.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\hi.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\hi.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\hr.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\hr.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\hu.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\hu.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\id.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\id.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\is.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\is.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\it.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\it.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ja.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ja.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ka.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ka.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\kk.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\kk.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ko.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ko.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\lb.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\lb.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\lt.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\lt.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\lv.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\lv.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\mk.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\mk.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ms.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ms.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\nb.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\nb.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\nl.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\nl.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\nn.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\nn.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\pl.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\pl.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\pt-br.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\pt-br.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\pt.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\pt.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ro.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ro.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\ru.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\ru.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\sk.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\sk.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\sl.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\sl.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\sq.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\sq.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\sr-cyrl.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\sr.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\sr.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\sv.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\sv.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\th.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\th.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\tr.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\tr.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\uk.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\uk.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\vi.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\vi.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\zh-cn.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\locales\\zh-tw.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\locales\\zh-tw.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\main.css",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\main.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\main.d.ts",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\main.d.ts"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\main.esm.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\main.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\main.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\main.min.css",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\main.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\main.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\core\\package.json",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\core\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\daygrid\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\daygrid\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\daygrid\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\daygrid\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\daygrid\\main.css",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\daygrid\\main.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\daygrid\\main.d.ts",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\daygrid\\main.d.ts"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\daygrid\\main.esm.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\daygrid\\main.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\daygrid\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\daygrid\\main.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\daygrid\\main.min.css",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\daygrid\\main.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\daygrid\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\daygrid\\main.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\daygrid\\package.json",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\daygrid\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\google-calendar\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\google-calendar\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\google-calendar\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\google-calendar\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\google-calendar\\main.d.ts",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\google-calendar\\main.d.ts"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\google-calendar\\main.esm.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\google-calendar\\main.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\google-calendar\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\google-calendar\\main.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\google-calendar\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\google-calendar\\main.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\google-calendar\\package.json",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\google-calendar\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\interaction\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\interaction\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\interaction\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\interaction\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\interaction\\main.d.ts",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\interaction\\main.d.ts"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\interaction\\main.esm.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\interaction\\main.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\interaction\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\interaction\\main.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\interaction\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\interaction\\main.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\interaction\\package.json",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\interaction\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\list\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\list\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\list\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\list\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\list\\main.css",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\list\\main.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\list\\main.d.ts",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\list\\main.d.ts"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\list\\main.esm.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\list\\main.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\list\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\list\\main.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\list\\main.min.css",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\list\\main.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\list\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\list\\main.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\list\\package.json",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\list\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\luxon\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\luxon\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\luxon\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\luxon\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\luxon\\main.d.ts",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\luxon\\main.d.ts"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\luxon\\main.esm.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\luxon\\main.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\luxon\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\luxon\\main.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\luxon\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\luxon\\main.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\luxon\\package.json",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\luxon\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment-timezone\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment-timezone\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment-timezone\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment-timezone\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment-timezone\\main.d.ts",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment-timezone\\main.d.ts"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment-timezone\\main.esm.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment-timezone\\main.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment-timezone\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment-timezone\\main.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment-timezone\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment-timezone\\main.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment-timezone\\package.json",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment-timezone\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment\\main.d.ts",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment\\main.d.ts"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment\\main.esm.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment\\main.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment\\main.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment\\main.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\moment\\package.json",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\moment\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\rrule\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\rrule\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\rrule\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\rrule\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\rrule\\main.d.ts",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\rrule\\main.d.ts"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\rrule\\main.esm.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\rrule\\main.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\rrule\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\rrule\\main.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\rrule\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\rrule\\main.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\rrule\\package.json",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\rrule\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\timegrid\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\timegrid\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\timegrid\\README.md",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\timegrid\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\timegrid\\main.css",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\timegrid\\main.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\timegrid\\main.d.ts",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\timegrid\\main.d.ts"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\timegrid\\main.esm.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\timegrid\\main.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\timegrid\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\timegrid\\main.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\timegrid\\main.min.css",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\timegrid\\main.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\timegrid\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\timegrid\\main.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\fullcalendar\\timegrid\\package.json",
+      "PackagePath": "staticwebassets\\Admin\\fullcalendar\\timegrid\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\avt.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\avt.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\bg-03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\bg-03.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\01.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\02.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\03.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\04.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\04.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\05.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\05.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\06.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\06.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book\\book.pdf",
+      "PackagePath": "staticwebassets\\Admin\\images\\book\\book.pdf"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\booking\\01.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\booking\\01.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\booking\\02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\booking\\02.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\booking\\cart.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\booking\\cart.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\booking\\seat.svg",
+      "PackagePath": "staticwebassets\\Admin\\images\\booking\\seat.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\box.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\box.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\01.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\02.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\03.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\04.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\04.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\05.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\05.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\06.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\06.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\07.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\07.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\08.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\08.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\09.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\09.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\10.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\10.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\11.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\11.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\12.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\12.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\img01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\img01.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\cart\\01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\cart\\01.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\cart\\02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\cart\\02.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\cart\\03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\cart\\03.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\cart\\04.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\cart\\04.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\cart\\05.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\cart\\05.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\checkout\\01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\checkout\\01.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\checkout\\02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\checkout\\02.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\checkout\\03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\checkout\\03.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\error\\02.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\error\\02.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\error\\404.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\error\\404.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\error\\500.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\error\\500.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\01.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\02.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\03.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\04.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\04.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\05.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\05.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\06.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\06.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\07.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\07.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\08.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\08.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\09.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\09.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\01.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\01.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\02.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\02.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\03.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\03.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\04.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\04.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\05.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\05.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\06.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\06.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\07.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\07.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\08.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\08.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\09.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\09.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\10.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\10.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\11.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\11.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\12.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\12.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\13.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\13.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\expand-window.json",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\expand-window.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\open-letter.json",
+      "PackagePath": "staticwebassets\\Admin\\images\\icon\\open-letter.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\login\\1.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\login\\1.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\login\\2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\login\\2.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\login\\mail.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\login\\mail.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\login\\sign-bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\login\\sign-bg.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\06.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\06.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\07.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\07.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\08.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\08.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\09.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\09.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\img01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\img01.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\img02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\img02.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\img03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\img03.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\img04.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\img04.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\img05.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\img05.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\01.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\02.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\03.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\07.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\07.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\08.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\08.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\09.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\09.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\10.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\10.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\100.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\100.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\11.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\11.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\12.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\12.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\13.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\13.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\14.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\14.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\15.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\15.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\16.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\16.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\17.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\17.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\18.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\18.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\19.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\19.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\20.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\20.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\21.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\21.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\22.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\22.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\23.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\23.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\24.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\24.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\25.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\25.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\26.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\26.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\27.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\27.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\28.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\28.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\42.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\42.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\42.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\42.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\43.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\43.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\44.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\44.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\45.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\45.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\46.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\46.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\47.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\47.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\48.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\48.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\49.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\49.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\a1.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\a1.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\a2.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\a2.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\a3.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\a3.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\a4.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\a4.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\featured-book.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\featured-book.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\img-success.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\img-success.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\man.svg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\man.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\p1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\p1.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\p2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\p2.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\page-load-loader.gif",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\page-load-loader.gif"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\profile-bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\profile-bg.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\tag_blue.svg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\tag_blue.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\tag_red.svg",
+      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\tag_red.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\01.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\02.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\03.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\04.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\04.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\05.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\05.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\06.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\06.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\07.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\07.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\08.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\08.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\09.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\09.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\10.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\10.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\11.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\11.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\12.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\12.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\01.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\02.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\03.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\04.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\04.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\05.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\05.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\06.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\06.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\04.svg",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\04.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\05.svg",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\05.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\07.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\07.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\08.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\08.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\09.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\09.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\10.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\10.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\11.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\11.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\12.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\12.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\13.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\13.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\14.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\14.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\data.json",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\data.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\data1.json",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\data1.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\data2.json",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\data2.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-01.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-01.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-02.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-02.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-03.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-03.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-04.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-04.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-05.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-05.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-06.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-06.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\jpg.svg",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\jpg.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\match-code.json",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\match-code.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\xml.svg",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\xml.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\zip.svg",
+      "PackagePath": "staticwebassets\\Admin\\images\\small\\zip.svg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\01.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\01.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\02.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\02.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\03.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\03.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\04.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\04.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\05.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\05.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\06.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\06.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\user\\1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\user\\1.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\user\\2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\user\\2.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\algoliasearchLite.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\algoliasearchLite.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\animated.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\animated.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\apexcharts.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\bodymovin.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bodymovin.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\chart-custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\chart-custom.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\charts.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\charts.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\ckeditor.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\core.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\core.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\countdown.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\countdown.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\custom2.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\custom2.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\flatpickr.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\flatpickr.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\highcharts-3d.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\highcharts-3d.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\highcharts-more.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\highcharts-more.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\highcharts.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\highcharts.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\instantsearch.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\instantsearch.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\jquery.appear.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.appear.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\kelly.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\kelly.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\lottie.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\lottie.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\maps.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\maps.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\morris.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\morris.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\morris.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\morris.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\raphael-min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\raphael-min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\select2.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\smooth-scrollbar.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\smooth-scrollbar.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\style-customizer.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\style-customizer.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\worldHigh.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\worldHigh.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\worldLow.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\worldLow.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\wow.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\ao.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\ao.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\avatar.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\blog7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\blog7.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\logo.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\logo.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\pr7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\pr7.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\túi1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\túi1.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\túi2.webp",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\túi2.webp"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\blogs\\quần1.jfif",
+      "PackagePath": "staticwebassets\\Uploads\\blogs\\quần1.jfif"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\blogs\\quần2.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\blogs\\quần2.jpeg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\products\\pr2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\pr2.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\products\\pr3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\pr3.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\products\\pr6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\pr6.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\products\\pr7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\pr7.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\products\\quần2.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\quần2.jpeg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\products\\quần2.resized.png",
+      "PackagePath": "staticwebassets\\Uploads\\products\\quần2.resized.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\add-image-icon.jpg",
+      "PackagePath": "staticwebassets\\images\\add-image-icon.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\defaultUser.png",
+      "PackagePath": "staticwebassets\\images\\defaultUser.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\logo.ico",
+      "PackagePath": "staticwebassets\\images\\logo.ico"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShopApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ShopApp.props",
+      "PackagePath": "build\\ShopApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ShopApp.props",
+      "PackagePath": "buildMultiTargeting\\ShopApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ShopApp.props",
+      "PackagePath": "buildTransitive\\ShopApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,83 @@
+﻿@model ShopApp.Models.ViewModels.LoginViewModel
+
+@{
+    Layout = "";
+}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin - Login</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/images/logo.ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Admin/css/bootstrap.min.css">
+    <!-- Typography CSS -->
+    <link rel="stylesheet" href="~/Admin/css/typography.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="~/Admin/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="~/Admin/css/responsive.css">
+</head>
+
+<body>
+    <section class="sign-in-page">
+        <div class="container p-0">
+            <div class="row no-gutters height-self-center">
+                <div class="col-sm-12 align-self-center page-content rounded">
+                    <div class="row m-0">
+                        <div class="col-sm-12 sign-in-page-data">
+                            <div class="sign-in-from bg-primary rounded">
+                                <h3 class="mb-0 text-center text-white">Đăng nhập</h3>
+                                <p class="text-center text-white">
+                                    Nhập tên tài khoản và mật khẩu để truy cập vào bảng quản trị.
+                                </p>
+                                <form class="mt-4 form-text" asp-area="Admin" asp-controller="Logging" asp-action="Login" method="post">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <input name="returnUrl" value="@ViewBag.returnUrl" type="hidden" />
+                                    <div class="form-group">
+                                        <label for="email">Tên tài khoản</label>
+                                        <input asp-for="Username" type="text" class="form-control mb-0" id="email"
+                                               placeholder="Nhập tên tài khoản...">
+                                        <span asp-validation-for="Username" id="username_err" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Mật khẩu</label>
+                                        <input asp-for="Password" type="password" class="form-control mb-0" id="password"
+                                               placeholder="Nhập mật khẩu...">
+                                        <span asp-validation-for="Password" id="password_err" class="text-danger"></span>
+                                    </div>
+                                    
+                                    <div class="sign-info text-center">
+                                        <button type="submit" class="btn btn-white d-block w-100 mb-2">Đăng nhập</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="~/Admin/js/jquery.min.js"></script>
+    <script src="~/Admin/js/popper.min.js"></script>
+    <script src="~/Admin/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    @await Component.InvokeAsync("NToastNotify")
+    @await Component.InvokeAsync("Notyf")
+</body>
+
+</html>

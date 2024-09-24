@@ -1,0 +1,120 @@
+﻿@model ShopApp.Data.Account
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="content-page" class="content-page p-0" style="padding-top: 85px !important;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="iq-card">
+                    <div class="iq-card-header d-flex justify-content-between">
+                        <div class="iq-header-title">
+                            <h4 class="card-title">Chỉnh sửa tài khoản</h4>
+                        </div>
+                    </div>
+                    <div class="iq-card-body">
+                        <form asp-action="Edit" enctype="multipart/form-data">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" name="oldImage" value="@Model.UserAvatar" />
+                            <input type="hidden" asp-for="UserId" />
+                            <div class="form-group">
+                                <label for="image"
+                                       class="col-md-3 col-form-label">Image</label>
+                                <div class="col-md-9 col-xl-8">
+                                    <img style="height: 200px;width: 200px; cursor: pointer;"
+                                         class="thumbnail rounded-circle" data-toggle="tooltip"
+                                         title="Click to change the image" data-placement="bottom"
+                                    <img src="@(string.IsNullOrEmpty(Model.UserAvatar)
+                                    ? Url.Content("~/images/add-image-icon.jpg")
+                                    : Url.Content("~/Uploads/accounts/" + Model.UserAvatar))"
+                                        alt="Avatar" class="card-img" style="width: 100px;" />
+                                    <input name="fileUpload" type="file" onchange="changeImg(this)" multiple
+                                           style="display: none;"
+                                           class="image form-control-file mt-3">
+                                    </br>
+                                    <span asp-validation-for="UserAvatar" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="UserName" class="control-label">Tên tài khoản</label>
+                                <input asp-for="UserName" class="form-control" placeholder="Nhập tên tài khoản tại đây..." />
+                                <span asp-validation-for="UserName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="UserFullName" class="control-label">Tên đầy đủ</label>
+                                <input asp-for="UserFullName" class="form-control" placeholder="Nhập tên đầy đủ tại đây..." />
+                                <span asp-validation-for="UserFullName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="UserEmail" class="control-label">Email</label>
+                                <input asp-for="UserEmail" class="form-control" placeholder="Nhập email tại đây..." />
+                                <span asp-validation-for="UserEmail" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="UserPassword" class="control-label">Mật khẩu</label>
+                                <input asp-for="UserPassword" class="form-control" placeholder="Nhập mật khẩu tại đây..." />
+                                <span asp-validation-for="UserPassword" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="UserPhone" class="control-label">Số điện thoại</label>
+                                <input asp-for="UserPhone" class="form-control" placeholder="Nhập số điện thoại tại đây..." />
+                                <span asp-validation-for="UserPhone" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="UserAddress" class="control-label">Địa chỉ</label>
+                                <input asp-for="UserAddress" class="form-control" placeholder="Nhập địa chỉ tại đây..." />
+                                <span asp-validation-for="UserAddress" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="UserGender" class="control-label">Giới tính</label>
+                                <select asp-for="UserGender" class="form-control">
+                                    <option value="1">Nam</option>
+                                    <option value="0">Nữ</option>
+                                </select>
+                                <span asp-validation-for="UserGender" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="UserActive" class="control-label">Trạng thái</label>
+                                <select asp-for="UserActive" class="form-control">
+                                    <option value="1">Hoạt động</option>
+                                    <option value="0">Tạm khóa</option>
+                                </select>
+                                <span asp-validation-for="UserActive" class="text-danger"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Gửi</button>
+                            <a asp-action="Index" class="btn btn-danger">Trở lại</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        function changeImg(input) {
+            //Nếu như tồn thuộc tính file, đồng nghĩa người dùng đã chọn file mới
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                //Sự kiện file đã được load vào website
+                reader.onload = function (e) {
+                    //Thay đổi đường dẫn ảnh
+                    $(input).siblings('.thumbnail').attr('src', e.target.result);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        //Khi click #thumbnail thì cũng gọi sự kiện click #image
+        $(document).ready(function () {
+            $('.thumbnail').click(function () {
+                $(this).siblings('.image').click();
+            });
+        });
+    </script>
+}

@@ -1,0 +1,105 @@
+﻿@model ShopApp.Data.Product
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="content-page" class="content-page p-0" style="padding-top: 85px !important;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="iq-card">
+                    <div class="iq-card-header d-flex justify-content-between">
+                        <div class="iq-header-title">
+                            <h4 class="card-title">Thêm mới sản phẩm</h4>
+                        </div>
+                    </div>
+                    <div class="iq-card-body">
+                        <form asp-action="Create" enctype="multipart/form-data">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label for="image"
+                                       class="col-md-3 col-form-label">Image</label>
+                                <div class="col-md-9 col-xl-8">
+                                    <img style="height: 200px;width: 200px; cursor: pointer;object-fit:contain;"
+                                         class="thumbnail" data-toggle="tooltip"
+                                         title="Click to change the image" data-placement="bottom"
+                                    <img src="@(Url.Content("~/images/add-image-icon.jpg"))" alt="Avatar">
+                                    <input name="fileUpload" type="file" onchange="changeImg(this)" multiple
+                                           style="display: none;"
+                                           class="image form-control-file mt-3">
+                                    </br>
+                                    <span asp-validation-for="ProductImage" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ProductName" class="control-label">Tên sản phẩm</label>
+                                <input asp-for="ProductName" class="form-control" placeholder="Nhập tên sản phẩm..." />
+                                <span asp-validation-for="ProductName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ProductPrice" class="control-label">Giá sản phẩm</label>
+                                <input asp-for="ProductPrice" class="form-control" placeholder="Nhập giá sản phẩm..." />
+                                <span asp-validation-for="ProductPrice" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ProductSalePrice" class="control-label">Giá sản phẩm</label>
+                                <input asp-for="ProductSalePrice" class="form-control" placeholder="Nhập giá khuyến mãi..." />
+                                <span asp-validation-for="ProductSalePrice" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ProductCategoryId" class="control-label">Danh mục</label>
+                                <select asp-for="ProductCategoryId" class="form-control" asp-items="ViewBag.ProductCategoryId"></select>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ProductStatus" class="control-label">Trạng thái</label>
+                                <select asp-for="ProductStatus" class="form-control">
+                                    <option value="1" selected>Hiển thị</option>
+                                    <option value="0">Tạm ẩn</option>
+                                </select>
+                                <span asp-validation-for="ProductStatus" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ProductDescription" class="control-label">Mô tả sản phẩm</label>
+                                <textarea asp-for="ProductDescription" class="form-control" placeholder="Nhập mô tả sản phẩm..." rows="4"></textarea>
+                                <span asp-validation-for="ProductDescription" class="text-danger"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Gửi</button>
+                            <a asp-action="Index" class="btn btn-danger">Trở lại</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        CKEDITOR.replace('@Html.IdFor(m => m.ProductDescription)');
+    </script>
+    <script>
+        function changeImg(input) {
+            //Nếu như tồn thuộc tính file, đồng nghĩa người dùng đã chọn file mới
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                //Sự kiện file đã được load vào website
+                reader.onload = function (e) {
+                    //Thay đổi đường dẫn ảnh
+                    $(input).siblings('.thumbnail').attr('src', e.target.result);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        //Khi click #thumbnail thì cũng gọi sự kiện click #image
+        $(document).ready(function () {
+            $('.thumbnail').click(function () {
+                $(this).siblings('.image').click();
+            });
+        });
+    </script>
+}
+

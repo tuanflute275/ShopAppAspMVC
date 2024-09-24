@@ -1,0 +1,74 @@
+﻿@model ShopApp.Data.Order
+@using ShopApp.Enums
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="content-page" class="content-page p-0" style="padding-top: 85px !important;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="iq-card">
+                    <div class="iq-card-header d-flex justify-content-between">
+                        <div class="iq-header-title">
+                            <h4 class="card-title">Chỉnh sửa danh mục</h4>
+                        </div>
+                    </div>
+                    <div class="iq-card-body">
+                        <form asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="OrderId" />
+                            <div class="form-group">
+                                <label asp-for="OrderStatus" class="control-label">Trạng thái đơn hàng</label>
+                                <select asp-for="OrderStatus" class="form-control" style="font-weight: bold;">
+                                    <option value="1" selected="@(Model.OrderStatus == 1)">@OrderStatus.CHOXACNHANTXT</option>
+                                    <option value="2" selected="@(Model.OrderStatus == 2)">@OrderStatus.XACNHANDONHANGTXT</option>
+                                    <option value="3" selected="@(Model.OrderStatus == 3)">@OrderStatus.CHUANBIDONHANGTXT</option>
+                                    <option value="4" selected="@(Model.OrderStatus == 4)">@OrderStatus.DANGGIAOHANGTXT</option>
+                                    <option value="5" selected="@(Model.OrderStatus == 5)">@OrderStatus.DAGIAOHANGTXT</option>
+                                    <option value="6" selected="@(Model.OrderStatus == 6)">@OrderStatus.HUYDONHANGTXT</option>
+                                </select>
+                                <span asp-validation-for="OrderStatus" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="OrderFullName" class="control-label">Khách hàng</label>
+                                <input asp-for="OrderFullName" class="form-control" readonly/>
+                                <span asp-validation-for="OrderFullName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="OrderAddress" class="control-label">Địa chỉ</label>
+                                <input asp-for="OrderAddress" class="form-control" readonly/>
+                                <span asp-validation-for="OrderAddress" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="OrderPhone" class="control-label">Số điện thoại</label>
+                                <input asp-for="OrderPhone" class="form-control" readonly/>
+                                <span asp-validation-for="OrderPhone" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-primary" />
+                                <a asp-action="Index" class="btn btn-danger">Trở lại</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        function ChangeToSlug() {
+            var slug = document.getElementById("slug").value;
+            slug = slug.toLowerCase();
+            slug = slug.replace(/ /g, "-"); // Thay thế khoảng trắng bằng dấu gạch nối
+            slug = slug.replace(/[^\w-]+/g, ""); // Xóa các ký tự không phải là chữ cái, số hoặc dấu gạch
+            document.getElementById("CategorySlug").value = slug; // Cập nhật slug vào ô nhập
+        }
+    </script>
+}

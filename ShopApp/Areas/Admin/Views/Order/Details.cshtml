@@ -1,0 +1,69 @@
+﻿@model ShopApp.Data.Order
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    var i = 1;
+    var listDetails = ViewBag.orderDetails;
+}
+
+<div id="content-page" class="content-page p-0" style="padding-top: 85px !important;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="iq-card">
+                    <div class="iq-card-header d-flex justify-content-between">
+                        <div class="iq-header-title">
+                            <h4 class="card-title">Chi tiết đơn hàng #@Model.OrderId</h4>
+                            <span>Khách hàng: <span class="font-weight-bold">@Model.OrderFullName</span></span></br>
+                            <span>Địa chỉ: <span class="font-weight-bold">@Model.OrderAddress</span></span></br>
+                            <span>Số điện thoại: <span class="font-weight-bold">@Model.OrderPhone</span></span></br>
+                            <span>Tổng giá trị đơn hàng: <span class="font-weight-bold">@String.Format("{0:#,0} VND", Model.OrderAmount)</span></span>
+                        </div>
+                    </div>
+                    <div class="iq-card-body">
+                        <div class="table-responsive">
+                        <a class="btn btn-primary mb-2" asp-action="Index" role="button">Quay lại</a>
+                        <a class="btn btn-primary mb-2" asp-area="Admin" asp-controller="Order" asp-action="Export" asp-route-id="@Model.OrderId" role="button">
+                            Tải xuống Excel</a>
+                        <input type="hidden" asp-for="OrderId" />
+                            <table class="data-tables table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>STT</th>
+                                        <th>Hình ảnh</th>
+                                        <th>Tên sản phẩm</th>
+                                        <th width="15%;">Giá sản phẩm</th>
+                                        <th width="8%;">Số lượng</th>
+                                        <th width="15%;">Tổng tiền</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in listDetails)
+                                    {
+                                        <tr>
+                                            <td class="text-center">@i</td>
+                                            <td class="text-center">
+                                                <img src="@(item.Product?.ProductImage != null
+                                                ? (item.Product?.ProductImage.StartsWith("http")
+                                                    ? item.Product?.ProductImage
+                                                    : Url.Content("~/Uploads/products/" + item.Product?.ProductImage))
+                                                : Url.Content("~/images/defaultUser.png"))"
+                                                     alt="@item.Product?.ProductImage" class="card-img" style="width: 100px;" />
+                                            </td>
+                                            <td class="text-center">@item.Product?.ProductName</td>
+                                            <td class="text-center">@String.Format("{0:#,0} VND", item.Price)</td>
+                                            <td class="text-center">@item.Quantity</td>
+                                            <td class="text-center">@String.Format("{0:#,0} VND", item.TotalMoney)</td>
+                                        </tr>
+                                        i++;
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,133 @@
+﻿@model X.PagedList.IPagedList<ShopApp.Data.Product>
+@using X.PagedList.Mvc.Core;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+    var names = ViewBag.names;
+    var sorts = ViewBag.sorts;
+}
+
+<div id="content-page" class="content-page p-0" style="padding-top: 85px !important;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+
+                <div class="iq-card">
+                    <div class="iq-card-header d-flex justify-content-between">
+                        <div class="iq-header-title">
+                            <h4 class="card-title">Danh sách sản phẩm</h4>
+                        </div>
+                        <div class="iq-card-header-toolbar d-flex align-items-center">
+                            <a asp-action="Create" class="btn btn-primary">Thêm mới sản phẩm</a>
+                        </div>
+                    </div>
+
+                    <div class="iq-card-body">
+                        <form method="GET">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="col-4 p-0">
+                                    <input type="text" value="@names" name="name" class="form-control" placeholder="Tìm kiếm theo tên sản phẩm..." />
+                                </div>
+
+                                <div class="col-3 p-0">
+                                    <div class="d-flex">
+                                        <select class="form-control rounded-0 " name="sort">
+                                            <option value="">----- Sắp xếp -----</option>
+                                            <option value="Id-ASC" selected="@(sorts == "Id-ASC")">Sắp xếp theo stt (a - z)</option>
+                                            <option value="Id-DESC" selected="@(sorts == "Id-DESC")">Sắp xếp theo stt (z - a)</option>
+                                            <option value="Name-ASC" selected="@(sorts == "Name-ASC")">Sắp xếp theo tên sản phẩm (a - z)</option>
+                                            <option value="Name-DESC" selected="@(sorts == "Name-DESC")">Sắp xếp theo tên sản phẩm (z - a)</option>
+                                            <option value="Name-ASC" selected="@(sorts == "Price-ASC")">Sắp xếp theo giá sản phẩm (a - z)</option>
+                                            <option value="Name-DESC" selected="@(sorts == "Price-DESC")">Sắp xếp theo giá sản phẩm (z - a)</option>
+                                        </select>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-3 text-right p-0 m-0">
+                                    <button class="btn rounded-0 btn-primary">Tìm kiếm</button>
+                                    <a asp-area="Admin" asp-controller="Product" asp-action="Index" class="btn rounded-0 btn-danger text-white">Làm mới</a>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="table-responsive">
+                            <table class="data-tables table table-striped table-bordered" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 5%">STT</th>
+                                        <th>Hình ảnh</th>
+                                        <th >Tên sản phẩm</th>
+                                        <th style="width: 12%">Giá sản phẩm</th>
+                                        <th style ="width: 12%">Giá khuyến mãi</th>
+                                        <th style="width: 9%">Danh mục</th>
+                                        <th style="width: 9%">Trạng Thái</th>
+                                        <th style="width: 9%">Hành động</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td class="text-center">@Html.DisplayFor(modelItem => item.ProductId)</td>
+                                            <td class="text-center">
+                                                <img src="@(item.ProductImage != null
+                                                ? (item.ProductImage.StartsWith("http")
+                                                    ? item.ProductImage
+                                                    : Url.Content("~/Uploads/products/" + item.ProductImage))
+                                                : Url.Content("~/images/defaultUser.png"))"
+                                                     alt="@item.ProductImage" class="card-img" style="width: 100px;" />
+                                            </td>
+                                            <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                                            <td>@String.Format("{0:#,0} VND", item.ProductPrice)</td>
+                                            <td>@String.Format("{0:#,0} VND", item.ProductSalePrice)</td>
+                                            <td>@item.ProductCategory.CategoryName</td>
+                                            <td>@(item.ProductStatus == 1 ? "Hiển thị" : "Tạm ẩn")</td>
+                                            <td class="text-center">
+                                                <div class="d-flex flex align-items-center list-user-action">
+                                                    <a class="bg-primary mt-1" data-toggle="tooltip" data-placement="top" title=""
+                                                       data-original-title="Sửa"
+                                                       asp-action="Edit" asp-route-id="@item.ProductId">
+                                                        <i class="ri-pencil-line"></i>
+                                                    </a>
+                                                    <form asp-action="Delete" asp-route-id="@item.ProductId" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa dữ liệu này ?')">
+                                                        <button type="submit" class="btn btn-danger" data-toggle="tooltip" title="Xóa"
+                                                                style="margin: 0; margin-top: 3px; padding: 1px 5px; text-align: center;
+                                                                        max-width: 25px; max-height: 25px;">
+                                                            <i class="ri-delete-bin-line"></i>
+                                                        </button>
+                                                        @Html.AntiForgeryToken() <!-- Bảo vệ CSRF -->
+                                                    </form>
+
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }),
+                                             new PagedListRenderOptions
+                                    {
+                                        LiElementClasses = new[] { "page-item" },
+                                        PageClasses = new[] { "page-link" },
+                                        UlElementClasses = new[] { "pagination" }
+                                    })
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
