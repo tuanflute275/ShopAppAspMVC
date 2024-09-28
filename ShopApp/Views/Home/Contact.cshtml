@@ -1,0 +1,71 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<main>
+    <div class="text-center box-title">
+        <h3 class="title">Liên hệ với chúng tôi</h3>
+        <nav class="breadcrumb text-center d-flex justify-content-center">
+            <a class="breadcrumb-item default" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+            <span class="breadcrumb-item active">Liên hệ</span>
+        </nav>
+        <div class="container"></div>
+    </div>
+
+    <div class="address pt-3 mb-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.399450682697!2d105.78194177492993!3d21.05670238059963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab2b057ccb01%3A0xbdf8909028853480!2zNDkwIMSQLiBUcuG6p24gQ3VuZywgQ-G7lSBOaHXhur8sIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1727430753071!5m2!1svi!2s" 
+        width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Liên hệ với chúng tôi</h3>
+                <hr />
+                <p class="px-1">
+                    Tại cơ quan xanh của chúng tôi, chúng tôi tận tâm nuôi dưỡng vẻ đẹp của thiên nhiên thông qua các loại cây trong nhà tuyệt đẹp và các giải pháp cảnh quan sáng tạo. Đam mê của chúng tôi là tạo ra những trải nghiệm thực vật độc đáo, làm phong phú không gian sống của bạn và thúc đẩy sức khỏe. Chúng tôi tự hào là một thực thể đặc biệt trong thế giới cây cỏ, hòa quyện một cách hoàn hảo giữa nông nghiệp với thiết kế để mang đến tầm nhìn của bạn về một môi trường sống tươi mát và tràn đầy sức sống. Dù bạn đang tìm cách thêm một chút xanh vào ngôi nhà hay biến đổi một không gian ngoài trời, 
+                    chúng tôi luôn sẵn sàng giúp bạn phát triển.
+                </p>
+                <p></p>
+                <p>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>Địa chỉ: 490 Tran Cung, Cau Giay, Ha Noi
+                </p>
+                <hr />
+                <p>
+                    <i class="fa-regular fa-envelope"></i>Email: tuanflute275@gmail.com
+                </p>
+                <hr />
+                <p>
+                    <i class="fa fa-phone" aria-hidden="true"></i>Số điện thoại: (+84)982467073
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h3>Hãy cho chúng tôi biết đến bạn</h3>
+                <form [formGroup]="ContactForm" (ngSubmit)="handleSubmit()">
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form4Example1">Tên của bạn <span class="text-danger">*</span></label>
+                        <input type="text" id="form4Example1" formControlName="name" class="form-control"
+                               placeholder="Vui lòng nhập tên của bạn*" />
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form4Example2">Email của bạn <span class="text-danger">*</span></label>
+                        <input type="email" id="form4Example2" formControlName="email" class="form-control"
+                               placeholder="Vui lòng nhập email của bạn*" />
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form4Example3">Lời nhắn</label>
+                        <textarea class="form-control" formControlName="message" id="form4Example3" rows="8"
+                                  placeholder=""></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-dark mb-4" id="btn-contact">
+                        Gửi
+                    </button>
+                </form>
+            </div>
+        </div>
+        <hr />
+    </div>
+</main>

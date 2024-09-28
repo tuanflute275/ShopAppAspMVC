@@ -1,0 +1,202 @@
+﻿
+@{
+    var detail = ViewBag.ProductDetail;
+}
+
+<main>
+    <div class="container p-2">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img class="img-product"
+                     src="@(Url.Content("~/Uploads/products/" + detail.ProductImage))"
+                     alt="@detail.ProductName"
+                     width="100%" />
+            </div>
+
+            <div class="col-md-6">
+                <h3>@detail.ProductName</h3>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-white"></i>
+                <p>(customer review)</p>
+                <p class="sale_price font-weight-bold" style="font-size:25px;">
+                    @if (detail.ProductSalePrice > 0)
+                    {
+                        @String.Format("{0:#,0} VND", detail.ProductSalePrice)
+                        <del class="ml-2 font-weight-normal">
+                            @String.Format("{0:#,0} VND", detail.ProductPrice)
+                        </del>
+                    }
+                </p>
+                <p class="sale_price font-weight-bold" style="font-size:25px;">
+                    @if(detail.ProductSalePrice <= 0)
+                    {
+                        @String.Format("{0:#,0} VND", detail.ProductPrice)
+                    }
+                </p>
+                <p>
+                    @Html.Raw(detail.ProductDescription)
+                </p>
+                <hr />
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <div class="cart-quantity-size d-flex align-items-center my-3">
+                            <div class="cart-quantiy-outer py-2">
+                                <button class="btn_minus mr-0"
+                                        (click)="handleMinus(i, item.quantity)">
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                                <input (change)="updateQuantity(i, $event)"
+                                       type="text"
+                                       min="0"
+                                       max="99"
+                                       name="quantity"
+                                       value="1"
+                                       class="cart-quantity" />
+                                <button class="btn_plus"
+                                        (click)="handlePlus(i, item.quantity)">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <button type="button"
+                                name=""
+                                id=""
+                                class="btn btn-success btn-block"
+                                (click)="onAddToCart(productDetail)">
+                            Add To <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                
+          
+                <div class="prod-des mt-3">
+                    <p>
+                        <span>
+                            Danh mục: @detail.ProductCategory.CategoryName
+                        </span>
+                    </p>
+                </div>
+
+                <div class="prod-social d-flex">
+                    <a href="https://www.facebook.com/"
+                       target="_blank"
+                       class="social-icons btn btn-primary btn-sm border-0">
+                        <i class="fa-brands fa-facebook-f"></i> Facebook
+                    </a>
+                    <a href="https://twitter.com/home?lang=vi"
+                       target="_blank"
+                       class="social-icons btn btn-primary btn-sm border-0">
+                        <i class="fa-brands fa-twitter"></i> Twitter
+                    </a>
+                    <a href="https://www.pinterest.com/"
+                       target="_blank"
+                       class="social-icons btn btn-primary btn-sm border-0">
+                        <i class="fa-brands fa-pinterest"></i> Pinterest
+                    </a>
+                    <a href="https://www.google.com.vn/?hl=vi"
+                       target="_blank"
+                       class="social-icons btn btn-primary btn-sm border-0">
+                        <i class="fa-brands fa-google-plus-g"></i> Google
+                    </a>
+                    <a href="https://www.linkedin.com/"
+                       target="_blank"
+                       class="social-icons btn btn-primary btn-sm border-0">
+                        <i class="fa-brands fa-linkedin"></i> Linkedin
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="behavior">
+            <h3 class="my-3">Description</h3>
+            <div class="tab-pane fade show active"
+                 id="home"
+                 role="tabpanel"
+                 aria-labelledby="home-tab">
+                @Html.Raw(detail.ProductDescription)
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="text-center my-5">Sản phẩm liên quan</h2>
+            <div class="card-category-4 row justify-content-center align-items-center owl-carousel owl-theme">
+                @foreach (var item in ViewBag.ProductRelated)
+                {
+                    <div class="col-md-12 my-4 item">
+                        <div class="sp-card-2">
+                            <div class="overlap">
+                                <a asp-area="" asp-controller="Shop" asp-action="Details" asp-route-slug="@item.Slug" style="cursor: pointer;" title="View Details">
+                                    View
+                                    Details
+                                </a>
+                            </div>
+                            <div class="card-image">
+                                <img src="@(Url.Content("~/Uploads/products/" + item.ProductImage))" alt="@item.ProductName" style="object-fit:contain;" />
+                            </div>
+
+                            <div class="card-content">
+                                @{
+                                    var proName = item.ProductName;
+                                    var truncated = proName.Length > 25
+                                    ? proName.Substring(0, 20) + "..."
+                                    : proName;
+                                }
+                                <span class="card-title">@truncated</span>
+                                @if (item.ProductSalePrice > 0)
+                                {
+                                    <div class="d-flex my-2">
+                                        <p class="price-start">
+                                            @String.Format("{0:#,0} VND", item.ProductSalePrice)
+                                        </p>
+                                        <p class="price-end"
+                                           style="text-decoration: line-through;color: #ccc; font-size: 12px;margin-left: 2px;font-weight: 700;">
+                                            @String.Format("{0:#,0} VND", item.ProductPrice)
+                                        </p>
+                                    </div>
+                                }
+                                @if (item.ProductSalePrice == 0)
+                                {
+                                    <div class="d-flex my-2">
+                                        <span class="price-start">
+                                            @String.Format("{0:#,0} VND", item.ProductPrice)
+                                        </span>
+                                    </div>
+                                }
+                                <button class="btn text-white" style="background: #79a206;">Mua ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</main>
+@section Scripts {
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            dots: false,
+            autoplayTimeout: 1500,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+}

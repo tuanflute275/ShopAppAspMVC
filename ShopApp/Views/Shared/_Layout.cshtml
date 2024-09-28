@@ -1,49 +1,203 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <base href="/" />
+    <title>EDON - Flant and Flower Shop</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ShopApp</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ShopApp.styles.css" asp-append-version="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+   
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+    <!-- owl carosel -->
+    <link rel="stylesheet" href="~/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    @RenderSection("Styles", required: false)
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ShopApp</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <nav class="navbar navbar-expand-sm navbar-light px-4 py-2 d-flex align-items-center">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                <img src="~/images/logo.jpg" alt="" />
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav m-auto mt-2 py-4 mt-lg-0 menu">
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-area="" asp-controller="Shop" asp-action="Index">Sản phẩm <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">Giới thiệu <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Blog">Bài viết <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact">Liên hệ <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+
+                @if (Context.User.Identity.Name != null)
+                {
+                    <p>
+                        Xin chào, <b class="text-capitalize">@Context.User.Identity.Name</b>
+                    </p>
+                }
+
+
+                <div class="header_account">
+                    <ul class="d-flex align-items-center">
+                        @if (Context.User.Identity.Name != null)
+                        {
+                            <li class="header_shopping_cart">
+                                <a routerLink="/cart">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </li>
+                        }
+
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle btn-avatar" href="#" role="button" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img class="avatar" style="position: relative; border-radius: 50%; width: 50px; height: 50px;" src="@(Context.User.FindFirst("avatar")?.Value != null
+                                    ? Url.Content("~/Uploads/accounts/" + Context.User.FindFirst("avatar")?.Value)
+                                    : Url.Content("~/images/defaultUser.png"))"
+                                         alt="@Context.User.FindFirst("avatar")?.Value"  />
+                                </a>
+                                <div class="dropdown-menu show-avatar text-dark">
+                                    <a class="dropdown-item btn-logout" (click)="logout()">Đăng xuất</a>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
+
+    @RenderBody()
+
+
+    <footer>
         <div class="container">
-            &copy; 2024 - ShopApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 newsletter_text">
+                    <h3 class="text-uppercase">GIỮ KẾT NỐI</h3>
+                    <span>Nhận thông tin cập nhật bằng cách đăng ký </span>
+                    <p>bản tin hàng tuần của chúng tôi</p>
+                </div>
+                <div class="col-md-6 newsletter_subscribe">
+                    <form >
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" formControlName="email" placeholder="Vui lòng nhập email..." />
+                        <button type="submit">
+                            Nhận thông tin
+                        </button>
+                        <div class="line"></div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-5">
+                    <div class="footer_widget_list">
+                        <div class="footer_logo">
+                            <a asp-area="" asp-controller="Home" asp-action="Index">
+                                <img src="~/images/logo.jpg" alt="anh" style="object-fit: cover" />
+                            </a>
+                        </div>
+                        <div class="footer_contact_list">
+                            <span>Vị trí của tôi</span>
+                            <div style="margin-bottom: 10px"></div>
+                            <a><i class="fa fa-location-arrow" aria-hidden="true"></i> 490 Trần Cung, Cầu Giấy, Hà Nội, Việt Nam</a>
+                        </div>
+                        <div class="footer_contact_list">
+                            <span>Đường dây nóng 24/7</span>
+                            <div style="margin-bottom: 10px"></div>
+                            <a href="tel:0386564543">(+84)982467073</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="footer_widget_list">
+                        <div class="footer_menu">
+                            <ul class="d-flex justify-content-end">
+                                <li>
+                                    <a asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                                </li>
+                                <li>
+                                    <a asp-area="" asp-controller="Shop" asp-action="Index">Sản phẩm</a>
+                                </li>
+                                <li>
+                                    <a asp-area="" asp-controller="Home" asp-action="About">Giới thiệu</a>
+                                </li>
+                                <li>
+                                    <a asp-area="" asp-controller="Blog" asp-action="Index">Bài viết</a>
+                                </li>
+                                <li>
+                                    <a asp-area="" asp-controller="Home" asp-action="Contact">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_social">
+                            <div class="social-buttons d-flex justify-content-end">
+                                <a href="https://www.facebook.com/profile.php?id=100047425502024" target="_blank"
+                                    class="social-button social-button--facebook" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/tu%E1%BA%A5n-flute-166331275/" target="_blank"
+                                    class="social-button social-button--linkedin" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://www.snapchat.com/tuanflute275" target="_blank"
+                                    class="social-button social-button--snapchat" aria-label="Snapchat">
+                                    <i class="fab fa-snapchat-ghost"></i>
+                                </a>
+                                <a href="https://github.com/tuanflute275" target="_blank" class="social-button social-button--github"
+                                    aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://codepen.io/tuanflute275" target="_blank"
+                                    class="social-button social-button--codepen" aria-label="CodePen">
+                                    <i class="fab fa-codepen"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="copyright_right d-flex justify-content-end mt-3">
+                            <p>©Bản quyền <a href="https://tuanflute275.github.io/introduce/" target="_blank">tuanflute275</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="~/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

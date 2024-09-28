@@ -55,8 +55,11 @@
                                 <thead>
                                     <tr>
                                         <th width="5%">STT</th>
-                                        <th >Hình ảnh</th>
+                                        <th width="">Hình ảnh</th>
                                         <th >Tên tin tức</th>
+                                        <th width="10%">Slug</th>
+                                        <th width="10%">Người tạo</th>
+                                        <th width="16%">Ngày tạo</th>
                                         <th width="15%">Hành động</th>
                                     </tr>
                                 </thead>
@@ -74,6 +77,9 @@
                                                      alt="@item.BlogImage" class="card-img" style="width: 100px;" />
                                             </td>
                                             <td>@Html.DisplayFor(modelItem => item.BlogName)</td>
+                                            <td>@item.Slug</td>
+                                            <td>@item.CreateBy</td>
+                                            <td>@item.CreateDate.Value.ToString("dd/MM/yyyy hh:mm:ss")</td>
                                             <td class="text-center">
                                                 <div class="d-flex flex align-items-center list-user-action">
                                                     <a class="bg-primary mt-1" data-toggle="tooltip" data-placement="top" title=""

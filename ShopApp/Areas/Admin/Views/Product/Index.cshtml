@@ -77,7 +77,7 @@
                                                     ? item.ProductImage
                                                     : Url.Content("~/Uploads/products/" + item.ProductImage))
                                                 : Url.Content("~/images/defaultUser.png"))"
-                                                     alt="@item.ProductImage" class="card-img" style="width: 100px;" />
+                                                     alt="@item.ProductName" class="card-img" style="width: 100px;" />
                                             </td>
                                             <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
                                             <td>@String.Format("{0:#,0} VND", item.ProductPrice)</td>

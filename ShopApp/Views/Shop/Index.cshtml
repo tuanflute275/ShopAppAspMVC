@@ -1,0 +1,151 @@
+﻿@model X.PagedList.IPagedList<ShopApp.Data.Product>
+@using X.PagedList.Mvc.Core;
+@{
+    var categories = ViewBag.Categories;
+    var names = ViewBag.names;
+    var sorts = ViewBag.sorts;
+}
+<style>
+    .pagination .page-item .page-link {
+        color: #79a206;
+        border-color: #79a206;
+    }
+
+    .pagination .page-item.active .page-link {
+        background-color: #79a206;
+        border-color: #79a206;
+        color: #fff;
+    }
+
+    .pagination .page-item .page-link:hover {
+        background-color: #79a206;
+        border-color: #79a206;
+        color: #fff;
+    }
+</style>
+<main style="margin-top: 65px !important;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="women mt-3">
+                    <b>Danh mục</b>
+                    <hr />
+                    <ul>
+                        @foreach (var c in categories)
+                        {
+                            <li>
+                                <a asp-area="" asp-controller="Shop" asp-action="Index" asp-route-slug="@c.CategorySlug">@c.CategoryName</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="shop_toolbar_wrapper border-0">
+                    <form method="GET">
+                            <div class="row justify-content-around align-items-center py-2">
+                               <div>
+                                <select class="form-control rounded-0 " name="sort" style="cursor: pointer;">
+                                    <option value="">----- Lựa chọn sắp xếp -----</option>
+                                    <option value="Id-ASC" selected="@(sorts == "Id-ASC")">Sản phẩm mới nhất</option>
+                                    <option value="Id-DESC" selected="@(sorts == "Id-DESC")">Sản phẩm cũ nhất</option>
+                                    <option value="Name-ASC" selected="@(sorts == "Name-ASC")">Tên từ A-Z</option>
+                                    <option value="Name-DESC" selected="@(sorts == "Name-DESC")">Tên từ Z-A</option>
+                                    <option value="Price-ASC" selected="@(sorts == "Price-ASC")">Giá thấp đến cao</option>
+                                    <option value="Price-DESC" selected="@(sorts == "Price-DESC")">Giá cao đến thấp</option>
+                                    </select>
+                               </div>
+                                <div class="d-flex page-size">
+                                    <div id="search-box" style="padding: 6px !important;">
+                                    <input type="text" value="@names" name="name" id="search-box__input"
+                                                formControlName="name" placeholder="Bạn muốn tìm gì.." />
+                                    </div>
+                                </div>
+                                <p class="p-0 m-0 pageSizee">
+                                <button class="btn text-white" style="background: #79a206 !important;">Tìm kiếm</button>
+                                <a asp-area="" asp-controller="Shop" asp-action="Index" class="btn rounded-0 btn-danger text-white">Làm mới</a>
+                                </p>
+                            </div>
+                        </form>
+                </div>
+
+                <div class="card-category-4 row justify-content-center align-items-center">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-md-4 my-4">
+                            <div class="sp-card-2">
+                                <div class="overlap">
+                                    <a asp-area="" asp-controller="Shop" asp-action="Details" asp-route-slug="@item.Slug" style="cursor: pointer;" title="View Details">
+                                        View
+                                        Details
+                                    </a>
+                                </div>
+                                <div class="card-image">
+                                    <img src="@(Url.Content("~/Uploads/products/" + item.ProductImage))" alt="@item.ProductName" style="object-fit:contain;" />
+                                </div>
+
+                                <div class="card-content">
+                                    @{
+                                        var proName = item.ProductName;
+                                        var truncated = proName.Length > 25
+                                        ? proName.Substring(0, 20) + "..."
+                                        : proName;
+                                    }
+                                    <span class="card-title">@truncated</span>
+                                    @if (item.ProductSalePrice > 0)
+                                    {
+                                        <div class="d-flex my-2">
+                                            <p class="price-start">
+                                                @String.Format("{0:#,0} VND", item.ProductSalePrice)
+                                            </p>
+                                            <p class="price-end"
+                                               style="text-decoration: line-through;color: #ccc; font-size: 12px;margin-left: 6px;font-weight: 700;">
+                                                @String.Format("{0:#,0} VND", item.ProductPrice)
+                                            </p>
+                                        </div>
+                                    }
+                                    @if (item.ProductSalePrice == 0)
+                                    {
+                                        <div class="d-flex my-2">
+                                            <span class="price-start">
+                                                @String.Format("{0:#,0} VND", item.ProductPrice)
+                                            </span>
+                                        </div>
+                                    }
+                                    <button class="btn text-white" style="background: #79a206;">Mua ngay</button>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                @if (Model != null && Model.Any())
+                {
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination mt-3" style="justify-content: center;">
+                            @Html.PagedListPager(Model, page => Url.Action("Shop", new { page = page }),
+                                     new PagedListRenderOptions
+                        {
+                            LiElementClasses = new[] { "page-item" },
+                            PageClasses = new[] { "page-link" },
+                            UlElementClasses = new[] { "pagination"
+                        }
+                        })
+                        </ul>
+                    </nav>
+                }
+                else
+                {
+                    <div class="alert alert-danger" role="alert">
+                        Không có sản phẩm nào để hiển thị !
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</main>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -877,7 +877,11 @@ D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\AutoMapper.d
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\Azure.Core.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\Azure.Identity.dll
+D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\ClosedXML.dll
+D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\ExcelNumberFormat.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\Humanizer.dll
+D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\Irony.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
@@ -935,6 +939,8 @@ D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\NuGet.Packag
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\NuGet.ProjectModel.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\NuGet.Protocol.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\SixLabors.Fonts.dll
+D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\SixLabors.ImageSharp.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.CodeDom.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -944,6 +950,7 @@ D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.Compo
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.Drawing.Common.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.IO.Packaging.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.Memory.Data.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.Runtime.Caching.dll
@@ -953,6 +960,7 @@ D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.Text.
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.Windows.Extensions.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\X.PagedList.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\XLParser.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\af\Humanizer.resources.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\ar\Humanizer.resources.dll
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\az\Humanizer.resources.dll
@@ -1112,6 +1120,7 @@ D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\ShopApp.MvcA
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\ShopApp.MvcApplicationPartsAssemblyInfo.cache
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\ShopApp.RazorAssemblyInfo.cache
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\ShopApp.RazorAssemblyInfo.cs
+D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\ShopApp.sourcelink.json
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\staticwebassets.build.json
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\staticwebassets.development.json
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\staticwebassets\msbuild.ShopApp.Microsoft.AspNetCore.StaticWebAssets.props
@@ -1128,11 +1137,3 @@ D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\refint\ShopA
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\ShopApp.pdb
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\ShopApp.genruntimeconfig.cache
 D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\obj\Debug\net8.0\ref\ShopApp.dll
-D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\ClosedXML.dll
-D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
-D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\ExcelNumberFormat.dll
-D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\Irony.dll
-D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\SixLabors.Fonts.dll
-D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\System.IO.Packaging.dll
-D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\XLParser.dll
-D:\Code\Csharp\ASP_WEB_MVC\ASP_WEB_ShopApp\ShopApp\bin\Debug\net8.0\SixLabors.ImageSharp.dll

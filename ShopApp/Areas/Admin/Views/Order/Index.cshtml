@@ -71,7 +71,7 @@
                                             <td>@item.OrderId</td>
                                             <td>@item.OrderFullName</td>
                                             <td>@item.OrderDetails?.Count sản phẩm</td>
-                                            <td>@item.OrderDate</td>
+                                            <td>@item.OrderDate.Value.ToString("dd/MM/yyyy hh:mm:ss")</td>
                                             <td>@item.OrderPaymentMethods</td>
                                             <td>@item.OrderStatusPayment</td>
                                             <td>@item.OrderNote</td>

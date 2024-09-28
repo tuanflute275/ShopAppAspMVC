@@ -28,6 +28,7 @@ CREATE TABLE Categories (
 ) 
 GO
 
+
 CREATE TABLE Products (
   productId int primary key identity,
   productCategoryId int,
@@ -40,13 +41,23 @@ CREATE TABLE Products (
   FOREIGN KEY (productCategoryId) REFERENCES Categories(categoryId)
 ) 
 GO
+ALTER TABLE Products
+ADD slug nvarchar(250);
+GO
 
 CREATE TABLE Blogs (
   blogId int primary key identity,
   blogDescription ntext DEFAULT NULL,
   blogImage nvarchar(255) DEFAULT NULL,
-  blogName nvarchar(255) DEFAULT NULL
+  blogName nvarchar(255) DEFAULT NULL,
+  createBy nvarchar(200) default null,
+  createDate DATETIME DEFAULT GETDATE(),
+  userId int,
+  FOREIGN KEY (userId) REFERENCES Accounts(userId)
 )
+GO
+ALTER TABLE Blogs
+ADD slug nvarchar(250);
 GO
 
 CREATE TABLE Carts (

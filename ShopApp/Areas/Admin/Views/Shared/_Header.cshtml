@@ -2,12 +2,7 @@
 @using ShopApp.Data
 
 @{
-    var globalOrdersJson = Context.Session.GetString("globalOrders"); // Lấy dữ liệu JSON từ Session
-    List<Order> globalOrders = null;
-    if (!string.IsNullOrEmpty(globalOrdersJson))
-    {
-        globalOrders = JsonConvert.DeserializeObject<List<Order>>(globalOrdersJson); // convert json to class
-    }
+
 }
 
 <div class="iq-top-navbar">
@@ -37,43 +32,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto navbar-list">
-                    <li class="nav-item nav-icon">
-                        <a href="#" class="search-toggle iq-waves-effect text-gray rounded">
-                            <i class="ri-notification-2-line"></i>
-                            <span class="bg-primary dots"></span>
-                        </a>
-                        <div class="iq-sub-dropdown">
-                            <div class="iq-card shadow-none m-0">
-                                <div class="iq-card-body p-0">
-                                    <div class="bg-primary p-3">
-                                        <h5 class="mb-0 text-white">Thông Báo<small class="badge  badge-light float-right pt-1">@globalOrders.Count</small></h5>
-                                    </div>
-                                    @if (globalOrders != null && globalOrders.Count > 0)
-                                    {
-                                        @foreach (var order in globalOrders)
-                                        {
-                                        <a href="#" class="iq-sub-card">
-                                            <div class="media align-items-center">
-                                                <div class="">
-                                                    <img class="avatar-40 rounded" src="~/Admin/images/box.png" alt="">
-                                                </div>
-                                                <div class="media-body ml-3">
-                                                    <h6 class="mb-0 ">Đơn hàng #<span>@order.OrderId</span> giao thành công</h6>
-                                                    <small class="float-right font-size-12">@order.OrderDate</small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        }
-                                    }
-                                    else
-                                    {
-                                        <p class="mb-0">Không có đơn hàng nào trong session.</p>
-                                    }
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+                    
                     @* <li class="nav-item nav-icon dropdown">
                         <a href="#" class="search-toggle iq-waves-effect text-gray rounded">
                             <i class="ri-mail-line"></i>

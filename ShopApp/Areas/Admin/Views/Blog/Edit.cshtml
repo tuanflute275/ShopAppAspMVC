@@ -40,8 +40,13 @@
                             </div>
                             <div class="form-group">
                                 <label asp-for="BlogName" class="control-label">Tiêu đề bài viết</label>
-                                <input asp-for="BlogName" class="form-control" placeholder="Nhập tiêu đề bài viết..." />
+                                <input asp-for="BlogName" id="slug" onkeyup="ChangeToSlug()" class="form-control" placeholder="Nhập tiêu đề bài viết..." />
                                 <span asp-validation-for="BlogName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Slug" class="control-label">Slug</label>
+                                <input asp-for="Slug" class="form-control" />
+                                <span asp-validation-for="Slug" class="text-danger"></span>
                             </div>
                             <div class="form-group">
                                 <label asp-for="BlogDescription" class="control-label">Nội dung bài viết</label>
@@ -63,6 +68,15 @@
     }
     <script>
         CKEDITOR.replace('@Html.IdFor(m => m.BlogDescription)');
+    </script>
+    <script>
+        function ChangeToSlug() {
+            var slug = document.getElementById("slug").value;
+            slug = slug.toLowerCase();
+            slug = slug.replace(/ /g, "-"); // Thay thế khoảng trắng bằng dấu gạch nối
+            slug = slug.replace(/[^\w-]+/g, ""); // Xóa các ký tự không phải là chữ cái, số hoặc dấu gạch
+            document.getElementById("Slug").value = slug; // Cập nhật slug vào ô nhập
+        }
     </script>
     <script>
         function changeImg(input) {

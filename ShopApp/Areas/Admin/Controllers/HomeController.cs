@@ -11,6 +11,8 @@ using ClosedXML.Excel;
 using DocumentFormat.OpenXml.Spreadsheet;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
+using DocumentFormat.OpenXml.Math;
+using X.PagedList;
 
 namespace ShopApp.Areas.Admin.Controllers
 {
@@ -48,18 +50,8 @@ namespace ShopApp.Areas.Admin.Controllers
 
             // lấy ra danh sách nhật ký hoạt động người dùng khi đăng nhập vào
             var logs = await _context.Logs.Where(x => x.TimeLogin != null || x.TimeLogout != null || x.TimeActionRequest == null).ToListAsync();
-            ViewBag.Logs = logs;
-
-            // Lấy danh sách đơn hàng với OrderStatus = 5 = đã giao hàng thành công
-            var orders = await _context.Orders.Where(x => x.OrderStatus == 5)
-                //.Include(o => o.OrderDetails)
-                //.ThenInclude(od => od.Product)
-                .ToListAsync();
-            // Chuyển đổi danh sách đơn hàng thành chuỗi JSON
-            var ordersJson = JsonConvert.SerializeObject(orders);
-            // Lưu trữ chuỗi JSON vào Session
-            HttpContext.Session.SetString("globalOrders", ordersJson);
-            return View();
+            var pagedLogs = logs.ToPagedList(1, 5);
+            return View(pagedLogs);
         }
 
         public void GetRemoteHostIpAddress(HttpContext context)

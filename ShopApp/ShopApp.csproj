@@ -14,14 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\Admin\images\book-dec\.DS_Store" />
-    <None Include="wwwroot\Admin\images\browse-books\.DS_Store" />
-    <None Include="wwwroot\Admin\images\new_realeases\.DS_Store" />
-    <None Include="wwwroot\Admin\images\similar-books\.DS_Store" />
-    <None Include="wwwroot\Admin\images\trendy-books\.DS_Store" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AspNetCoreHero.ToastNotification" Version="1.1.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="ClosedXML" Version="0.102.3" />

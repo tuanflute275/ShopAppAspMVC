@@ -957,696 +957,8 @@
       "PackagePath": "staticwebassets\\Admin\\fullcalendar\\timegrid\\package.json"
     },
     {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\avt.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\avt.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\bg-03.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\bg-03.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\01.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\01.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\02.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\02.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\03.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\03.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\04.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\04.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\05.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\05.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book-dec\\06.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\book-dec\\06.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\book\\book.pdf",
-      "PackagePath": "staticwebassets\\Admin\\images\\book\\book.pdf"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\booking\\01.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\booking\\01.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\booking\\02.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\booking\\02.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\booking\\cart.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\booking\\cart.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\booking\\seat.svg",
-      "PackagePath": "staticwebassets\\Admin\\images\\booking\\seat.svg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\box.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\box.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\01.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\01.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\02.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\02.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\03.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\03.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\04.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\04.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\05.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\05.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\06.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\06.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\07.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\07.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\08.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\08.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\09.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\09.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\10.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\10.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\11.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\11.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\12.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\12.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\browse-books\\img01.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\browse-books\\img01.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\cart\\01.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\cart\\01.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\cart\\02.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\cart\\02.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\cart\\03.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\cart\\03.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\cart\\04.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\cart\\04.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\cart\\05.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\cart\\05.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\checkout\\01.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\checkout\\01.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\checkout\\02.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\checkout\\02.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\checkout\\03.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\checkout\\03.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\error\\02.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\error\\02.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\error\\404.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\error\\404.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\error\\500.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\error\\500.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\01.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\01.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\02.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\02.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\03.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\03.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\04.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\04.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\05.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\05.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\06.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\06.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\07.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\07.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\08.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\08.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\favorite\\09.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\favorite\\09.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\01.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\01.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\02.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\02.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\03.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\03.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\04.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\04.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\05.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\05.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\06.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\06.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\07.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\07.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\08.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\08.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\09.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\09.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\10.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\10.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\11.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\11.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\12.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\12.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\13.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\13.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\expand-window.json",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\expand-window.json"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\icon\\open-letter.json",
-      "PackagePath": "staticwebassets\\Admin\\images\\icon\\open-letter.json"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\login\\1.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\login\\1.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\login\\2.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\login\\2.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\login\\mail.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\login\\mail.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\login\\sign-bg.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\login\\sign-bg.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\06.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\06.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\07.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\07.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\08.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\08.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\09.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\09.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\img01.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\img01.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\img02.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\img02.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\img03.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\img03.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\img04.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\img04.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\new_realeases\\img05.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\new_realeases\\img05.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\01.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\01.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\02.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\02.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\03.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\03.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\07.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\07.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\08.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\08.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\09.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\09.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\10.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\10.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\100.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\100.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\11.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\11.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\12.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\12.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\13.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\13.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\14.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\14.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\15.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\15.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\16.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\16.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\17.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\17.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\18.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\18.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\19.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\19.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\20.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\20.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\21.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\21.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\22.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\22.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\23.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\23.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\24.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\24.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\25.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\25.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\26.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\26.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\27.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\27.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\28.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\28.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\42.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\42.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\42.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\42.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\43.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\43.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\44.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\44.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\45.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\45.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\46.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\46.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\47.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\47.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\48.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\48.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\49.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\49.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\a1.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\a1.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\a2.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\a2.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\a3.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\a3.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\a4.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\a4.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\featured-book.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\featured-book.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\img-success.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\img-success.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\man.svg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\man.svg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\p1.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\p1.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\p2.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\p2.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\page-load-loader.gif",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\page-load-loader.gif"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\profile-bg.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\profile-bg.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\tag_blue.svg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\tag_blue.svg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\page-img\\tag_red.svg",
-      "PackagePath": "staticwebassets\\Admin\\images\\page-img\\tag_red.svg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\01.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\01.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\02.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\02.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\03.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\03.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\04.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\04.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\05.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\05.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\06.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\06.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\07.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\07.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\08.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\08.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\09.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\09.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\10.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\10.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\11.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\11.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\search-book\\12.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\search-book\\12.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\01.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\01.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\02.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\02.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\03.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\03.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\04.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\04.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\05.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\05.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\similar-books\\06.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\similar-books\\06.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\04.svg",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\04.svg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\05.svg",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\05.svg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\07.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\07.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\08.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\08.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\09.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\09.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\10.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\10.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\11.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\11.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\12.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\12.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\13.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\13.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\14.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\14.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\data.json",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\data.json"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\data1.json",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\data1.json"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\data2.json",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\data2.json"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-01.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-01.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-02.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-02.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-03.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-03.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-04.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-04.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-05.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-05.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\flag-06.png",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\flag-06.png"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\img-1.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\img-1.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\jpg.svg",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\jpg.svg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\match-code.json",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\match-code.json"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\xml.svg",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\xml.svg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\small\\zip.svg",
-      "PackagePath": "staticwebassets\\Admin\\images\\small\\zip.svg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\01.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\01.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\02.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\02.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\03.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\03.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\04.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\04.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\05.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\05.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\trendy-books\\06.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\trendy-books\\06.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\user\\1.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\user\\1.jpg"
-    },
-    {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\user\\2.jpg",
-      "PackagePath": "staticwebassets\\Admin\\images\\user\\2.jpg"
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\images\\logo.ico",
+      "PackagePath": "staticwebassets\\Admin\\images\\logo.ico"
     },
     {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Admin\\js\\algoliasearchLite.min.js",
@@ -1837,12 +1149,44 @@
       "PackagePath": "staticwebassets\\Uploads\\accounts\\túi2.webp"
     },
     {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\blogs\\blog1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\blogs\\blog1.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\blogs\\blog2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\blogs\\blog2.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\blogs\\blog3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\blogs\\blog3.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\blogs\\blog4.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\blogs\\blog4.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\blogs\\blog5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\blogs\\blog5.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\blogs\\blog6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\blogs\\blog6.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\blogs\\blog7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\blogs\\blog7.jpg"
+    },
+    {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\blogs\\quần1.jfif",
       "PackagePath": "staticwebassets\\Uploads\\blogs\\quần1.jfif"
     },
     {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\blogs\\quần2.jpeg",
       "PackagePath": "staticwebassets\\Uploads\\blogs\\quần2.jpeg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\products\\ao.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\ao.jpg"
     },
     {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\products\\pr2.jpg",
@@ -1869,24 +1213,76 @@
       "PackagePath": "staticwebassets\\Uploads\\products\\quần2.resized.png"
     },
     {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\products\\ví1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\ví1.jpg"
+    },
+    {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\awesome.min.css",
+      "PackagePath": "staticwebassets\\icon\\awesome.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\cart.jpg",
+      "PackagePath": "staticwebassets\\icon\\cart.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\coreui.min.css",
+      "PackagePath": "staticwebassets\\icon\\coreui.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\testimonial1.jpg",
+      "PackagePath": "staticwebassets\\icon\\testimonial1.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\testimonials-icon.jpg",
+      "PackagePath": "staticwebassets\\icon\\testimonials-icon.jpg"
+    },
+    {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\add-image-icon.jpg",
       "PackagePath": "staticwebassets\\images\\add-image-icon.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\blog.jpg",
+      "PackagePath": "staticwebassets\\images\\blog.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\carousel1.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel1.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\carousel2.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel2.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\carousel3.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel3.jpg"
     },
     {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\defaultUser.png",
       "PackagePath": "staticwebassets\\images\\defaultUser.png"
     },
     {
-      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\logo.ico",
-      "PackagePath": "staticwebassets\\images\\logo.ico"
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\historyStore.jpg",
+      "PackagePath": "staticwebassets\\images\\historyStore.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\signature.jpg",
+      "PackagePath": "staticwebassets\\images\\signature.jpg"
     },
     {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\js\\site.js",
@@ -2119,6 +1515,770 @@
     {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\.gitattributes",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\.gitattributes"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\.gitignore",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\.gitignore"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\.travis.yml",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\.travis.yml"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\CONTRIBUTING.md",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\CONTRIBUTING.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\Gruntfile.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\Gruntfile.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\ISSUE_TEMPLATE.md",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\ISSUE_TEMPLATE.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\LICENSE",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\README.md",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\ROADMAP.md",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\ROADMAP.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\_config.json",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\_config.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\bower.json",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\bower.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\LICENSE",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\README.md",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\dist\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\dist\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\css\\docs.theme.min.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\css\\docs.theme.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\bird_blue_32.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\bird_blue_32.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\download.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\download.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-drag.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-drag.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-modern.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-modern.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-module.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-module.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-options.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-options.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-responsive.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-responsive.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-zombie.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\feature-zombie.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\owl-logo.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\owl-logo.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\twitter_25.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\img\\twitter_25.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\js\\foundation.min.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\js\\foundation.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\README.md",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\README.md"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\vendors\\foundation.min.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\vendors\\foundation.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\vendors\\highlight.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\vendors\\highlight.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\vendors\\jquery.min.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\vendors\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\vendors\\jquery.min.map",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\vendors\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\vendors\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\assets\\vendors\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\animate.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\animate.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\autoheight.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\autoheight.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\autoplay.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\autoplay.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\autowidth.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\autowidth.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\basic.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\basic.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\center.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\center.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\demos.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\demos.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\events.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\events.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\lazyLoad.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\lazyLoad.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\merge.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\merge.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\mousewheel.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\mousewheel.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\responsive.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\responsive.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\rtl.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\rtl.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\stagepadding.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\stagepadding.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\test.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\test.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\urlhashnav.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\urlhashnav.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\video.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\demos\\video.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\api-classes.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\api-classes.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\api-events.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\api-events.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\api-options.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\api-options.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\dev-buildin-plugins.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\dev-buildin-plugins.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\dev-external.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\dev-external.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\dev-plugin-api.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\dev-plugin-api.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\dev-styles.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\dev-styles.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\started-faq.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\started-faq.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\started-installation.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\started-installation.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\started-welcome.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\started-welcome.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\support-changelog.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\support-changelog.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\support-contact.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\support-contact.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\support-contributing.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\docs\\support-contributing.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs\\index.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs\\index.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\bird_blue_32.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\bird_blue_32.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\download.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\download.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-drag.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-drag.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-modern.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-modern.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-module.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-module.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-options.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-options.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-responsive.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-responsive.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-zombie.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\feature-zombie.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\owl-logo.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\owl-logo.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\twitter_25.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\img\\twitter_25.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\js\\foundation.min.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\js\\foundation.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\_settings.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\_settings.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\custom.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\custom.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\demos.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\demos.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\docs.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\docs.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\docs.theme.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\docs.theme.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\highlight.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\scss\\highlight.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\vendors\\foundation.min.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\vendors\\foundation.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\vendors\\highlight.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\vendors\\highlight.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\vendors\\jquery.min.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\vendors\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\vendors\\jquery.min.map",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\vendors\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\vendors\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\assets\\vendors\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\data\\classes.json",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\data\\classes.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\data\\events.json",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\data\\events.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\data\\features.json",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\data\\features.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\data\\options.json",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\data\\options.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\helpers\\modulo.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\helpers\\modulo.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\helpers\\test.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\helpers\\test.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\layouts\\demos.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\layouts\\demos.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\layouts\\docs.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\layouts\\docs.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\layouts\\home.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\layouts\\home.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\animate.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\animate.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\autoheight.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\autoheight.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\autoplay.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\autoplay.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\autowidth.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\autowidth.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\basic.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\basic.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\center.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\center.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\demos.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\demos.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\events.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\events.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\lazyLoad.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\lazyLoad.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\merge.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\merge.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\mousewheel.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\mousewheel.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\responsive.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\responsive.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\rtl.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\rtl.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\stagepadding.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\stagepadding.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\test.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\test.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\urlhashnav.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\urlhashnav.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\video.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\demos\\video.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\api-classes.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\api-classes.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\api-events.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\api-events.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\api-options.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\api-options.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\dev-buildin-plugins.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\dev-buildin-plugins.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\dev-external.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\dev-external.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\dev-plugin-api.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\dev-plugin-api.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\dev-styles.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\dev-styles.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\started-faq.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\started-faq.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\started-installation.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\started-installation.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\started-welcome.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\started-welcome.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\support-changelog.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\support-changelog.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\support-contact.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\support-contact.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\support-contributing.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\docs\\support-contributing.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\index.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\pages\\index.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\footer.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\footer.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\head.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\head.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\header.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\header.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\home-carousel.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\home-carousel.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\home-features.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\home-features.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\home-hero.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\home-hero.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\home-teaser-text.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\home-teaser-text.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\javascripts.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\javascripts.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\releated-docs.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\releated-docs.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\sidenav-docs.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\sidenav-docs.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\title.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\title.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\vendors.hbs",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\docs_src\\templates\\partials\\vendors.hbs"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\package-lock.json",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\package-lock.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\package.json",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\package.json"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\img\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\img\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\img\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\img\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\.jscsrc",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\.jscsrc"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\.jshintrc",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\.jshintrc"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.animate.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.animate.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.autoheight.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.autoheight.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.autoplay.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.autoplay.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.autorefresh.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.autorefresh.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.hash.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.hash.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.lazyload.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.lazyload.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.navigation.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.navigation.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.support.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.support.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.support.modernizr.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.support.modernizr.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.video.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\js\\owl.video.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_animate.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_animate.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_autoheight.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_autoheight.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_lazyload.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_lazyload.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_theme.default.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_theme.default.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_theme.green.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_theme.green.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_theme.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_theme.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_video.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\_video.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\owl.carousel.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\owl.carousel.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\owl.theme.default.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\owl.theme.default.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\owl.theme.green.scss",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\src\\scss\\owl.theme.green.scss"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\test\\index.html",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\test\\index.html"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\test\\unit\\autoplay.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\test\\unit\\autoplay.js"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\test\\unit\\core.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\test\\unit\\core.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShopApp.Microsoft.AspNetCore.StaticWebAssets.props",

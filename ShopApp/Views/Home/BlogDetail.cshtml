@@ -1,0 +1,67 @@
+﻿@{
+    var detail = ViewBag.BlogDetail;
+    var blogRecents = ViewBag.BlogRecent;
+}
+
+<main>
+
+
+
+    <div class="container my-5 main">
+        <h2>@detail.BlogName</h2>
+        <p>
+            Đăng bởi : <a>@detail.CreateBy</a> / Thời gian đăng : <a>@detail.CreateDate.ToString("dd/MM/yyyy hh:mm:ss")</a>
+        </p>
+        <div class="row">
+            <div class="col-md-9 blog">
+                <img src="@(Url.Content("~/Uploads/blogs/" + detail.BlogImage))"
+                     alt="anh"
+                     width="100%"
+                     class="my-5" />
+                <p>
+                    @Html.Raw(detail.BlogDescription)
+                </p>
+               
+                
+                @* <hr class="my-5" />
+                <h6>RELATED POSTS</h6>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://htmldemo.net/lukani/lukani/assets/img/blog/blog1.jpg"
+                             alt="anh"
+                             width="100%" />
+                        <p style="font-weight: 500; margin: 0; margin-top: 20px">
+                            POST WITH GALLERY
+                        </p>
+                        <p>By : admin / April 11, 2019</p>
+                    </div>
+                </div> *@
+            </div>
+            <div class="col-md-3">
+                <div class="post pt-4">
+                    <h4>BÀI ĐĂNG GẦN ĐÂY</h4>
+                    <hr />
+                    <div class="bloga">
+                        @foreach(var item in blogRecents)
+                        {
+                            <div class="row justify-content-center">
+                                <div class="col-md-3">
+                                    <a asp-area="" asp-controller="Home" asp-action="BlogDetails" asp-route-slug="@item.Slug">
+                                        <img src="@(Url.Content("~/Uploads/blogs/" + item.BlogImage))"
+                                             alt="@item.BlogName" width="80px" />
+                                    </a>
+                                </div>
+                                <div class="col-md-9 pl-5 postBlog">
+                                    <h6>@item.BlogName</h6>
+                                    <p>@item.CreateDate.ToString("dd/MM/yyyy hh:mm:ss")</p>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>

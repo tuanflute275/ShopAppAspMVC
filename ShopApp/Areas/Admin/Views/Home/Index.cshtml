@@ -1,4 +1,7 @@
-﻿@{
+﻿@model X.PagedList.IPagedList<ShopApp.Data.Log>
+@using X.PagedList.Mvc.Core;
+
+@{
     ViewData["Title"] = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 
@@ -181,7 +184,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach(var item in logData)
+                                    @foreach(var item in Model)
                                     {
                                         <tr>
                                             <td>@i</td>
@@ -195,6 +198,17 @@
                                     }
                                 </tbody>
                             </table>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }),
+                                             new PagedListRenderOptions
+                                    {
+                                        LiElementClasses = new[] { "page-item" },
+                                        PageClasses = new[] { "page-link" },
+                                        UlElementClasses = new[] { "pagination" }
+                                    })
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>

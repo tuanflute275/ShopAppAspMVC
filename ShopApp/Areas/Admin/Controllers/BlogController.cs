@@ -1,8 +1,10 @@
 ﻿using AspNetCoreHero.ToastNotification.Abstractions;
+using DocumentFormat.OpenXml.InkML;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShopApp.Data;
+using System.Security.Claims;
 using X.PagedList;
 
 namespace ShopApp.Areas.Admin.Controllers
@@ -118,6 +120,8 @@ namespace ShopApp.Areas.Admin.Controllers
             {
                 if (!string.IsNullOrEmpty(blog.BlogDescription))
                 {
+                    blog.CreateBy = HttpContext.User.Identity.Name;
+                    blog.CreateDate = DateTime.Now;
                     _context.Add(blog);
                     _toastNotification.Success("Thêm mới bài viết thành công !", 3);
                     await _context.SaveChangesAsync();
@@ -192,6 +196,8 @@ namespace ShopApp.Areas.Admin.Controllers
             {
                 try
                 {
+                    blog.CreateBy = HttpContext.User.Identity.Name;
+                    blog.CreateDate = DateTime.Now;
                     _context.Update(blog);
                     _toastNotification.Success("Cập nhật bài viết thành công !", 3);
                     await _context.SaveChangesAsync();

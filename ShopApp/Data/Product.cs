@@ -20,6 +20,7 @@ public partial class Product
     public double? ProductSalePrice { get; set; }
 
     public int? ProductStatus { get; set; }
+    public string? Slug { get; set; }
 
     public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
 

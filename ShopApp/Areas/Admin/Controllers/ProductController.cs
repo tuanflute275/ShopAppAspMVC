@@ -134,7 +134,7 @@ namespace ShopApp.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(IFormFile fileUpload, [Bind("ProductId,ProductCategoryId,ProductDescription,ProductImage,ProductName,ProductPrice,ProductSalePrice,ProductStatus")] Product product)
+        public async Task<IActionResult> Create(IFormFile fileUpload, [Bind("ProductId,ProductCategoryId,ProductDescription,ProductImage,ProductName,ProductPrice,ProductSalePrice,ProductStatus,Slug")] Product product)
         {
             if (fileUpload != null)
             {
@@ -193,7 +193,7 @@ namespace ShopApp.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int? id, string? oldImage, IFormFile fileUpload, [Bind("ProductId,ProductCategoryId,ProductDescription,ProductImage,ProductName,ProductPrice,ProductSalePrice,ProductStatus")] Product product)
+        public async Task<IActionResult> Edit(int? id, string? oldImage, IFormFile fileUpload, [Bind("ProductId,ProductCategoryId,ProductDescription,ProductImage,ProductName,ProductPrice,ProductSalePrice,ProductStatus,Slug")] Product product)
         {
             if (id != product.ProductId)
             {

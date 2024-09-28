@@ -137,7 +137,6 @@ namespace ShopApp.Areas.Admin.Controllers
                                .FirstOrDefaultAsync(x => x.OrderId == id);
                 var orderDetails = await _context.OrderDetails.Include(od => od.Product).Where(x => x.OrderId == orderFound.OrderId).ToListAsync();
                 var fileName = "Chi tiết đơn hàng.xlsx";
-                //return GenerateExcel(fileName, orderDetails);
                 return GenerateExcel(fileName, orderFound, orderDetails);
             }
             return null;

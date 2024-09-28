@@ -1,0 +1,62 @@
+﻿@model X.PagedList.IPagedList<ShopApp.Data.Blog>
+@using X.PagedList.Mvc.Core;
+@{
+}
+<style>
+    .pagination .page-item .page-link {
+        color: #79a206;
+        border-color: #79a206; 
+    }
+
+    .pagination .page-item.active .page-link {
+        background-color: #79a206;
+        border-color: #79a206;
+        color: #fff; 
+    }
+
+    .pagination .page-item .page-link:hover {
+        background-color: #79a206;
+        border-color: #79a206; 
+        color: #fff; 
+    }
+</style>
+<main>
+    <div class="text-center box-title">
+        <h3 class="title">Bài viết</h3>
+        <nav class="breadcrumb text-center d-flex justify-content-center">
+            <a class="breadcrumb-item default" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+            <span class="breadcrumb-item active">Giới thiệu</span>
+        </nav>
+    </div>
+</main>
+
+    <div class="container-fluid section my-5">
+        <div class="container">
+            <div class="row">
+                @foreach (var blog in Model)
+                {
+                    <div class="col-md-4 mb-4">
+                    <a asp-area="" asp-controller="Home" asp-action="BlogDetails" asp-route-slug="@blog.Slug">
+                            <img src="@(Url.Content("~/Uploads/blogs/" + blog.BlogImage))" alt="@blog.BlogImage" width="100%" />
+                        </a>
+                        <h5 class="pt-4">@blog.BlogName</h5>
+                        <p>
+                            By
+                            <span style="color: #79a206">@blog.CreateBy/ @blog.CreateDate.Value.ToString(string.Format("dd/MM/yyyy"))</span>
+                        </p>
+                    </div>
+                }
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    @Html.PagedListPager(Model, page => Url.Action("Blog", new { page = page }),
+                             new PagedListRenderOptions
+                    {
+                        LiElementClasses = new[] { "page-item" },
+                        PageClasses = new[] { "page-link" },
+                        UlElementClasses = new[] { "pagination" }
+                    })
+                </ul>
+            </nav>
+        </div>
+    </div>
