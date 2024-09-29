@@ -40,44 +40,50 @@
                     @Html.Raw(detail.ProductDescription)
                 </p>
                 <hr />
-                <div class="row align-items-center">
-                    <div class="col-4">
-                        <div class="cart-quantity-size d-flex align-items-center my-3">
-                            <div class="cart-quantiy-outer py-2">
-                                <button class="btn_minus mr-0"
-                                        (click)="handleMinus(i, item.quantity)">
-                                    <i class="fa-solid fa-minus"></i>
-                                </button>
-                                <input (change)="updateQuantity(i, $event)"
-                                       type="text"
-                                       min="0"
-                                       max="99"
-                                       name="quantity"
-                                       value="1"
-                                       class="cart-quantity" />
-                                <button class="btn_plus"
-                                        (click)="handlePlus(i, item.quantity)">
-                                    <i class="fa-solid fa-plus"></i>
-                                </button>
+                <form class="form-block mt-3" asp-controller="Cart" asp-action="AddToCart" method="post">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <div class="cart-quantity-size d-flex align-items-center my-3">
+                                <div class="cart-quantiy-outer py-2">
+                                    <input type="hidden" name="accId" value="@ViewBag.UserData.UserId" />
+                                    <input type="hidden" name="prodId" value="@detail.ProductId" />
+                                    <button class="btn_minus mr-1"
+                                            onclick="handleMinus(event)">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <input type="number"
+                                           min="0"
+                                           max="99"
+                                           name="quantity"
+                                           value="1"
+                                           id="quantity"
+                                           class="cart-quantity" />
+                                    <button class="btn_plus"
+                                            onclick="handlePlus(event)">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </div>
                             </div>
                         </div>
+                        <div class="col-6">
+                            <button class="btn btn-success btn-block">
+                                Add To Cart
+                            </button>
+                        </div>
                     </div>
-                    <div class="col-6">
-                        <button type="button"
-                                name=""
-                                id=""
-                                class="btn btn-success btn-block"
-                                (click)="onAddToCart(productDetail)">
-                            Add To <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
+                 </form>
                 
           
                 <div class="prod-des mt-3">
                     <p>
                         <span>
-                            Danh mục: @detail.ProductCategory.CategoryName
+                            Danh mục: <a asp-area="" asp-controller="Shop" asp-action="Index" asp-route-slug="@detail.ProductCategory.CategorySlug">@detail.ProductCategory.CategoryName</a>
+                        </span>
+                        
+                    </p>
+                    <p>
+                        <span>
+                            Trạng thái: @(detail.ProductStatus == 1 ? "Còn hàng" : "Hết hàng")
                         </span>
                     </p>
                 </div>
@@ -131,8 +137,7 @@
                         <div class="sp-card-2">
                             <div class="overlap">
                                 <a asp-area="" asp-controller="Shop" asp-action="Details" asp-route-slug="@item.Slug" style="cursor: pointer;" title="View Details">
-                                    View
-                                    Details
+                                    View Details
                                 </a>
                             </div>
                             <div class="card-image">
@@ -177,6 +182,21 @@
     </div>
 </main>
 @section Scripts {
+    <script>
+        var quantityDOM = document.getElementById("quantity");
+
+        const handleMinus = () => {
+            event.preventDefault();
+            quantityDOM.value <= 1 ? 1 : quantityDOM.value--;
+            console.log(quantityDOM.value);
+        }
+
+        const handlePlus = () => {
+            event.preventDefault();
+            quantityDOM.value >= 50 ? quantityDOM.value : quantityDOM.value++;
+            console.log(quantityDOM.value);
+        }
+    </script>
     <script>
         $('.owl-carousel').owlCarousel({
             loop: true,

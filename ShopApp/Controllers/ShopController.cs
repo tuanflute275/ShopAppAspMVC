@@ -21,6 +21,29 @@ namespace ShopApp.Controllers
         [Route("san-pham/{slug?}")]
         public async Task<IActionResult> Index(string? slug, string? name, string? sort, int page = 1)
         {
+            try
+            {
+                Log log = new Log();
+                log.TimeActionRequest = DateTime.Now;
+                string ipAddress = HttpContext.Connection.RemoteIpAddress?.ToString();
+                string workstationName = ipAddress != null ? System.Net.Dns.GetHostEntry(ipAddress).HostName : "Unknown";
+                log.WorkTation = workstationName;
+                ipAddress = ipAddress.Equals("::1") ? "127.0.0.1" : ipAddress;
+                log.IpAdress = ipAddress;
+                log.UserName = User.Identity.Name;
+                string fullUrl = $"{Request.Scheme}://{Request.Host}{Request.Path}{Request.QueryString}";
+                log.Request = fullUrl;
+                log.Response = "";
+                // save to db log
+                _context.Logs.Add(log);
+                _context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+
             int limit = 9;
             page = page <= 1 ? 1 : page;
             ViewBag.names = name;
@@ -111,6 +134,37 @@ namespace ShopApp.Controllers
         [Route("chi-tiet-san-pham/{slug}")]
         public async Task<IActionResult> Details(string slug)
         {
+            try
+            {
+                Log log = new Log();
+                log.TimeActionRequest = DateTime.Now;
+                string ipAddress = HttpContext.Connection.RemoteIpAddress?.ToString();
+                string workstationName = ipAddress != null ? System.Net.Dns.GetHostEntry(ipAddress).HostName : "Unknown";
+                log.WorkTation = workstationName;
+                ipAddress = ipAddress.Equals("::1") ? "127.0.0.1" : ipAddress;
+                log.IpAdress = ipAddress;
+                log.UserName = User.Identity.Name;
+                string fullUrl = $"{Request.Scheme}://{Request.Host}{Request.Path}{Request.QueryString}";
+                log.Request = fullUrl;
+                log.Response = "";
+                // save to db log
+                _context.Logs.Add(log);
+                _context.SaveChanges();
+            }
+            catch (Exception e) {
+                Console.WriteLine(e.Message);
+            }
+
+
+            //var user data
+            var userIdClaim = User.FindFirst("userId");
+            var userId = userIdClaim != null ? Convert.ToInt32(userIdClaim.Value) : 0;
+            var userFound = await _context.Accounts.FirstOrDefaultAsync(x => x.UserId == userId);
+            if (userFound != null) { 
+                ViewBag.UserData = userFound;
+            }
+
+            // product detail data
             var productDetail = _context.Products
                 .Include(x => x.ProductCategory)
                 .Where(x => x.Slug == slug).FirstOrDefault();

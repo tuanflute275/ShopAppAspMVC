@@ -6,6 +6,7 @@
 
     var names = ViewBag.names;
     var sorts = ViewBag.sorts;
+    var i = 1;
 }
 
 <div id="content-page" class="content-page p-0" style="padding-top: 85px !important;">
@@ -69,7 +70,7 @@
                                     @foreach (var item in Model)
                                     {
                                         <tr>
-                                            <td class="text-center">@Html.DisplayFor(modelItem => item.UserId)</td>
+                                            <td class="text-center">@i</td>
                                             <td class="text-center">
                                                 <img src="@(item.UserAvatar != null
                                                 ? (item.UserAvatar.StartsWith("http")
@@ -112,6 +113,7 @@
                                                 </div>
                                             </td>
                                         </tr>
+                                        i++;
                                     }
                                 </tbody>
                             </table>

@@ -6,6 +6,7 @@
 
     var names = ViewBag.names;
     var sorts = ViewBag.sorts;
+    var i = 1;
 }
 
 <div id="content-page" class="content-page p-0" style="padding-top: 85px !important;">
@@ -60,38 +61,44 @@
                                         <th width="12%">Tên tài khoản</th>
                                         <th width="12%">Tên thiết bị</th>
                                         <th width="15%">Đường dẫn</th>
+                                        <th width="8%">Địa chỉ IPV4</th>
                                         <th width="14%">Thời gian thực hiện</th>
                                         <th width="10%">Hoạt động</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach (var item in Model)
+                                    @if(Model.Count > 0)
                                     {
-                                        <tr>
-                                            <td>@item.LogId</td>
-                                            <td>@item.UserName</td>
-                                            <td>@item.WorkTation</td>
-                                            <td>@item.Request</td>
-                                            <td>@item.TimeActionRequest.Value.ToString("dd/MM/yyyy hh:mm:ss")</td>
-                                            <td>
-                                                <div class="d-flex flex align-items-center list-user-action">
-                                                    @* <a class="bg-primary mt-1" style="disable" data-toggle="tooltip" data-placement="top" title=""
-                                                       data-original-title="Sửa"
-                                                       asp-action="Edit" asp-route-id="@item.LogId">
-                                                        <i class="ri-pencil-line"></i>
-                                                    </a> *@
-                                                    <form asp-action="Delete" asp-route-id="@item.LogId" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa dữ liệu này ?')">
-                                                        <button type="submit" class="btn btn-danger" data-toggle="tooltip" title="Xóa"
-                                                                style="margin: 0; margin-top: 3px; padding: 1px 5px; text-align: center;
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>@i</td>
+                                                <td>@item.UserName</td>
+                                                <td>@item.WorkTation</td>
+                                                <td>@item.Request</td>
+                                                <td>@item.IpAdress</td>
+                                                <td>@item.TimeActionRequest.Value.ToString("dd/MM/yyyy hh:mm:ss")</td>
+                                                <td>
+                                                    <div class="d-flex flex align-items-center list-user-action">
+                                                        @* <a class="bg-primary mt-1" style="disable" data-toggle="tooltip" data-placement="top" title=""
+                                                data-original-title="Sửa"
+                                                asp-action="Edit" asp-route-id="@item.LogId">
+                                                <i class="ri-pencil-line"></i>
+                                                </a> *@
+                                                        <form asp-action="Delete" asp-route-id="@item.LogId" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa dữ liệu này ?')">
+                                                            <button type="submit" class="btn btn-danger" data-toggle="tooltip" title="Xóa"
+                                                                    style="margin: 0; margin-top: 3px; padding: 1px 5px; text-align: center;
                                                                         max-width: 25px; max-height: 25px;">
-                                                            <i class="ri-delete-bin-line"></i>
-                                                        </button>
-                                                        @Html.AntiForgeryToken() <!-- Bảo vệ CSRF -->
-                                                    </form>
+                                                                <i class="ri-delete-bin-line"></i>
+                                                            </button>
+                                                            @Html.AntiForgeryToken() <!-- Bảo vệ CSRF -->
+                                                        </form>
 
-                                                </div>
-                                            </td>
-                                        </tr>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            i++;
+                                        }
                                     }
                                 </tbody>
                             </table>

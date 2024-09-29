@@ -7,6 +7,7 @@
 
     var names = ViewBag.names;
     var sorts = ViewBag.sorts;
+    var i = 1;
 }
 
 <div id="content-page" class="content-page p-0" style="padding-top: 85px !important;">
@@ -68,7 +69,7 @@
                                     @foreach (var item in Model)
                                     {
                                         <tr>
-                                            <td>@item.OrderId</td>
+                                            <td>@i</td>
                                             <td>@item.OrderFullName</td>
                                             <td>@item.OrderDetails?.Count sản phẩm</td>
                                             <td>@item.OrderDate.Value.ToString("dd/MM/yyyy hh:mm:ss")</td>
@@ -133,6 +134,7 @@
                                                 </div>
                                             </td>
                                         </tr>
+                                        i++;
                                     }
                                 </tbody>
                             </table>

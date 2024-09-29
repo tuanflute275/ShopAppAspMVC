@@ -66,7 +66,7 @@
                         @if (Context.User.Identity.Name != null)
                         {
                             <li class="header_shopping_cart">
-                                <a routerLink="/cart">
+                                <a asp-area="" asp-controller="Cart" asp-action="Index">
                                     <i class="fa-solid fa-cart-shopping"></i>
                                 </a>
                             </li>
@@ -198,6 +198,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="~/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    @await Component.InvokeAsync("NToastNotify")
+    @await Component.InvokeAsync("Notyf")
 </body>
 
 </html>
