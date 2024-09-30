@@ -1,5 +1,6 @@
-﻿
-@{
+﻿@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
     var detail = ViewBag.ProductDetail;
 }
 
@@ -14,6 +15,7 @@
             </div>
 
             <div class="col-md-6">
+                <p>#@detail.ProductId</p>
                 <h3>@detail.ProductName</h3>
                 <i class="fa fa-star text-warning"></i>
                 <i class="fa fa-star text-warning"></i>
@@ -66,8 +68,8 @@
                             </div>
                         </div>
                         <div class="col-6">
-                            <button class="btn btn-success btn-block">
-                                Add To Cart
+                            <button class="btn btn-success btn-block btn1">
+                                Thêm vào giỏ hàng
                             </button>
                         </div>
                     </div>
@@ -172,7 +174,7 @@
                                         </span>
                                     </div>
                                 }
-                                <button class="btn text-white" style="background: #79a206;">Mua ngay</button>
+                                @* <button class="btn text-white" style="background: #79a206;">Mua ngay</button> *@
                             </div>
                         </div>
                     </div>
@@ -185,13 +187,13 @@
     <script>
         var quantityDOM = document.getElementById("quantity");
 
-        const handleMinus = () => {
+        const handleMinus = (event) => {
             event.preventDefault();
             quantityDOM.value <= 1 ? 1 : quantityDOM.value--;
             console.log(quantityDOM.value);
         }
 
-        const handlePlus = () => {
+        const handlePlus = (event) => {
             event.preventDefault();
             quantityDOM.value >= 50 ? quantityDOM.value : quantityDOM.value++;
             console.log(quantityDOM.value);

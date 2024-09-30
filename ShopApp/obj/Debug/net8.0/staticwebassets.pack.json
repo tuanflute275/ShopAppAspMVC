@@ -1241,6 +1241,10 @@
       "PackagePath": "staticwebassets\\icon\\coreui.min.css"
     },
     {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\favicon.ico",
+      "PackagePath": "staticwebassets\\icon\\favicon.ico"
+    },
+    {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\testimonial1.jpg",
       "PackagePath": "staticwebassets\\icon\\testimonial1.jpg"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C37CWWtwVcpLDe4J2O3F1A0ckMjW8nnsdM5w6AR6SlE=",
+  "Hash": "mnXAX2O7kXhcLx63OW5X2n0S1gz5kzvhXI/IvsgwWsU=",
   "Source": "ShopApp",
   "BasePath": "_content/ShopApp",
   "Mode": "Default",
@@ -5582,6 +5582,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon\\coreui.min.css"
+    },
+    {
+      "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\favicon.ico",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "icon/favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icon\\favicon.ico"
     },
     {
       "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\testimonial1.jpg",

@@ -18,6 +18,28 @@ namespace ShopApp.Controllers
         [Route("gio-hang")]
         public async Task<IActionResult> Index()
         {
+            try
+            {
+                Log log = new Log();
+                log.TimeActionRequest = DateTime.Now;
+                string ipAddress = HttpContext.Connection.RemoteIpAddress?.ToString();
+                string workstationName = ipAddress != null ? System.Net.Dns.GetHostEntry(ipAddress).HostName : "Unknown";
+                log.WorkTation = workstationName;
+                ipAddress = ipAddress.Equals("::1") ? "127.0.0.1" : ipAddress;
+                log.IpAdress = ipAddress;
+                log.UserName = User.Identity.Name;
+                string fullUrl = $"{Request.Scheme}://{Request.Host}{Request.Path}{Request.QueryString}";
+                log.Request = fullUrl;
+                log.Response = "";
+                // save to db log
+                _context.Logs.Add(log);
+                _context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
             var userIdClaim = User.FindFirst("userId");
             if (userIdClaim != null)
             {
@@ -69,19 +91,32 @@ namespace ShopApp.Controllers
 
         }
 
-        public async Task<IActionResult> Update(int Id, int ProdId, int quantity)
+        [HttpPost]
+        public async Task<IActionResult> UpdateCart(int cartId, int productId, string mode)
         {
-            var prodFoundInCart = await _context.Carts.FirstOrDefaultAsync(x => x.CartId == Id);
-            var prodFound = await _context.Products.FirstOrDefaultAsync(x => x.ProductId == ProdId);
+            var prodFoundInCart = await _context.Carts.FirstOrDefaultAsync(x => x.CartId == cartId);
+           var prodFound = await _context.Products.FirstOrDefaultAsync(x => x.ProductId == productId);
             if (prodFoundInCart != null)
             {
-                prodFoundInCart.Quantity = quantity;
-                prodFoundInCart.TotalAmount += Convert.ToInt32(prodFound?.ProductSalePrice > 0 ? prodFound?.ProductSalePrice * quantity : prodFound?.ProductPrice * quantity);
+                if (mode.Equals("plus"))
+                {
+                    prodFoundInCart.Quantity = prodFoundInCart.Quantity + 1;
+                }
+                else
+                {
+                    prodFoundInCart.Quantity = prodFoundInCart.Quantity - 1;
+                    if (prodFoundInCart.Quantity <= 0)
+                    {
+                        _toastNotification.Error("Tối thiểu 1 sản phẩm!", 3);
+                        return RedirectToAction(nameof(Index));
+                    }
+                }
+                
+                prodFoundInCart.TotalAmount = Convert.ToInt32(prodFound?.ProductSalePrice > 0 ? prodFound?.ProductSalePrice * prodFoundInCart.Quantity : prodFound?.ProductPrice * prodFoundInCart.Quantity);
                 _context.Carts.Update(prodFoundInCart);
                 await _context.SaveChangesAsync();
                 _toastNotification.Success("Cập nhật số lượng sản phẩm thành công !", 3);
             }
-
             return RedirectToAction(nameof(Index));
         }
 

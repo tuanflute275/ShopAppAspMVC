@@ -30,7 +30,7 @@ namespace ShopApp.Areas.Admin.Controllers
         {
             page = page <= 1 ? 1 : page;
             int limit = 10;
-            var orders = await _context.Orders.Include(o => o.User).Include(o => o.OrderDetails).ToListAsync();
+            var orders = await _context.Orders.Include(o => o.User).Include(o => o.OrderDetails).OrderByDescending(x => x.OrderId).ToListAsync();
             if (!string.IsNullOrEmpty(name))
             {
                 orders = await _context.Orders.Include(o => o.User).Include(o => o.OrderDetails).Where(x=>x.OrderFullName.Contains(name)).OrderBy(x => x.OrderId).ToListAsync();

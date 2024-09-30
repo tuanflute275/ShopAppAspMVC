@@ -1,0 +1,147 @@
+﻿@model ShopApp.Data.Order
+@using ShopApp.Enums;
+
+@{
+    ViewData["Title"] = "Thanh toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var user = ViewBag.UserData;
+}
+
+<main>
+    <div class="text-center box-title">
+        <h3 class="title">Thanh toán</h3>
+        <nav class="breadcrumb text-center d-flex justify-content-center">
+            <a class="breadcrumb-item default" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+            <span class="breadcrumb-item active">Thanh toán</span>
+        </nav>
+        <div class="container"></div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12 px-5">
+                <form method="post" asp-action="Checkout" id="checkoutForm">
+                    <div class="checkout-form-heading">Đại chỉ nhận hàng:</div>
+                    <input asp-for="OrderAmount" type="hidden" class="form-control" id="fullName" value="@ViewBag.subTotal" />
+                    <input asp-for="OrderPaymentMethods" type="hidden" class="form-control" id="orderPaymentMethods" value="@TypeMethodPay.THANH_TOAN_KHI_NHAN_HANG" />
+                    <input asp-for="OrderStatusPayment" type="hidden" class="form-control" id="orderStatusPayment" value="@TypeMethodPay.CHUA_THANH_TOAN" />
+                    <!--  -->
+                    <div class="form-group">
+                        <label asp-for="OrderFullName" class="control-label">Người nhận hàng</label>
+                        <input asp-for="OrderFullName" type="text" class="form-control" id="fullName" value="@user.UserFullName" />
+                        <span asp-validation-for="OrderFullName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="OrderEmail" class="control-label">Email</label>
+                        <input asp-for="OrderEmail" type="text" class="form-control" id="email" value="@user.UserEmail" />
+                        <span asp-validation-for="OrderEmail" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="OrderAddress" class="control-label">Địa chỉ nhận hàng</label>
+                        <input asp-for="OrderAddress" type="text" class="form-control" id="address" value="@user.UserAddress" />
+                        <span asp-validation-for="OrderAddress" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="OrderPhone" class="control-label">Số điện thoại</label>
+                        <input asp-for="OrderPhone" type="text" class="form-control" id="phoneNumber" value="@user.UserPhone" />
+                        <span asp-validation-for="OrderPhone" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="OrderNote" class="control-label">Ghi chú</label>
+                        <textarea asp-for="OrderNote" class="form-control" rows="4" placeholder="Nhắn gửi lời nhắn..."></textarea>
+                    </div>
+                   @*  <button type="submit" class="btn-payment w-100">
+                        Đặt hàng
+                    </button> *@
+                </form>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <!-- Order Summary -->
+                <div class="cart-details">
+                    <div class="cart-order-heading" style="margin-bottom: 0 !important;">Thông tin đơn hàng</div>
+                    <div class="cart-product-list mx-4">
+                        <div class="cart-product-list-heading my-4 text-center" style="margin-top: 0 !important;">Danh sách sản phẩm</div>
+                        <div class="cart-product-list-main">
+                            <div class="cart-product-list-grid">
+                                @foreach (var item in ViewBag.ListCartByUser)
+                                {
+                                    <div class="my-3">
+                                        <div class="cart-product-tittle">
+                                            <a class="font-weight-bold">@item.Product.ProductName</a>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="cart-product-price">
+                                                @if (item.Product.ProductSalePrice > 0)
+                                                {
+                                                    @String.Format("{0:#,0} VND", item.Product.ProductSalePrice)
+                                                }
+                                                else
+                                                {
+                                                    @String.Format("{0:#,0} VND", item.Product.ProductPrice)
+                                                }
+                                            </div>
+                                            <div class="ml-3">@("x" + item.Quantity)</div>
+                                            <div class="cart-quantity-size"> @String.Format("{0:#,0} VND", item.TotalAmount)</div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-detail-list text-center mx-4">
+                        <div class="row justify-content-between my-3">
+                            <div class="col-6 text-left">
+                                <div class="cart-list-text">Số lượng sản phẩm:</div>
+                            </div>
+                            <div class="col-6" style="text-align: right;">
+                                <div class="cart-list-text">@ViewBag.subQuantity sản phẩm</div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-between my-3">
+                            <div class="col-6 text-left">
+                                <div class="cart-list-text font-weight-bold text-uppercase">
+                                    <p>Tổng tiền:</p>
+                                </div>
+                            </div>
+                            <div class="col-6" style="text-align: right;">
+                                <div class="cart-list-text font-weight-bold">
+                                    <p style="font-size: 22px;">@String.Format("{0:#,0} VND", ViewBag.subTotal)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 0 48px !important;">
+                        <input class="form-check-input" type="radio" name="typeMethod" id="typeMethod1" value="@TypeMethodPay.THANH_TOAN_KHI_NHAN_HANG" 
+                            checked onchange="handleChangeRadio(event)"> Thanh toán khi nhận hàng
+                        </br>
+                        <input class="form-check-input" type="radio" name="typeMethod" id="typeMethod2" value="@TypeMethodPay.THANH_TOAN_DIEN_TU" onchange="handleChangeRadio(event)"> Thanh toán điện tử
+                    </div>
+                    <div class="cart-btn">
+                        <button class="btn1" onclick="handlePay(event)">Thanh toán</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        const handleChangeRadio = (event) => {
+            event.preventDefault();
+            var value = event.target.value;
+            $("#orderPaymentMethods").val(value)
+            if (value == @TypeMethodPay.THANH_TOAN_KHI_NHAN_HANG) {
+                $("#orderStatusPayment").val(@TypeMethodPay.CHUA_THANH_TOAN)
+            } else {
+                $("#orderStatusPayment").val(@TypeMethodPay.DA_THANH_TOAN)
+            }
+        }
+        const handlePay = (event) => {
+            event.preventDefault();
+            $('#checkoutForm').submit();
+        }
+    </script>
+}

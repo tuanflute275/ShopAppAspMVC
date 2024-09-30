@@ -1893,10 +1893,6 @@ main .sale_price {
   color: #79a206;
 }
 
-main .text-right {
-  display: flex;
-}
-
 main .shop_toolbar_wrapper {
   margin-bottom: 10px;
   border: 1px solid #e8e8e8;

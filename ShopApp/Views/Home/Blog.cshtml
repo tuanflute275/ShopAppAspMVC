@@ -1,25 +1,30 @@
 ﻿@model X.PagedList.IPagedList<ShopApp.Data.Blog>
 @using X.PagedList.Mvc.Core;
 @{
+    ViewData["Title"] = "Bài viết";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<style>
-    .pagination .page-item .page-link {
-        color: #79a206;
-        border-color: #79a206; 
-    }
+@section Styles {
+    <style>
+        .pagination .page-item .page-link {
+            color: #79a206;
+            border-color: #79a206;
+        }
 
-    .pagination .page-item.active .page-link {
-        background-color: #79a206;
-        border-color: #79a206;
-        color: #fff; 
-    }
+        .pagination .page-item.active .page-link {
+            background-color: #79a206;
+            border-color: #79a206;
+            color: #fff;
+        }
 
-    .pagination .page-item .page-link:hover {
-        background-color: #79a206;
-        border-color: #79a206; 
-        color: #fff; 
-    }
-</style>
+        .pagination .page-item .page-link:hover {
+            background-color: #79a206;
+            border-color: #79a206;
+            color: #fff;
+        }
+    </style>
+}
+
 <main>
     <div class="text-center box-title">
         <h3 class="title">Bài viết</h3>

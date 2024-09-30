@@ -1,6 +1,8 @@
 ﻿@model X.PagedList.IPagedList<ShopApp.Data.Product>
 @using X.PagedList.Mvc.Core;
 @{
+    ViewData["Title"] = "Sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
     var categories = ViewBag.Categories;
     var names = ViewBag.names;
     var sorts = ViewBag.sorts;
@@ -112,7 +114,7 @@
                                             </span>
                                         </div>
                                     }
-                                    <button class="btn text-white" style="background: #79a206;">Mua ngay</button>
+                                    @* <button class="btn text-white" style="background: #79a206;">Mua ngay</button> *@
                                 </div>
                             </div>
                         </div>

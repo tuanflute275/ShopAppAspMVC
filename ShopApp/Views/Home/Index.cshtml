@@ -1,5 +1,6 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Trang chủ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <main>
@@ -16,10 +17,7 @@
                 <div class="carousel-caption-custom d-none d-md-block text-body">
                     <h2 class="carousel-header heading mt-5">Đại Khuyến Mãi - Hàng Mới Về.</h2>
                     <p>Giảm 20% cho Thành Viên EDON.</p>
-                    <button type="button" class="text-white btn-carousel" onclick="window.location.href='@Url.Action("Index", "Shop")'">
-                        MUA NGAY
-                    </button>
-
+                    <a class="button-more" style="text-decoration: none; color: #fff;" asp-area="" asp-controller="Shop" asp-action="Index">Xem thêm</a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -28,10 +26,7 @@
                 <div class="carousel-caption-custom d-none d-md-block text-body">
                     <h2 class="carousel-header heading mt-5">Xu Hướng thời trang 2024</h2>
                     <p>Giảm 20% cho Thành Viên EDON.</p>
-                    <button type="button" class="text-white btn-carousel" onclick="window.location.href='@Url.Action("Index", "Shop")'">
-                        MUA NGAY
-                    </button>
-
+                    <a class="button-more" style="text-decoration: none; color: #fff;" asp-area="" asp-controller="Shop" asp-action="Index">Xem thêm</a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -40,10 +35,7 @@
                 <div class="carousel-caption-custom d-none d-md-block text-body">
                     <h2 class="carousel-header heading mt-5">Cây Cảnh - Lựa Chọn Tuyệt Vời.</h2>
                     <p>Giảm 20% cho Thành Viên EDON.</p>
-                    <button type="button" class="text-white btn-carousel" onclick="window.location.href='@Url.Action("Index", "Shop")'">
-                        MUA NGAY
-                    </button>
-
+                    <a class="button-more" style="text-decoration: none; color: #fff;" asp-area="" asp-controller="Shop" asp-action="Index">Xem thêm</a>
                 </div>
             </div>
         </div>
@@ -133,11 +125,14 @@
                                     </span>
                                 </div>
                             }
-                            <button class="btn text-white" style="background: #79a206;">Mua ngay</button>
+                            @* <button class="btn text-white" style="background: #79a206;">Mua ngay</button> *@
                         </div>
                     </div>
                 </div>
             }
+        </div>
+        <div class="container-fluid p-0 m-0 row justify-content-center mt-4">
+            <a class="button-more" style="text-decoration: none; color: #fff;" asp-area="" asp-controller="Shop" asp-action="Index">Xem thêm</a>
         </div>
     </div>
 
@@ -202,11 +197,14 @@
                                     </span>
                                 </div>
                             }
-                            <button class="btn text-white" style="background: #79a206;">Mua ngay</button>
+                            @* <button class="btn text-white" style="background: #79a206;">Mua ngay</button> *@
                         </div>
                     </div>
                 </div>
             }
+        </div>
+        <div class="container-fluid p-0 m-0 row justify-content-center mt-4">
+            <a class="button-more" style="text-decoration: none; color: #fff;" asp-area="" asp-controller="Shop" asp-action="Index">Xem thêm</a>
         </div>
     </div>
 

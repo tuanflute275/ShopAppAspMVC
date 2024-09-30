@@ -55,7 +55,8 @@ namespace ShopApp.Areas.Admin.Controllers
                         var identity = new ClaimsIdentity(new[]
                         {
                             new Claim("userId", accFound.UserId.ToString()),
-                            new Claim(ClaimTypes.Name, accFound.UserFullName),
+                            new Claim(ClaimTypes.Name, accFound.UserName),
+                            new Claim("userFullName", accFound.UserFullName.ToString()),
                             new Claim(ClaimTypes.Email, accFound.UserEmail),
                             new Claim("avatar", accFound.UserAvatar ?? "default.png"),
                             new Claim(ClaimTypes.Role, accFound.UserRole == 1 ? "Admin" : "User"),
