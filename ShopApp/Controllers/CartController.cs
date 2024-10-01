@@ -40,26 +40,25 @@ namespace ShopApp.Controllers
                 Console.WriteLine(e.Message);
             }
 
-            var userIdClaim = User.FindFirst("userId");
-            if (userIdClaim != null)
+            var customerID = HttpContext.Session.GetInt32("customerID");
+            if (customerID != null)
             {
-                var userId = userIdClaim != null ? Convert.ToInt32(userIdClaim.Value) : 0;
-                var listCartByUser = await _context.Carts.Include(p => p.Product).Include(a => a.User).Where(x => x.User.UserId == userId).ToListAsync();
+                var listCartByUser = await _context.Carts.Include(p => p.Product).Include(a => a.User).Where(x => x.User.UserId == customerID).ToListAsync();
                 return View(listCartByUser);
             }
             else
             {
-                //return RedirectToAction("Login", "User");
                 return RedirectToAction("Login", "User", new { returnUrl = !string.IsNullOrEmpty(HttpContext.Request.Path) ? HttpContext.Request.Path.ToString() : "" });
             }
         }
 
+        [Route("them-gio-hang")]
         public async Task<IActionResult> AddToCart(int? accId, int prodId, int quantity = 1)
         {
-            var userIdClaim = User.FindFirst("userId");
-            if (userIdClaim != null)
+            var customerID = HttpContext.Session.GetInt32("customerID");
+            if (customerID != null)
             {
-                accId = userIdClaim != null ? Convert.ToInt32(userIdClaim.Value) : 0;
+                accId = customerID;
                 var prodFound = await _context.Products.FirstOrDefaultAsync(x => x.ProductId == prodId);
                 var prodFoundInCart = await _context.Carts.FirstOrDefaultAsync(x => x.ProductId == prodId && x.User.UserId == accId);
                 if (prodFoundInCart != null)
@@ -92,6 +91,7 @@ namespace ShopApp.Controllers
         }
 
         [HttpPost]
+        [Route("cap-nhat-gio-hang")]
         public async Task<IActionResult> UpdateCart(int cartId, int productId, string mode)
         {
             var prodFoundInCart = await _context.Carts.FirstOrDefaultAsync(x => x.CartId == cartId);

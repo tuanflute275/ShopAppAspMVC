@@ -98,21 +98,6 @@
           }
         }
       },
-      "BarcodeLib/3.1.4": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.8",
-          "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.8",
-          "System.Resources.Extensions": "8.0.0",
-          "System.Text.Json": "8.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/BarcodeStandard.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/BarcodeStandard.dll": {}
-        }
-      },
       "ClosedXML/0.102.3": {
         "type": "package",
         "dependencies": {
@@ -3214,91 +3199,6 @@
           "build/SixLabors.ImageSharp.props": {}
         }
       },
-      "SkiaSharp/2.88.8": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.Win32": "2.88.8",
-          "SkiaSharp.NativeAssets.macOS": "2.88.8"
-        },
-        "compile": {
-          "lib/net6.0/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/SkiaSharp.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.8": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "2.88.8"
-        },
-        "compile": {
-          "lib/net6.0/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/linux-arm/native/libSkiaSharp.so": {
-            "assetType": "native",
-            "rid": "linux-arm"
-          },
-          "runtimes/linux-arm64/native/libSkiaSharp.so": {
-            "assetType": "native",
-            "rid": "linux-arm64"
-          },
-          "runtimes/linux-musl-x64/native/libSkiaSharp.so": {
-            "assetType": "native",
-            "rid": "linux-musl-x64"
-          },
-          "runtimes/linux-x64/native/libSkiaSharp.so": {
-            "assetType": "native",
-            "rid": "linux-x64"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.macOS/2.88.8": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/osx/native/libSkiaSharp.dylib": {
-            "assetType": "native",
-            "rid": "osx"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.Win32/2.88.8": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win-arm64/native/libSkiaSharp.dll": {
-            "assetType": "native",
-            "rid": "win-arm64"
-          },
-          "runtimes/win-x64/native/libSkiaSharp.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x86/native/libSkiaSharp.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          }
-        }
-      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4221,22 +4121,6 @@
           "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
         }
       },
-      "System.Resources.Extensions/8.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
       "System.Resources.ResourceManager/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -5139,21 +5023,6 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
-      ]
-    },
-    "BarcodeLib/3.1.4": {
-      "sha512": "S45/MlvoXh7SMDCaM0BemUywSmixO3jJxCHfZJzLrCn/Faugnf5PaCpVmskzSyLBMyWJRcP3X26/p/QSYxawEg==",
-      "type": "package",
-      "path": "barcodelib/3.1.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "barcodelib.3.1.4.nupkg.sha512",
-        "barcodelib.nuspec",
-        "lib/netstandard2.0/BarcodeStandard.dll",
-        "upca.jpg"
       ]
     },
     "ClosedXML/0.102.3": {
@@ -9708,151 +9577,6 @@
         "sixlabors.imagesharp.nuspec"
       ]
     },
-    "SkiaSharp/2.88.8": {
-      "sha512": "bRkp3uKp5ZI8gXYQT57uKwil1uobb2p8c69n7v5evlB/2JNcMAXVcw9DZAP5Ig3WSvgzGm2YSn27UVeOi05NlA==",
-      "type": "package",
-      "path": "skiasharp/2.88.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "THIRD-PARTY-NOTICES.txt",
-        "interactive-extensions/dotnet/SkiaSharp.DotNet.Interactive.dll",
-        "lib/monoandroid1.0/SkiaSharp.dll",
-        "lib/monoandroid1.0/SkiaSharp.pdb",
-        "lib/monoandroid1.0/SkiaSharp.xml",
-        "lib/net462/SkiaSharp.dll",
-        "lib/net462/SkiaSharp.pdb",
-        "lib/net462/SkiaSharp.xml",
-        "lib/net6.0-android30.0/SkiaSharp.dll",
-        "lib/net6.0-android30.0/SkiaSharp.pdb",
-        "lib/net6.0-android30.0/SkiaSharp.xml",
-        "lib/net6.0-ios13.6/SkiaSharp.dll",
-        "lib/net6.0-ios13.6/SkiaSharp.pdb",
-        "lib/net6.0-ios13.6/SkiaSharp.xml",
-        "lib/net6.0-maccatalyst13.5/SkiaSharp.dll",
-        "lib/net6.0-maccatalyst13.5/SkiaSharp.pdb",
-        "lib/net6.0-maccatalyst13.5/SkiaSharp.xml",
-        "lib/net6.0-macos10.15/SkiaSharp.dll",
-        "lib/net6.0-macos10.15/SkiaSharp.pdb",
-        "lib/net6.0-macos10.15/SkiaSharp.xml",
-        "lib/net6.0-tizen7.0/SkiaSharp.dll",
-        "lib/net6.0-tizen7.0/SkiaSharp.pdb",
-        "lib/net6.0-tizen7.0/SkiaSharp.xml",
-        "lib/net6.0-tvos13.4/SkiaSharp.dll",
-        "lib/net6.0-tvos13.4/SkiaSharp.pdb",
-        "lib/net6.0-tvos13.4/SkiaSharp.xml",
-        "lib/net6.0/SkiaSharp.dll",
-        "lib/net6.0/SkiaSharp.pdb",
-        "lib/net6.0/SkiaSharp.xml",
-        "lib/netcoreapp3.1/SkiaSharp.dll",
-        "lib/netcoreapp3.1/SkiaSharp.pdb",
-        "lib/netcoreapp3.1/SkiaSharp.xml",
-        "lib/netstandard1.3/SkiaSharp.dll",
-        "lib/netstandard1.3/SkiaSharp.pdb",
-        "lib/netstandard1.3/SkiaSharp.xml",
-        "lib/netstandard2.0/SkiaSharp.dll",
-        "lib/netstandard2.0/SkiaSharp.pdb",
-        "lib/netstandard2.0/SkiaSharp.xml",
-        "lib/netstandard2.1/SkiaSharp.dll",
-        "lib/netstandard2.1/SkiaSharp.pdb",
-        "lib/netstandard2.1/SkiaSharp.xml",
-        "lib/tizen40/SkiaSharp.dll",
-        "lib/tizen40/SkiaSharp.pdb",
-        "lib/tizen40/SkiaSharp.xml",
-        "lib/uap10.0.10240/SkiaSharp.dll",
-        "lib/uap10.0.10240/SkiaSharp.pdb",
-        "lib/uap10.0.10240/SkiaSharp.xml",
-        "lib/uap10.0.16299/SkiaSharp.dll",
-        "lib/uap10.0.16299/SkiaSharp.pdb",
-        "lib/uap10.0.16299/SkiaSharp.xml",
-        "lib/xamarinios1.0/SkiaSharp.dll",
-        "lib/xamarinios1.0/SkiaSharp.pdb",
-        "lib/xamarinios1.0/SkiaSharp.xml",
-        "lib/xamarinmac2.0/SkiaSharp.dll",
-        "lib/xamarinmac2.0/SkiaSharp.pdb",
-        "lib/xamarinmac2.0/SkiaSharp.xml",
-        "lib/xamarintvos1.0/SkiaSharp.dll",
-        "lib/xamarintvos1.0/SkiaSharp.pdb",
-        "lib/xamarintvos1.0/SkiaSharp.xml",
-        "lib/xamarinwatchos1.0/SkiaSharp.dll",
-        "lib/xamarinwatchos1.0/SkiaSharp.pdb",
-        "lib/xamarinwatchos1.0/SkiaSharp.xml",
-        "skiasharp.2.88.8.nupkg.sha512",
-        "skiasharp.nuspec"
-      ]
-    },
-    "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.8": {
-      "sha512": "/DoKtdyvRgCC5GR/SH+ps3ZiOjmf0BYpAyrhWQELFOO1hdcqddrDVJjDNCOJ41vV+NlS5b3kcDoZZ7jLhFjyXg==",
-      "type": "package",
-      "path": "skiasharp.nativeassets.linux.nodependencies/2.88.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/net462/SkiaSharp.NativeAssets.Linux.NoDependencies.targets",
-        "buildTransitive/net462/SkiaSharp.NativeAssets.Linux.NoDependencies.targets",
-        "lib/net462/_._",
-        "lib/net6.0/_._",
-        "lib/netcoreapp3.1/_._",
-        "lib/netstandard1.3/_._",
-        "runtimes/linux-arm/native/libSkiaSharp.so",
-        "runtimes/linux-arm64/native/libSkiaSharp.so",
-        "runtimes/linux-musl-x64/native/libSkiaSharp.so",
-        "runtimes/linux-x64/native/libSkiaSharp.so",
-        "skiasharp.nativeassets.linux.nodependencies.2.88.8.nupkg.sha512",
-        "skiasharp.nativeassets.linux.nodependencies.nuspec"
-      ]
-    },
-    "SkiaSharp.NativeAssets.macOS/2.88.8": {
-      "sha512": "6Kn5TSkKlfyS6azWHF3Jk2sW5C4jCE5uSshM/5AbfFrR+5n6qM5XEnz9h4VaVl7LTxBvHvMkuPb/3bpbq0vxTw==",
-      "type": "package",
-      "path": "skiasharp.nativeassets.macos/2.88.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/net462/SkiaSharp.NativeAssets.macOS.targets",
-        "build/net6.0-macos10.15/SkiaSharp.NativeAssets.macOS.targets",
-        "build/xamarinmac2.0/SkiaSharp.NativeAssets.macOS.targets",
-        "buildTransitive/net462/SkiaSharp.NativeAssets.macOS.targets",
-        "buildTransitive/net6.0-macos10.15/SkiaSharp.NativeAssets.macOS.targets",
-        "buildTransitive/xamarinmac2.0/SkiaSharp.NativeAssets.macOS.targets",
-        "lib/net462/_._",
-        "lib/net6.0-macos10.15/_._",
-        "lib/net6.0/_._",
-        "lib/netcoreapp3.1/_._",
-        "lib/netstandard1.3/_._",
-        "lib/xamarinmac2.0/_._",
-        "runtimes/osx/native/libSkiaSharp.dylib",
-        "skiasharp.nativeassets.macos.2.88.8.nupkg.sha512",
-        "skiasharp.nativeassets.macos.nuspec"
-      ]
-    },
-    "SkiaSharp.NativeAssets.Win32/2.88.8": {
-      "sha512": "O9QXoWEXA+6cweR4h3BOnwMz+pO9vL9mXdjLrpDd0w1QzCgWmLQBxa1VgySDITiH7nQndrDG1h6937zm9pLj1Q==",
-      "type": "package",
-      "path": "skiasharp.nativeassets.win32/2.88.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/net462/SkiaSharp.NativeAssets.Win32.targets",
-        "buildTransitive/net462/SkiaSharp.NativeAssets.Win32.targets",
-        "lib/net462/_._",
-        "lib/net6.0/_._",
-        "lib/netcoreapp3.1/_._",
-        "lib/netstandard1.3/_._",
-        "runtimes/win-arm64/native/libSkiaSharp.dll",
-        "runtimes/win-x64/native/libSkiaSharp.dll",
-        "runtimes/win-x86/native/libSkiaSharp.dll",
-        "skiasharp.nativeassets.win32.2.88.8.nupkg.sha512",
-        "skiasharp.nativeassets.win32.nuspec"
-      ]
-    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -12227,35 +11951,6 @@
         "system.reflection.typeextensions.nuspec"
       ]
     },
-    "System.Resources.Extensions/8.0.0": {
-      "sha512": "psnQ6GRQOvt+evda5C4nD5EuV49mz2Tv0DD2JDVDEbE/TKoMukxSkGJcsBJ0pajpPuFRr67syFYlkJ4Wj6A5Zw==",
-      "type": "package",
-      "path": "system.resources.extensions/8.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.Resources.Extensions.targets",
-        "buildTransitive/net462/System.Resources.Extensions.targets",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Resources.Extensions.targets",
-        "lib/net462/System.Resources.Extensions.dll",
-        "lib/net462/System.Resources.Extensions.xml",
-        "lib/net6.0/System.Resources.Extensions.dll",
-        "lib/net6.0/System.Resources.Extensions.xml",
-        "lib/net7.0/System.Resources.Extensions.dll",
-        "lib/net7.0/System.Resources.Extensions.xml",
-        "lib/net8.0/System.Resources.Extensions.dll",
-        "lib/net8.0/System.Resources.Extensions.xml",
-        "lib/netstandard2.0/System.Resources.Extensions.dll",
-        "lib/netstandard2.0/System.Resources.Extensions.xml",
-        "system.resources.extensions.8.0.0.nupkg.sha512",
-        "system.resources.extensions.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Resources.ResourceManager/4.3.0": {
       "sha512": "/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
       "type": "package",
@@ -14248,7 +13943,6 @@
     "net8.0": [
       "AspNetCoreHero.ToastNotification >= 1.1.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "BarcodeLib >= 3.1.4",
       "ClosedXML >= 0.102.3",
       "Microsoft.AspNetCore.Authentication.Cookies >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
@@ -14318,10 +14012,6 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.1, )"
-          },
-          "BarcodeLib": {
-            "target": "Package",
-            "version": "[3.1.4, )"
           },
           "ClosedXML": {
             "target": "Package",

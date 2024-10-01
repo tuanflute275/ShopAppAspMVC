@@ -39,6 +39,7 @@ builder.Services.AddSession(options =>
 {
     options.Cookie.Name = ".tfl.session";
     options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
 });
 
 // Authentication - Authorize Servicess

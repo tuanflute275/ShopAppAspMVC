@@ -38,7 +38,6 @@
         "dependencies": {
           "AspNetCoreHero.ToastNotification": "1.1.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "BarcodeLib": "3.1.4",
           "ClosedXML": "0.102.3",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
           "Microsoft.EntityFrameworkCore": "8.0.8",
@@ -448,23 +447,6 @@
         },
         "compile": {
           "lib/netstandard2.0/Azure.Identity.dll": {}
-        }
-      },
-      "BarcodeLib/3.1.4": {
-        "dependencies": {
-          "SkiaSharp": "2.88.8",
-          "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.8",
-          "System.Resources.Extensions": "8.0.0",
-          "System.Text.Json": "8.0.4"
-        },
-        "runtime": {
-          "lib/netstandard2.0/BarcodeStandard.dll": {
-            "assemblyVersion": "3.1.4.0",
-            "fileVersion": "3.1.4.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/BarcodeStandard.dll": {}
         }
       },
       "ClosedXML/0.102.3": {
@@ -2692,76 +2674,6 @@
           "lib/net6.0/SixLabors.ImageSharp.dll": {}
         }
       },
-      "SkiaSharp/2.88.8": {
-        "dependencies": {
-          "SkiaSharp.NativeAssets.Win32": "2.88.8",
-          "SkiaSharp.NativeAssets.macOS": "2.88.8"
-        },
-        "runtime": {
-          "lib/net6.0/SkiaSharp.dll": {
-            "assemblyVersion": "2.88.0.0",
-            "fileVersion": "2.88.8.0"
-          }
-        },
-        "compile": {
-          "lib/net6.0/SkiaSharp.dll": {}
-        }
-      },
-      "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.8": {
-        "dependencies": {
-          "SkiaSharp": "2.88.8"
-        },
-        "runtimeTargets": {
-          "runtimes/linux-arm/native/libSkiaSharp.so": {
-            "rid": "linux-arm",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/linux-arm64/native/libSkiaSharp.so": {
-            "rid": "linux-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/linux-musl-x64/native/libSkiaSharp.so": {
-            "rid": "linux-musl-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/linux-x64/native/libSkiaSharp.so": {
-            "rid": "linux-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.macOS/2.88.8": {
-        "runtimeTargets": {
-          "runtimes/osx/native/libSkiaSharp.dylib": {
-            "rid": "osx",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.Win32/2.88.8": {
-        "runtimeTargets": {
-          "runtimes/win-arm64/native/libSkiaSharp.dll": {
-            "rid": "win-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x64/native/libSkiaSharp.dll": {
-            "rid": "win-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x86/native/libSkiaSharp.dll": {
-            "rid": "win-x86",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.1"
@@ -3237,17 +3149,6 @@
         "dependencies": {
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.1"
-        }
-      },
-      "System.Resources.Extensions/8.0.0": {
-        "runtime": {
-          "lib/net8.0/System.Resources.Extensions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
-        },
-        "compile": {
-          "lib/net8.0/System.Resources.Extensions.dll": {}
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -5509,13 +5410,6 @@
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
     },
-    "BarcodeLib/3.1.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-S45/MlvoXh7SMDCaM0BemUywSmixO3jJxCHfZJzLrCn/Faugnf5PaCpVmskzSyLBMyWJRcP3X26/p/QSYxawEg==",
-      "path": "barcodelib/3.1.4",
-      "hashPath": "barcodelib.3.1.4.nupkg.sha512"
-    },
     "ClosedXML/0.102.3": {
       "type": "package",
       "serviceable": true,
@@ -6811,34 +6705,6 @@
       "path": "sixlabors.imagesharp/3.1.5",
       "hashPath": "sixlabors.imagesharp.3.1.5.nupkg.sha512"
     },
-    "SkiaSharp/2.88.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bRkp3uKp5ZI8gXYQT57uKwil1uobb2p8c69n7v5evlB/2JNcMAXVcw9DZAP5Ig3WSvgzGm2YSn27UVeOi05NlA==",
-      "path": "skiasharp/2.88.8",
-      "hashPath": "skiasharp.2.88.8.nupkg.sha512"
-    },
-    "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/DoKtdyvRgCC5GR/SH+ps3ZiOjmf0BYpAyrhWQELFOO1hdcqddrDVJjDNCOJ41vV+NlS5b3kcDoZZ7jLhFjyXg==",
-      "path": "skiasharp.nativeassets.linux.nodependencies/2.88.8",
-      "hashPath": "skiasharp.nativeassets.linux.nodependencies.2.88.8.nupkg.sha512"
-    },
-    "SkiaSharp.NativeAssets.macOS/2.88.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-6Kn5TSkKlfyS6azWHF3Jk2sW5C4jCE5uSshM/5AbfFrR+5n6qM5XEnz9h4VaVl7LTxBvHvMkuPb/3bpbq0vxTw==",
-      "path": "skiasharp.nativeassets.macos/2.88.8",
-      "hashPath": "skiasharp.nativeassets.macos.2.88.8.nupkg.sha512"
-    },
-    "SkiaSharp.NativeAssets.Win32/2.88.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-O9QXoWEXA+6cweR4h3BOnwMz+pO9vL9mXdjLrpDd0w1QzCgWmLQBxa1VgySDITiH7nQndrDG1h6937zm9pLj1Q==",
-      "path": "skiasharp.nativeassets.win32/2.88.8",
-      "hashPath": "skiasharp.nativeassets.win32.2.88.8.nupkg.sha512"
-    },
     "System.AppContext/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -7209,13 +7075,6 @@
       "sha512": "sha512-7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
       "path": "system.reflection.typeextensions/4.3.0",
       "hashPath": "system.reflection.typeextensions.4.3.0.nupkg.sha512"
-    },
-    "System.Resources.Extensions/8.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-psnQ6GRQOvt+evda5C4nD5EuV49mz2Tv0DD2JDVDEbE/TKoMukxSkGJcsBJ0pajpPuFRr67syFYlkJ4Wj6A5Zw==",
-      "path": "system.resources.extensions/8.0.0",
-      "hashPath": "system.resources.extensions.8.0.0.nupkg.sha512"
     },
     "System.Resources.ResourceManager/4.3.0": {
       "type": "package",

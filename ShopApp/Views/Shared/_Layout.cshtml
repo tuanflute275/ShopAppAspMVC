@@ -82,7 +82,7 @@
                                          alt="@Context.User.FindFirst("avatar")?.Value"  />
                                 </a>
                                 <div class="dropdown-menu show-avatar text-dark">
-                                    <a class="dropdown-item btn-logout" (click)="logout()">Đăng xuất</a>
+                                    <a class="dropdown-item btn-logout" asp-area="" asp-controller="User" asp-action="Logout">Đăng xuất</a>
                                 </div>
                             </div>
                         </li>

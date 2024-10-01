@@ -133,10 +133,10 @@
             event.preventDefault();
             var value = event.target.value;
             $("#orderPaymentMethods").val(value)
-            if (value == @TypeMethodPay.THANH_TOAN_KHI_NHAN_HANG) {
-                $("#orderStatusPayment").val(@TypeMethodPay.CHUA_THANH_TOAN)
+            if (value == "Thanh toán khi nhận hàng") {
+                $("#orderStatusPayment").val("Chưa thanh toán")
             } else {
-                $("#orderStatusPayment").val(@TypeMethodPay.DA_THANH_TOAN)
+                $("#orderStatusPayment").val("Đã thanh toán")
             }
         }
         const handlePay = (event) => {

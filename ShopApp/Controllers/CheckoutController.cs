@@ -11,8 +11,6 @@ using System.Net.Mail;
 using System.Net;
 using Order = ShopApp.Data.Order;
 using System.Drawing;
-using BarcodeStandard;
-
 namespace ShopApp.Controllers
 {
     public class CheckoutController : Controller
@@ -50,13 +48,12 @@ namespace ShopApp.Controllers
                 Console.WriteLine(e.Message);
             }
 
-            var userIdClaim = User.FindFirst("userId");
-            if (userIdClaim != null)
+            var customerID = HttpContext.Session.GetInt32("customerID");
+            if (customerID != null)
             {
-                var userId = userIdClaim != null ? Convert.ToInt32(userIdClaim.Value) : 0;
-                var userData = await _context.Accounts.Where(x => x.UserId == userId).FirstOrDefaultAsync();
+                var userData = await _context.Accounts.Where(x => x.UserId == customerID).FirstOrDefaultAsync();
                 ViewBag.UserData = userData;
-                var listCartByUser = await _context.Carts.Include(p => p.Product).Include(a => a.User).Where(x => x.User.UserId == userId).ToListAsync();
+                var listCartByUser = await _context.Carts.Include(p => p.Product).Include(a => a.User).Where(x => x.User.UserId == customerID).ToListAsync();
                 ViewBag.ListCartByUser = listCartByUser;
 
                 decimal? subTotal = 0;
@@ -80,7 +77,7 @@ namespace ShopApp.Controllers
                 return RedirectToAction("Login", "User", new { returnUrl = !string.IsNullOrEmpty(HttpContext.Request.Path) ? HttpContext.Request.Path.ToString() : "" });
             }
         }
-
+        [Route("thanh-toan-thanh-cong")]
         public IActionResult OrderSuccess()
         {
             try
@@ -107,41 +104,25 @@ namespace ShopApp.Controllers
             return View("OrderSuccess");
         }
 
+        [HttpPost]
         public async Task<IActionResult> Checkout(Order order)
         {
-            var userIdClaim = User.FindFirst("userId");
-            if (userIdClaim != null)
+            var customerID = HttpContext.Session.GetInt32("customerID");
+            if (customerID != null)
             {
-                var userId = userIdClaim != null ? Convert.ToInt32(userIdClaim.Value) : 0;
                 var listCartByUser = await _context.Carts.Include(p => p.Product)
                     .Include(c => c.Product.ProductCategory).Include(a => a.User)
-                    .Where(x => x.User.UserId == userId).ToListAsync();
+                    .Where(x => x.User.UserId == customerID).ToListAsync();
                 if (listCartByUser.Count() == 0)
                 {
                     _toastNotification.Warning("Bạn cần thêm sản phẩm vào giỏ hàng trước khi thanh toán !", 3);
                     return RedirectToAction("Index", "Product");
                 }
-                // QR CODE
-                if (order.OrderPaymentMethods.Equals(TypeMethodPay.THANH_TOAN_KHI_NHAN_HANG))
-                {
-                   /*  QRCodeGenerator qrGenerator = new QRCodeGenerator();
-                     QRCodeData qrCodeData = qrGenerator.CreateQrCode(order.OrderId.ToString(), QRCodeGenerator.ECCLevel.Q);
-                     QRCoder.QRCode qrCode = new QRCoder.QRCode(qrCodeData);
-                     Bitmap qrCodeImage = qrCode.GetGraphic(20);
-                     ViewBag.QrCode = BitmapToBytes(qrCodeImage);*/
-
-                    // Generate Barcode
-                    /*Barcode barcode = new Barcode();
-                    Image img = barcode.Encode(TYPE.CODE128, order.OrderId, Color.Black, Color.White, 650, 80);
-                    ViewBag.Barcode = ConvertImageToByte(img);
-                    return RedirectToAction("Index");*/
-                }
-
 
                 if (ModelState.IsValid)
                 {
                     // add data to db order
-                    order.UserId = userId;
+                    order.UserId = customerID;
                     order.OrderDate = DateTime.Now;
                     order.OrderStatus = OrderStatus.CHOXACNHAN;
                     _context.Orders.AddAsync(order);
@@ -209,13 +190,12 @@ namespace ShopApp.Controllers
                 body = reader.ReadToEnd();
             }
 
-            var userIdClaim = User.FindFirst("userId");
-            if (userIdClaim != null)
+            var customerID = HttpContext.Session.GetInt32("customerID");
+            if (customerID != null)
             {
-                var userId = userIdClaim != null ? Convert.ToInt32(userIdClaim.Value) : 0;
                 var listCartByUser = _context.Carts.Include(p => p.Product)
                     .Include(c => c.Product.ProductCategory).Include(a => a.User)
-                    .Where(x => x.User.UserId == userId).ToList();
+                    .Where(x => x.User.UserId == customerID).ToList();
                 foreach (var item in listCartByUser)
                 {
                     unit += "<tr>";

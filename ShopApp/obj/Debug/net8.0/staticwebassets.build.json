@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mnXAX2O7kXhcLx63OW5X2n0S1gz5kzvhXI/IvsgwWsU=",
+  "Hash": "HZDYfutIZJJj3YYNRaJe2lSQTBeJDrLFhsSTzSYpFZw=",
   "Source": "ShopApp",
   "BasePath": "_content/ShopApp",
   "Mode": "Default",
@@ -5601,6 +5601,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\google.png",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "icon/google.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icon\\google.png"
     },
     {
       "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\testimonial1.jpg",

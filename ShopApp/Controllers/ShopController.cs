@@ -155,15 +155,11 @@ namespace ShopApp.Controllers
                 Console.WriteLine(e.Message);
             }
 
-
             //var user data
-            var userIdClaim = User.FindFirst("userId");
-            var userId = userIdClaim != null ? Convert.ToInt32(userIdClaim.Value) : 0;
-            var userFound = await _context.Accounts.FirstOrDefaultAsync(x => x.UserId == userId);
-            if (userFound != null) { 
-                ViewBag.UserData = userFound;
+            var customerID = HttpContext.Session.GetInt32("customerID");
+            if (customerID != null) { 
+                ViewBag.customerID = customerID;
             }
-
             // product detail data
             var productDetail = _context.Products
                 .Include(x => x.ProductCategory)

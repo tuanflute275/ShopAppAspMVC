@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\Mail\ForgotPasswordMail.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="wwwroot\Uploads\accounts\" />
     <Folder Include="wwwroot\Uploads\blogs\" />
@@ -14,9 +18,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Shared\Mail\ForgotPasswordMail.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AspNetCoreHero.ToastNotification" Version="1.1.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
-    <PackageReference Include="BarcodeLib" Version="3.1.4" />
     <PackageReference Include="ClosedXML" Version="0.102.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />

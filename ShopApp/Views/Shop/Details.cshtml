@@ -2,6 +2,7 @@
     ViewData["Title"] = "Chi tiết sản phẩm";
     Layout = "~/Views/Shared/_Layout.cshtml";
     var detail = ViewBag.ProductDetail;
+    var customerID = ViewBag.customerID;
 }
 
 <main>
@@ -39,7 +40,8 @@
                     }
                 </p>
                 <p>
-                    @Html.Raw(detail.ProductDescription)
+                        @Html.Raw(detail.ProductDescription)
+                    
                 </p>
                 <hr />
                 <form class="form-block mt-3" asp-controller="Cart" asp-action="AddToCart" method="post">
@@ -47,7 +49,7 @@
                         <div class="col-4">
                             <div class="cart-quantity-size d-flex align-items-center my-3">
                                 <div class="cart-quantiy-outer py-2">
-                                    <input type="hidden" name="accId" value="@ViewBag.UserData.UserId" />
+                                    <input type="hidden" name="accId" value="@customerID" />
                                     <input type="hidden" name="prodId" value="@detail.ProductId" />
                                     <button class="btn_minus mr-1"
                                             onclick="handleMinus(event)">

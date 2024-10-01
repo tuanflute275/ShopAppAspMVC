@@ -1245,6 +1245,10 @@
       "PackagePath": "staticwebassets\\icon\\favicon.ico"
     },
     {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\google.png",
+      "PackagePath": "staticwebassets\\icon\\google.png"
+    },
+    {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\testimonial1.jpg",
       "PackagePath": "staticwebassets\\icon\\testimonial1.jpg"
     },

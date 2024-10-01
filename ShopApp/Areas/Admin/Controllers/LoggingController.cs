@@ -33,27 +33,19 @@ namespace ShopApp.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login([Bind("Username, Password")] LoginViewModel account, string? returnUrl)
+        public async Task<IActionResult> Login([Bind("Username, UserPassword")] LoginViewModel account, string? returnUrl)
         {
             if (ModelState.IsValid)
             {
-                var accFound = await _context.Accounts.FirstOrDefaultAsync(x => x.UserName == account.Username && x.UserPassword == account.Password);
-
-                if (accFound == null) {
-                    _toastNotification.Error("Tài khoản hoặc mật khẩu không chính xác !", 3);
-                    return View("Index", account);
-                }
-                else 
-                {
-                    if(accFound?.UserActive == 0)
+                var accFound = await _context.Accounts.FirstOrDefaultAsync(x => x.UserName == account.Username);
+                if (accFound != null) {
+                    if (accFound?.UserActive == 1)
                     {
-                        _toastNotification.Error("Đăng nhập thất bại, tài khoản của bạn đã bị khóa !", 3);
-                        return View("Index", account);
-                    }
-                    if (accFound?.UserRole == 1)
-                    {
-                        var identity = new ClaimsIdentity(new[]
-                        {
+                        if (accFound.UserPassword == account.UserPassword) {
+                            if (accFound?.UserRole == 1)
+                            {
+                                var identity = new ClaimsIdentity(new[]
+                                {
                             new Claim("userId", accFound.UserId.ToString()),
                             new Claim(ClaimTypes.Name, accFound.UserName),
                             new Claim("userFullName", accFound.UserFullName.ToString()),
@@ -62,19 +54,29 @@ namespace ShopApp.Areas.Admin.Controllers
                             new Claim(ClaimTypes.Role, accFound.UserRole == 1 ? "Admin" : "User"),
                         }, CookieAuthenticationDefaults.AuthenticationScheme);
 
-                        var principal = new ClaimsPrincipal(identity);
-                        var login = HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+                                var principal = new ClaimsPrincipal(identity);
+                                var login = HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
-                        if (!string.IsNullOrEmpty(returnUrl))
-                        {
-                            return Redirect(returnUrl);
+                                if (!string.IsNullOrEmpty(returnUrl))
+                                {
+                                    return Redirect(returnUrl);
+                                }
+                                _toastNotification.Success("Đăng nhập thành công !", 3);
+                                return Redirect("/Admin");
+                            }
                         }
-                        _toastNotification.Success("Đăng nhập thành công !", 3);
-                        return Redirect("/Admin");
                     }
-
+                    else
+                    {
+                        _toastNotification.Error("Đăng nhập thất bại, tài khoản của bạn đã bị khóa !", 3);
+                        return View("Index", account);
+                    }
                     _toastNotification.Error("Đăng nhập thất bại, bạn không có quyền truy cập !", 3);
-
+                    return View("Index", account);
+                }
+                else 
+                {
+                    _toastNotification.Error("Tài khoản Không tồn tại !", 3);
                     return View("Index", account);
                 }
             }
