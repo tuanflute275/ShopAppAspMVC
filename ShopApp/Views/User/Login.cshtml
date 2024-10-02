@@ -211,7 +211,13 @@
 
         }
     </style>
-
+    <style>
+        .error-message {
+            color: red;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -224,7 +230,7 @@
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <input name="returnUrl" value="@ViewBag.returnUrl" type="hidden" />
                     <div class="field input-field">
-                        <input asp-for="Username" type="text" name="userName" placeholder="Tên tài khoản" class="input" />
+                        <input asp-for="Username" type="text" name="Username" placeholder="Tên tài khoản" class="input" />
                         <span asp-validation-for="Username" class="text-danger" style="color:red; margin: 10px;"></span>
                     </div>
                     <div class="field input-field">
@@ -290,6 +296,17 @@
 
             });
         });
+    </script>
+    <script>
+        var notyf = new Notyf();
+        var message = '@TempData["message"]';
+        var error = '@TempData["error"]';
+        if (message) {
+            notyf.success(message);
+        } 
+        if (error) {
+            notyf.error(error);
+        }
     </script>
 </body>
 </html>

@@ -66,12 +66,12 @@ namespace ShopApp.Controllers
                             smtp.Send(mm);
                         }
                     }
-                    _toastNotification.Success("Kiểm tra email");
+                    TempData["message"] = "Đăng ký tài khoản thành công, vui lòng kiểm tra email!";
                     return RedirectToAction("Login", "User");
                 }
                 else
                 {
-                    _toastNotification.Error("Tài khoản không tồn tại!");
+                    TempData["error"] = "Tài khoản không tồn tại!";
                     return View(forgotPasswordModel);
                 }
             }
@@ -113,21 +113,19 @@ namespace ShopApp.Controllers
                         }
                         else
                         {
-                            _toastNotification.Error("Sai mật khẩu!", 3);
-                            TempData["message"] = "Đây là thông báo tạm thời";
+                            TempData["error"] = "Sai mật khẩu!";
                             return View(model);
                         }
                     }
                     else
                     {
-                        _toastNotification.Error("Tài khoản đã bị khóa!", 3);
-                        TempData["message"] = "Tài khoản đã bị khóa!";
+                        TempData["error"] = "Tài khoản đã bị khóa!";
                         return View(model);
                     }
                 }
                 else
                 {
-                    _toastNotification.Error("Tài khoản không tồn tại!", 3);
+                    TempData["error"] = "Tài khoản không tồn tại!";
                     return View(model);
                 }
             }
@@ -145,80 +143,88 @@ namespace ShopApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(Account account)
         {
-            // validate empty data
-            if (account.UserName == null || account.UserFullName == null || account.UserEmail == null || account.UserPassword == null)
+            // Validate data
+            try
             {
-                if (account.UserName == null) { 
+                if (string.IsNullOrWhiteSpace(account.UserName))
+                {
                     ModelState.AddModelError("UserName", "Tên tài khoản không được bỏ trống!");
-                } 
-                if (account.UserFullName == null) { 
-                    ModelState.AddModelError("UserFullName", "Tên đầy không được bỏ trống!");
                 }
-                if (account.UserPassword == null)
-                {
-                    ModelState.AddModelError("UserEmail", "Email không được bỏ trống!");
-                }
-                if (account.UserPassword == null) { 
-                    ModelState.AddModelError("UserPassword", "Mật khẩu không được bỏ trống!");
-                }
-                return View(account);
-            }
-            // validate unique and length
-            if (AccountEmailExists(account.UserEmail) || AccountUserNameExists(account.UserName) || account.UserPassword.Length < 6)
-            {
-                if (AccountEmailExists(account.UserEmail))
-                {
-                    ModelState.AddModelError("UserEmail", "Email đã tồn tại trong hệ thống!");
-                }
-                if (AccountUserNameExists(account.UserName))
+                else if (AccountUserNameExists(account.UserName))
                 {
                     ModelState.AddModelError("UserName", "Tên tài khoản đã tồn tại trong hệ thống!");
                 }
-                if (account.UserPassword.Length < 6)
+
+                if (string.IsNullOrWhiteSpace(account.UserFullName))
+                {
+                    ModelState.AddModelError("UserFullName", "Tên đầy đủ không được bỏ trống!");
+                }
+
+                if (string.IsNullOrWhiteSpace(account.UserEmail))
+                {
+                    ModelState.AddModelError("UserEmail", "Email không được bỏ trống!");
+                }
+                else if (AccountEmailExists(account.UserEmail))
+                {
+                    ModelState.AddModelError("UserEmail", "Email đã tồn tại trong hệ thống!");
+                }
+
+                if (string.IsNullOrWhiteSpace(account.UserPassword))
+                {
+                    ModelState.AddModelError("UserPassword", "Mật khẩu không được bỏ trống!");
+                }
+                else if (account.UserPassword.Length < 6)
                 {
                     ModelState.AddModelError("UserPassword", "Mật khẩu tối thiểu 6 ký tự!");
                 }
 
-                return View(account);
-            }
-           
-            // ok add data
-            if (ModelState.IsValid)
-            {
+                // Nếu ModelState không hợp lệ, trả lại view với dữ liệu lỗi
+                if (!ModelState.IsValid)
+                {
+                    return View(account);
+                }
+
                 account.UserRole = 0;
                 account.UserActive = 1;
                 account.UserPassword = CreateMD5(account.UserPassword);
+
                 _context.Add(account);
                 await _context.SaveChangesAsync();
+
+                // Gửi email xác nhận đăng ký
                 EmailModel model = new EmailModel()
                 {
                     Subject = "Đăng ký tài khoản",
                     To = account.UserEmail
                 };
+
                 using (MailMessage mm = new MailMessage(model.From, model.To))
                 {
                     mm.Subject = model.Subject;
                     mm.Body = BodyRegisterMail(account.UserFullName);
                     mm.IsBodyHtml = true;
+
                     using (SmtpClient smtp = new SmtpClient())
                     {
                         smtp.Host = "smtp.gmail.com";
                         smtp.EnableSsl = true;
                         NetworkCredential NetworkCred = new NetworkCredential(model.From, model.Password);
                         smtp.UseDefaultCredentials = false;
-                        smtp.EnableSsl = true;
                         smtp.Credentials = NetworkCred;
                         smtp.Port = 587;
                         smtp.Send(mm);
-                        _toastNotification.Error("Đăng ký tài khoản thành công!", 3);
                     }
                 }
-                return RedirectToAction("Login", "User");
-                
-            }
-            return View(account);
-        }
 
+                TempData["message"] = "Đăng ký tài khoản thành công!";
+                return RedirectToAction("Login", "User");
+            }
+            catch (Exception e)
+            {
+                _toastNotification.Error("Đã xảy ra lỗi trong quá trình đăng ký: " + e.Message, 5);
+                return View(account);
+            }
+        }
 
         [Route("dang-xuat")]
         public IActionResult Logout()

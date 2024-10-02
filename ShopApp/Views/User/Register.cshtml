@@ -14,8 +14,7 @@
     <!-- CSS -->
     <link rel="icon" type="image/x-icon" href="~/icon/favicon.ico" />
     <!-- Boxicons CSS -->
-    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-          rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
     <style>
 
         * {
@@ -217,7 +216,7 @@
                     @Html.AntiForgeryToken()
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="field input-field">
-                        <input asp-for="UserName" type="text" name="userName" placeholder="Tên tài khoản" class="input" />
+                        <input asp-for="UserName" type="text" name="UserName" placeholder="Tên tài khoản" class="input" />
                         <span asp-validation-for="UserName" class="text-danger" style="color:red; margin: 10px;"></span>
                     </div>
                     <div class="field input-field">
@@ -291,10 +290,3 @@
     </script>
 </body>
 </html>
-@await Component.InvokeAsync("NToastNotify")
-@await Component.InvokeAsync("Notyf")
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

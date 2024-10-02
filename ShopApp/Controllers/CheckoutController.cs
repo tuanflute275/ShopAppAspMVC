@@ -73,7 +73,6 @@ namespace ShopApp.Controllers
             }
             else
             {
-                //return RedirectToAction("Login", "User");
                 return RedirectToAction("Login", "User", new { returnUrl = !string.IsNullOrEmpty(HttpContext.Request.Path) ? HttpContext.Request.Path.ToString() : "" });
             }
         }
