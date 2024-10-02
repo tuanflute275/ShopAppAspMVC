@@ -8,6 +8,7 @@ using ShopApp.Models.ViewModels;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using System.Text;
 
 namespace ShopApp.Areas.Admin.Controllers
 {
@@ -41,7 +42,7 @@ namespace ShopApp.Areas.Admin.Controllers
                 if (accFound != null) {
                     if (accFound?.UserActive == 1)
                     {
-                        if (accFound.UserPassword == account.UserPassword) {
+                        if (accFound.UserPassword == CreateMD5(account.UserPassword)) {
                             if (accFound?.UserRole == 1)
                             {
                                 var identity = new ClaimsIdentity(new[]
@@ -64,15 +65,23 @@ namespace ShopApp.Areas.Admin.Controllers
                                 _toastNotification.Success("Đăng nhập thành công !", 3);
                                 return Redirect("/Admin");
                             }
+                            else
+                            {
+                                _toastNotification.Error("Bạn không có quyền truy cập !", 3);
+                                return View("Index", account);
+                            }
+                        }
+                        else
+                        {
+                            _toastNotification.Error("Mật khẩu không chính xác !", 3);
+                            return View("Index", account);
                         }
                     }
                     else
                     {
-                        _toastNotification.Error("Đăng nhập thất bại, tài khoản của bạn đã bị khóa !", 3);
+                        _toastNotification.Error("Tài khoản của bạn đã bị khóa !", 3);
                         return View("Index", account);
                     }
-                    _toastNotification.Error("Đăng nhập thất bại, bạn không có quyền truy cập !", 3);
-                    return View("Index", account);
                 }
                 else 
                 {
@@ -102,6 +111,21 @@ namespace ShopApp.Areas.Admin.Controllers
         private bool UserExists(int id)
         {
             return (_context.Accounts?.Any(e => e.UserId == id)).GetValueOrDefault();
+        }
+
+        public static string CreateMD5(string input)
+        {
+            using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
+            {
+                byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(input);
+                byte[] hashBytes = md5.ComputeHash(inputBytes);
+                StringBuilder sb = new System.Text.StringBuilder();
+                for (int i = 0; i < hashBytes.Length; i++)
+                {
+                    sb.Append(hashBytes[i].ToString("X2"));
+                }
+                return sb.ToString();
+            }
         }
     }
 }

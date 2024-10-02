@@ -1237,6 +1237,10 @@
       "PackagePath": "staticwebassets\\icon\\cart.jpg"
     },
     {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\changePass.png",
+      "PackagePath": "staticwebassets\\icon\\changePass.png"
+    },
+    {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\coreui.min.css",
       "PackagePath": "staticwebassets\\icon\\coreui.min.css"
     },
@@ -1249,12 +1253,20 @@
       "PackagePath": "staticwebassets\\icon\\google.png"
     },
     {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\order.png",
+      "PackagePath": "staticwebassets\\icon\\order.png"
+    },
+    {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\testimonial1.jpg",
       "PackagePath": "staticwebassets\\icon\\testimonial1.jpg"
     },
     {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\testimonials-icon.jpg",
       "PackagePath": "staticwebassets\\icon\\testimonials-icon.jpg"
+    },
+    {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\user.png",
+      "PackagePath": "staticwebassets\\icon\\user.png"
     },
     {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\add-image-icon.jpg",

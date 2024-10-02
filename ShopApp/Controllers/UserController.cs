@@ -7,6 +7,9 @@ using System.Net.Mail;
 using System.Net;
 using System.Text;
 using DocumentFormat.OpenXml.Drawing.Charts;
+using Microsoft.EntityFrameworkCore;
+using X.PagedList;
+using DocumentFormat.OpenXml.Office2010.Excel;
 
 namespace ShopApp.Controllers
 {
@@ -23,6 +26,118 @@ namespace ShopApp.Controllers
             _environment = environment;
         }
 
+        [HttpGet]
+        [Route("thong-tin-ca-nhan")]
+        public IActionResult Detail()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        [Route("thay-doi-mat-khau")]
+        public IActionResult ChangePass()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [Route("thay-doi-mat-khau")]
+        public async Task<IActionResult> ChangePass(ChangePassModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+            var customerID = HttpContext.Session.GetInt32("customerID");
+            if (customerID != null)
+            {
+                var user = _context.Accounts.Find(customerID);
+                if(user != null)
+                {
+                    if (ModelState.IsValid)
+                    {
+                        if(user.UserPassword == CreateMD5(model.OldPassword))
+                        {
+                            if(user.UserPassword == CreateMD5(model.NewPassword))
+                            {
+                                _toastNotification.Error("Mật khẩu mới không được trùng với mật khẩu hiện tại!");
+                            }
+                            else
+                            {
+                                if (model.NewPassword == model.CFPassword)
+                                {
+                                    user.UserPassword = CreateMD5(model.NewPassword);
+                                    _context.Entry(user).State = EntityState.Modified;
+                                    await _context.SaveChangesAsync();
+                                    _toastNotification.Success("Thay đổi mật khẩu thành công!");
+                                    return RedirectToAction(nameof(ChangePass));
+                                }
+                                else
+                                {
+                                    ModelState.AddModelError("CFPassword", "Mật khẩu nhập lại không trùng khớp!");
+                                }
+                            }
+                        }
+                        else
+                        {
+                            _toastNotification.Error("Mật khẩu hiện tại không chính xác!");
+                        }
+                    }
+                }
+                else
+                {
+                    return NotFound();
+                }
+            }
+            else
+            {
+                return NotFound();
+            }
+           
+            return View(model);
+        }
+
+        [HttpGet]
+        [Route("theo-doi-don-hang")]
+        public async Task<IActionResult> MyOrder(int page = 1)
+        {
+            int limit = 10;
+            var customerID = HttpContext.Session.GetInt32("customerID");
+            if(customerID != null)
+            {
+                var orders = await _context.Orders.Include(o => o.User)
+                .Include(x => x.OrderDetails)
+                .Where(x => x.User.UserId == customerID)
+                .ToListAsync();
+                var pagedData = orders.ToPagedList(page, limit);
+                return View(pagedData);
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
+
+        [HttpGet]
+        [Route("theo-doi-chi-tiet-don-hang")]
+        public async Task<IActionResult> DetailOrder(int orderId, int page = 1)
+        {
+            int limit = 10;
+            var customerID = HttpContext.Session.GetInt32("customerID");
+            if (customerID != null)
+            {
+                var orderFound = _context.Orders.Find(orderId);
+                ViewBag.Order = orderFound;
+                var orderDetails = await _context.OrderDetails.Include(od => od.Product)
+                .Where(x => x.OrderId == orderId).ToListAsync();
+                var pagedData = orderDetails.ToPagedList(page, limit);
+                return View(pagedData);
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
 
         [HttpGet]
         [Route("quen-mat-khau")]
@@ -78,7 +193,7 @@ namespace ShopApp.Controllers
             return View(forgotPasswordModel);
         }
 
-            [HttpGet]
+        [HttpGet]
         [Route("dang-nhap")]
         public IActionResult Login(string? returnUrl)
         {
@@ -101,6 +216,9 @@ namespace ShopApp.Controllers
                 if (checkAccount != null)
                 {
                     HttpContext.Session.SetInt32("customerID", checkAccount.UserId);
+                    HttpContext.Session.SetString("customerName", checkAccount.UserName);
+                    HttpContext.Session.SetString("customerAvatar", checkAccount.UserAvatar != null ? checkAccount.UserAvatar : "null");
+                    HttpContext.Session.SetString("customerEmail", checkAccount.UserEmail != null ? checkAccount.UserEmail : "null");
                     if (checkAccount.UserActive == 1)
                     {
                         if (checkAccount.UserPassword == CreateMD5(model.UserPassword))
@@ -231,6 +349,9 @@ namespace ShopApp.Controllers
         {
             _toastNotification.Success("Đăng xuất thành công !", 3);
             HttpContext.Session.Remove("customerID");
+            HttpContext.Session.Remove("customerName");
+            HttpContext.Session.Remove("customerAvatar");
+            HttpContext.Session.Remove("customerEmail");
             return RedirectToAction("Index", "Home");
         }
 

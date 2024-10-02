@@ -165,7 +165,6 @@ namespace ShopApp.Controllers
 
                     _context.Carts.RemoveRange(listCartByUser);
                     await _context.SaveChangesAsync();
-                    _toastNotification.Success("Đặt hàng thành công!! Vui lòng kiểm tra email của bạn", 3);
                     return RedirectToAction(nameof(OrderSuccess));
                 }
 

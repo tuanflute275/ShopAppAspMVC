@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HZDYfutIZJJj3YYNRaJe2lSQTBeJDrLFhsSTzSYpFZw=",
+  "Hash": "cMAti+JdghRBzwYHWuOr1c9fSZJ0pPagf4B+IQydrO4=",
   "Source": "ShopApp",
   "BasePath": "_content/ShopApp",
   "Mode": "Default",
@@ -5565,6 +5565,25 @@
       "OriginalItemSpec": "wwwroot\\icon\\cart.jpg"
     },
     {
+      "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\changePass.png",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "icon/changePass.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icon\\changePass.png"
+    },
+    {
       "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\coreui.min.css",
       "SourceId": "ShopApp",
       "SourceType": "Discovered",
@@ -5622,6 +5641,25 @@
       "OriginalItemSpec": "wwwroot\\icon\\google.png"
     },
     {
+      "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\order.png",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "icon/order.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icon\\order.png"
+    },
+    {
       "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\testimonial1.jpg",
       "SourceId": "ShopApp",
       "SourceType": "Discovered",
@@ -5658,6 +5696,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon\\testimonials-icon.jpg"
+    },
+    {
+      "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\icon\\user.png",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "icon/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icon\\user.png"
     },
     {
       "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\images\\add-image-icon.jpg",

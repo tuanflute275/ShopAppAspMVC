@@ -1,0 +1,37 @@
+﻿@model ShopApp.Models.ViewModels.ChangePassModel
+@{
+    ViewData["Title"] = "Thay đổi mật khẩu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <div class="iq-card container" style="margin-top: 127px !important;">
+        <div class="iq-card-header d-flex justify-content-center">
+                <h3 class="card-title text-uppercase">Đổi mật khẩu</h3>
+        </div>
+        <div class="iq-card-body">
+            <form method="post" asp-controller="User" asp-action="ChangePass">
+                @Html.AntiForgeryToken()
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label for="cpass">Mật khẩu hiện tại:</label>
+                    <a asp-area="" asp-controller="User" asp-action="ForgotPassword" class="float-right">Quên mật khẩu</a>
+                    <input type="Password" asp-for="OldPassword" class="form-control" name="oldPassword" id="oldPass">
+                    <span asp-validation-for="OldPassword" class="text-danger" style="color:red;"></span>
+                </div>
+                <div class="form-group">
+                    <label for="npass">Mật khẩu mới:</label>
+                    <input type="Password" asp-for="NewPassword" class="form-control" name="newPassword" id="newPass">
+                    <span asp-validation-for="NewPassword" class="text-danger" style="color:red;"></span>
+                </div>
+                <div class="form-group">
+                    <label for="vpass">Xác nhận lại mật khẩu:</label>
+                    <input type="Password" asp-for="CFPassword" class="form-control" name="cfPassword" id="cfPass">
+                    <span asp-validation-for="CFPassword" class="text-danger" style="color:red;"></span>
+                </div>
+                <button type="submit" class="btn mr-2 text-white" style="background: #79a206 !important;">Gửi</button>
+                <a asp-controller="Home" asp-action="Index" class="btn bg-danger text-white">Trở về</a>
+            </form>
+        </div>
+    </div>
+</main>

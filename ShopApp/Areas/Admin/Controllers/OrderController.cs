@@ -8,6 +8,7 @@ using System.Data;
 using X.PagedList;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
+using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace ShopApp.Areas.Admin.Controllers
 {
@@ -109,6 +110,7 @@ namespace ShopApp.Areas.Admin.Controllers
             {
                 order.OrderStatus = OrderStatus;
                 _context.Update(order);
+                _context.Entry(order).State = EntityState.Modified;
                 _toastNotification.Success("Cập nhật trạng thái đơn hàng thành công !", 3);
                 await _context.SaveChangesAsync();
             }

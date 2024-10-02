@@ -1,0 +1,109 @@
+﻿@model X.PagedList.IPagedList<ShopApp.Data.Order>
+@using X.PagedList.Mvc.Core;
+@using ShopApp.Enums
+@{
+    ViewData["Title"] = "Theo dõi đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var i = 1;
+}
+@section Styles {
+    <style>
+        .pagination .page-item .page-link {
+            color: #79a206;
+            border-color: #79a206;
+        }
+
+        .pagination .page-item.active .page-link {
+            background-color: #79a206;
+            border-color: #79a206;
+            color: #fff;
+        }
+
+        .pagination .page-item .page-link:hover {
+            background-color: #79a206;
+            border-color: #79a206;
+            color: #fff;
+        }
+    </style>
+}
+<main>
+    <div class="container-fluid">
+        <h2 class="text-center my-3">Danh sách đơn hàng</h2>
+        <table class="data-tables table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">STT</th>
+                    <th scope="col">Số sản phẩm</th>
+                    <th scope="col">Hình thức thanh toán</th>
+                    <th scope="col">Trạng thái</th>
+                    <th scope="col">Tổng tiền</th>
+                    <th scope="col">Ngày đặt</th>
+                    <th scope="col">Hoạt động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td scope="row">@i</td>
+                        <td>@item.OrderDetails?.Count sản phẩm</td>
+                        <td>@item.OrderPaymentMethods</td>
+                        <td class="text-center">@String.Format("{0:#,0} VND", item.OrderAmount)</td>
+                        <td>@item.OrderDate</td>
+                        <td>
+                            @if (item.OrderStatus == 1)
+                            {
+                                <span class="badge badge-success">@OrderStatus.CHOXACNHANTXT</span>
+                            }
+                            else if (item.OrderStatus == 2)
+                            {
+                                <span class="badge badge-danger">@OrderStatus.XACNHANDONHANGTXT</span>
+
+                            }
+                            else if (item.OrderStatus == 3)
+                            {
+                                <span class="badge badge-danger">@OrderStatus.CHUANBIDONHANGTXT</span>
+
+                            }
+                            else if (item.OrderStatus == 4)
+                            {
+                                <span class="badge badge-danger">@OrderStatus.DANGGIAOHANGTXT</span>
+
+                            }
+                            else if (item.OrderStatus == 5)
+                            {
+                                <span class="badge badge-danger">@OrderStatus.DAGIAOHANGTXT</span>
+
+                            }
+                            else if (item.OrderStatus == 6)
+                            {
+                                <span class="badge badge-danger">@OrderStatus.HUYDONHANGTXT</span>
+
+                            }
+                            else
+                            {
+                                <span class="badge badge-danger">Không xác định</span>
+
+                            }
+                        </td>
+                        <td>
+                            <a class="btn text-white" style="background: #79a206 !important;" asp-action="DetailOrder" asp-route-orderId="@item.OrderId">Xem chi tiết</a>
+                        </td>
+                    </tr>
+                    i++;
+                }
+            </tbody>
+        </table>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                @Html.PagedListPager(Model, page => Url.Action("MyOrder", new { page = page }),
+                         new PagedListRenderOptions
+                {
+                    LiElementClasses = new[] { "page-item" },
+                    PageClasses = new[] { "page-link" },
+                    UlElementClasses = new[] { "pagination" }
+                })
+            </ul>
+        </nav>
+    </div>
+</main>

@@ -1,4 +1,4 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
+﻿/*avatar dropdown js*/
+document.getElementById("avatar_dropdown").addEventListener("click", function () {
+    document.getElementById("form_dropdown").classList.toggle("active");
+});

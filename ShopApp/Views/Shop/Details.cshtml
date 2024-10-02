@@ -4,6 +4,8 @@
     var detail = ViewBag.ProductDetail;
     var customerID = ViewBag.customerID;
 }
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
 
 <main>
     <div class="container p-2">
@@ -70,9 +72,16 @@
                             </div>
                         </div>
                         <div class="col-6">
-                            <button class="btn btn-success btn-block btn1">
-                                Thêm vào giỏ hàng
-                            </button>
+                            @if (HttpContextAccessor.HttpContext.Session.GetString("customerName") != null)
+                            {
+                                <button class="btn btn-success btn-block btn1">
+                                    Thêm vào giỏ hàng
+                                </button>
+                            }else{
+                                <a class="btn btn-warning text-white btn-block btn1" asp-area="" asp-controller="User" asp-action="Login">
+                                    Vui lòng đăng nhập
+                                </a>
+                            }
                         </div>
                     </div>
                  </form>

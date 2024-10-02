@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,10 +11,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="icon" type="image/x-icon" href="~/icon/favicon.ico" />
-
+    <link href="~/css/custom.css" rel="stylesheet" />
     <!-- font icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-   
+
+    @* Site css  *@
+    <link href="~/css/site.css" rel="stylesheet" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
@@ -30,8 +35,8 @@
                 <img src="~/images/logo.jpg" alt="" />
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation">
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
@@ -53,38 +58,88 @@
                     </li>
                 </ul>
 
-                @if (Context.User.Identity.Name != null)
+                @if (HttpContextAccessor.HttpContext.Session.GetString("customerName") != null)
                 {
                     <p>
-                        Xin chào, <b class="text-capitalize">@Context.User.Identity.Name</b>
+                        Xin chào, <b>@HttpContextAccessor.HttpContext.Session.GetString("customerName")</b>
+                    </p>
+                }
+                else
+                {
+                    <p>
+                        Xin chào, <b>Quý khách</b>
                     </p>
                 }
 
 
                 <div class="header_account">
                     <ul class="d-flex align-items-center">
-                        @if (Context.User.Identity.Name != null)
-                        {
-                            <li class="header_shopping_cart">
-                                <a asp-area="" asp-controller="Cart" asp-action="Index">
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                </a>
-                            </li>
-                        }
+                        <li class="header_shopping_cart ml-5">
+                            <a asp-area="" asp-controller="Cart" asp-action="Index">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
 
                         <li>
-                            <div class="dropdown">
-                                <a class="btn dropdown-toggle btn-avatar" href="#" role="button" data-toggle="dropdown"
-                                    aria-expanded="false">
-                                    <img class="avatar" style="position: relative; border-radius: 50%; width: 50px; height: 50px;" src="@(Context.User.FindFirst("avatar")?.Value != null
-                                    ? Url.Content("~/Uploads/accounts/" + Context.User.FindFirst("avatar")?.Value)
+                            <div class="user-menu-wrap" style="margin-right: 25px;">
+                                <a class="mini-photo-wrapper" id="avatar_dropdown">
+                                    <img class="avatar" style="position: relative; border-radius: 50%; width: 50px; height: 50px;"
+                                         src="@(HttpContextAccessor.HttpContext.Session.GetString("customerAvatar") != null
+                                    ? Url.Content("~/Uploads/accounts/" + HttpContextAccessor.HttpContext.Session.GetString("customerAvatar"))
                                     : Url.Content("~/images/defaultUser.png"))"
-                                         alt="@Context.User.FindFirst("avatar")?.Value"  />
+                                         alt="avatar" />
                                 </a>
-                                <div class="dropdown-menu show-avatar text-dark">
-                                    <a class="dropdown-item btn-logout" asp-area="" asp-controller="User" asp-action="Logout">Đăng xuất</a>
+
+                                <div class="menu-container" id="form_dropdown">
+                                    <ul class="user-menu">
+                                        <div class="profile-highlight">
+                                            <img class="avatar" style="position: relative; border-radius: 50%; width: 50px; height: 50px;"
+                                                 src="@(HttpContextAccessor.HttpContext.Session.GetString("customerAvatar") != null
+                                                    ? Url.Content("~/Uploads/accounts/" + HttpContextAccessor.HttpContext.Session.GetString("customerAvatar"))
+                                                    : Url.Content("~/images/defaultUser.png"))"
+                                                 alt="avatar" />
+                                            <div class="details">
+                                                <div id="profile-name">@(HttpContextAccessor.HttpContext.Session.GetString("customerName") != null ? HttpContextAccessor.HttpContext.Session.GetString("customerName") : "Khách")</div>
+                                                <div id="profile-footer">@(HttpContextAccessor.HttpContext.Session.GetString("customerEmail") != null ? HttpContextAccessor.HttpContext.Session.GetString("customerEmail") : "Khách")</div>
+                                            </div>
+                                        </div>
+                                            @if (HttpContextAccessor.HttpContext.Session.GetString("customerName") != null)
+                                            {
+                                                <li class="user-menu__item">
+                                                    <a class="user-menu-link" asp-area="" asp-controller="User" asp-action="Detail">
+                                                        <img src="~/icon/user.png" alt="trophy_icon" width="20"
+                                                             height="20" />
+                                                        <div>Thông tin cá nhân</div>
+                                                    </a>
+                                                </li>
+                                                <li class="user-menu__item">
+                                                <a class="user-menu-link" asp-area="" asp-controller="User" asp-action="ChangePass">
+                                                        <img src="~/icon/changePass.png" alt="team_icon" width="20"
+                                                             height="20" />
+                                                        <div>Thay đổi mật khẩu</div>
+                                                    </a>
+                                                </li>
+                                                <li class="user-menu__item">
+                                                <a class="user-menu-link" asp-area="" asp-controller="User" asp-action="MyOrder">
+                                                        <img src="~/icon/order.png" alt="team_icon" width="20"
+                                                             height="20" />
+                                                        <div>Theo dõi đơn hàng</div>
+                                                    </a>
+                                                </li>
+                                            
+                                                <li class="user-menu__item">
+                                                    <a class="user-menu-link" asp-area="" asp-controller="User" asp-action="Logout"
+                                                        style="color: #f44336">Đăng xuất</a>
+                                                </li>
+                                            }else{
+                                                <li class="user-menu__item">
+                                                    <a class="user-menu-link" asp-area="" asp-controller="User" asp-action="Login"
+                                                       style="color: #f44336">Đăng nhập</a>
+                                                </li>
+                                            }
+                                    </ul>
                                 </div>
-                            </div>
+                             </div>
                         </li>
                     </ul>
                 </div>
@@ -105,7 +160,7 @@
                     <p>bản tin hàng tuần của chúng tôi</p>
                 </div>
                 <div class="col-md-6 newsletter_subscribe">
-                    <form >
+                    <form>
                         <i class="fa fa-envelope"></i>
                         <input type="email" formControlName="email" placeholder="Vui lòng nhập email..." />
                         <button type="submit">
@@ -164,23 +219,23 @@
                         <div class="footer_social">
                             <div class="social-buttons d-flex justify-content-end">
                                 <a href="https://www.facebook.com/profile.php?id=100047425502024" target="_blank"
-                                    class="social-button social-button--facebook" aria-label="Facebook">
+                                   class="social-button social-button--facebook" aria-label="Facebook">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                                 <a href="https://www.linkedin.com/in/tu%E1%BA%A5n-flute-166331275/" target="_blank"
-                                    class="social-button social-button--linkedin" aria-label="LinkedIn">
+                                   class="social-button social-button--linkedin" aria-label="LinkedIn">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
                                 <a href="https://www.snapchat.com/tuanflute275" target="_blank"
-                                    class="social-button social-button--snapchat" aria-label="Snapchat">
+                                   class="social-button social-button--snapchat" aria-label="Snapchat">
                                     <i class="fab fa-snapchat-ghost"></i>
                                 </a>
                                 <a href="https://github.com/tuanflute275" target="_blank" class="social-button social-button--github"
-                                    aria-label="GitHub">
+                                   aria-label="GitHub">
                                     <i class="fab fa-github"></i>
                                 </a>
                                 <a href="https://codepen.io/tuanflute275" target="_blank"
-                                    class="social-button social-button--codepen" aria-label="CodePen">
+                                   class="social-button social-button--codepen" aria-label="CodePen">
                                     <i class="fab fa-codepen"></i>
                                 </a>
                             </div>
@@ -197,6 +252,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="~/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="~/js/site.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
     @await Component.InvokeAsync("NToastNotify")
     @await Component.InvokeAsync("Notyf")
