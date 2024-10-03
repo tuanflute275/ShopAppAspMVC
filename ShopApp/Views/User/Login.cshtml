@@ -226,7 +226,7 @@
         <div class="form login">
             <div class="form-content">
                 <header>Đăng nhập</header>
-                <form method="post" asp-controller="User" asp-action="Login">
+                <form method="post" asp-controller="User" asp-action="Login" id="formLogin">
                     @Html.AntiForgeryToken()
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <input name="returnUrl" value="@ViewBag.returnUrl" type="hidden" />
@@ -246,6 +246,9 @@
                     <div class="field button-field">
                         <button type="submit" tabindex="3" class="magic-hover magic-hover__square">Đăng nhập</button>
                     </div>
+                    <div style="display: flex; justify-content: center; margin-top: 10px;">
+                        <div class="g-recaptcha" data-sitekey="6Lcqb1YqAAAAAIeBk0_LXSLgcuZLFXYmW1ipPjPH" id="recaptcha"></div>
+                    </div>
                 </form>
 
                 <div class="form-link">
@@ -256,7 +259,7 @@
                 </div>
             </div>
 
-            <div class="line"></div>
+           @*  <div class="line"></div>
 
             <div class="media-options">
                 <a href="#" class="field facebook magic-hover magic-hover__square">
@@ -270,11 +273,35 @@
                     <img src="~/icon/google.png" alt="" class="google-img" />
                     <span>Đăng nhập với Google</span>
                 </a>
-            </div>
+            </div> *@
         </div>
     </section>
 
     <!-- JavaScript -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        var notyf = new Notyf();
+        var message = '@TempData["message"]';
+        var error = '@TempData["error"]';
+        if (message) {
+            notyf.success(message);
+        }
+        if (error) {
+            notyf.error(error);
+        }
+
+        document.getElementById('formLogin').addEventListener('submit', async function (event) {
+            event.preventDefault();
+            const gRecaptchaResponse = grecaptcha.getResponse();
+            if (!gRecaptchaResponse) {
+                notyf.error("Vui lòng hoàn thành CAPTCHA !");
+                return;
+            }else{
+                console.log(gRecaptchaResponse);
+                document.getElementById('formLogin').submit();
+            }
+        });
+    </script>
     <script>
         const forms = document.querySelector(".forms"),
             pwShowHide = document.querySelectorAll(".eye-icon"),
@@ -298,17 +325,7 @@
             });
         });
     </script>
-    <script>
-        var notyf = new Notyf();
-        var message = '@TempData["message"]';
-        var error = '@TempData["error"]';
-        if (message) {
-            notyf.success(message);
-        } 
-        if (error) {
-            notyf.error(error);
-        }
-    </script>
+  
     <script type="text/javascript">
         options = {
             "cursorOuter": "circle",

@@ -15,6 +15,8 @@
     <link rel="icon" type="image/x-icon" href="~/icon/favicon.ico" />
     <!-- Boxicons CSS -->
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"></script>
     <style>
 
         * {
@@ -212,7 +214,7 @@
         <div class="form signup">
             <div class="form-content">
                 <header>Đăng ký</header>
-                <form method="post" asp-controller="User" asp-action="Register">
+                <form method="post" asp-controller="User" asp-action="Register" id="formRegister">
                     @Html.AntiForgeryToken()
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="field input-field">
@@ -236,6 +238,9 @@
                     <div class="field button-field">
                         <button type="submit">Đăng ký</button>
                     </div>
+                    <div style="display: flex; justify-content: center; margin-top: 10px;">
+                        <div class="g-recaptcha" data-sitekey="6Lcqb1YqAAAAAIeBk0_LXSLgcuZLFXYmW1ipPjPH" id="recaptcha"></div>
+                    </div>
                 </form>
 
                 <div class="form-link">
@@ -246,7 +251,7 @@
                 </div>
             </div>
 
-            <div class="line"></div>
+            @* <div class="line"></div>
 
             <div class="media-options">
                 <a href="#" class="field facebook">
@@ -260,11 +265,26 @@
                     <img src="~/icon/google.png" alt="Google" class="google-img" />
                     <span>Đăng nhập với Google</span>
                 </a>
-            </div>
+            </div> *@
         </div>
     </section>
 
     <!-- JavaScript -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+       var notyf = new Notyf();
+        document.getElementById('formRegister').addEventListener('submit', async function (event) {
+            event.preventDefault();
+            const gRecaptchaResponse = grecaptcha.getResponse();
+            if (!gRecaptchaResponse) {
+                notyf.error("Vui lòng hoàn thành CAPTCHA !");
+                return;
+            }else{
+                console.log(gRecaptchaResponse);
+                document.getElementById('formRegister').submit();
+            }
+        });
+    </script>
     <script>
         const forms = document.querySelector(".forms"),
             pwShowHide = document.querySelectorAll(".eye-icon"),

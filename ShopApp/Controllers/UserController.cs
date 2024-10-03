@@ -5,14 +5,12 @@ using ShopApp.Models.ViewModels;
 using System.Net.Mail;
 using System.Net;
 using System.Text;
-using DocumentFormat.OpenXml.Drawing.Charts;
 using Microsoft.EntityFrameworkCore;
 using X.PagedList;
 using ClosedXML.Excel;
 using System.Data;
 using Order = ShopApp.Data.Order;
 using DataTable = System.Data.DataTable;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 
 namespace ShopApp.Controllers
 {

@@ -28,6 +28,8 @@ builder.Services.AddNotyf(config =>
     config.HasRippleEffect = true;
 });
 
+builder.Services.AddHttpClient();
+
 // Add Razor Options Service
 builder.Services.AddControllersWithViews()
     .AddRazorOptions(opts =>

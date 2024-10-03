@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1FWAlnltb5jrhGJc75QrDJFl0pvoI5bWfF60XmgDG34=",
+  "Hash": "StQkPu6znol4kwe2HsuUXAyN/tOEKSuQq5Dzg7M2IYQ=",
   "Source": "ShopApp",
   "BasePath": "_content/ShopApp",
   "Mode": "Default",
@@ -10619,12 +10619,12 @@
       "OriginalItemSpec": "wwwroot\\plugins\\OwlCarousel2-2.3.4\\test\\unit\\core.js"
     },
     {
-      "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\ao.jpg",
+      "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\logo.jpg",
       "SourceId": "ShopApp",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp",
-      "RelativePath": "Uploads/accounts/ao.jpg",
+      "RelativePath": "Uploads/accounts/logo.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -10635,7 +10635,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\accounts\\ao.jpg"
+      "OriginalItemSpec": "wwwroot\\Uploads\\accounts\\logo.jpg"
     },
     {
       "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\pr7.jpg",
