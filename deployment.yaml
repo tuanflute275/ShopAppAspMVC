@@ -6,24 +6,24 @@ services:
     image: mcr.microsoft.com/mssql/server:2022-latest
     environment:
       - ACCEPT_EULA=Y
-      - MSSQL_SA_PASSWORD=1234$
+      - MSSQL_SA_PASSWORD=Admin@1234
     ports:
       - "1433:1433"
     networks:
-      - shopapp-network
+      - shopapp-asp-network
 
   # oracledb:
   #   image: container-registry.oracle.com/database/standard:latest
-  #   container_name: oracle-standard-container 
+  #   container_name: oracle-standard-container
   #   shm_size: '8gb'
   #   restart: unless-stopped
   #   ports:
-  #     - 1522:1521      
+  #     - 1522:1521
   #   env_file:
   #     - oracle_db_env.dat
 
-    volumes:
-      - ./db:/opt/oracle/oradata
+  #   volumes:
+  #     - ./db:/opt/oracle/oradata
 
   asp-web-container:
     container_name: asp-web-container
@@ -31,27 +31,34 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      - MSSQL_SA_PASSWORD=1234$
+      - MSSQL_SA_PASSWORD=Admin@1234
     ports:
       - "5000:8080"
     depends_on:
       - sqlserver-container
     networks:
-      - shopapp-network
+      - shopapp-asp-network
 
-  networks:
-    shopapp-network:
-      name: shopapp-network
-      driver: bridge
-      external: true
+networks:
+  shopapp-asp-network:
+    name: shopapp-asp-network
+    driver: bridge
+    external: true
 
 # docker-compose -f ./deployment.yaml down
+# docker-compose -f ./deployment.yaml up -d
+
+# kiểm tra xem có container nào sử dụng network không
+# docker network inspect shopapp-asp-network 
+# docker network create shopapp-asp-network
 
 # khởi tạo database
-# docker network create shopapp-network
 # docker-compose -f ./deployment.yaml rm -s -f sqlserver-container
 # docker-compose -f ./deployment.yaml up -d sqlserver-container
 
 # tạo image docker asp web
 # docker-compose -f ./deployment.yaml rm -s -f asp-web-container
 # docker-compose -f ./deployment.yaml up -d asp-web-container
+
+# docker exec -it sqlserver-container /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Admin@1234
+
