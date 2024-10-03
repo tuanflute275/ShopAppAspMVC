@@ -1,0 +1,57 @@
+version: "3.8"
+
+services:
+  sqlserver-container:
+    container_name: sqlserver-container
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=1234$
+    ports:
+      - "1433:1433"
+    networks:
+      - shopapp-network
+
+  # oracledb:
+  #   image: container-registry.oracle.com/database/standard:latest
+  #   container_name: oracle-standard-container 
+  #   shm_size: '8gb'
+  #   restart: unless-stopped
+  #   ports:
+  #     - 1522:1521      
+  #   env_file:
+  #     - oracle_db_env.dat
+
+    volumes:
+      - ./db:/opt/oracle/oradata
+
+  asp-web-container:
+    container_name: asp-web-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - MSSQL_SA_PASSWORD=1234$
+    ports:
+      - "5000:8080"
+    depends_on:
+      - sqlserver-container
+    networks:
+      - shopapp-network
+
+  networks:
+    shopapp-network:
+      name: shopapp-network
+      driver: bridge
+      external: true
+
+# docker-compose -f ./deployment.yaml down
+
+# khởi tạo database
+# docker network create shopapp-network
+# docker-compose -f ./deployment.yaml rm -s -f sqlserver-container
+# docker-compose -f ./deployment.yaml up -d sqlserver-container
+
+# tạo image docker asp web
+# docker-compose -f ./deployment.yaml rm -s -f asp-web-container
+# docker-compose -f ./deployment.yaml up -d asp-web-container
