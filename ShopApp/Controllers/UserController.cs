@@ -1,5 +1,4 @@
 ﻿using AspNetCoreHero.ToastNotification.Abstractions;
-using DocumentFormat.OpenXml.Spreadsheet;
 using Microsoft.AspNetCore.Mvc;
 using ShopApp.Data;
 using ShopApp.Models.ViewModels;
@@ -9,7 +8,11 @@ using System.Text;
 using DocumentFormat.OpenXml.Drawing.Charts;
 using Microsoft.EntityFrameworkCore;
 using X.PagedList;
-using DocumentFormat.OpenXml.Office2010.Excel;
+using ClosedXML.Excel;
+using System.Data;
+using Order = ShopApp.Data.Order;
+using DataTable = System.Data.DataTable;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 
 namespace ShopApp.Controllers
 {
@@ -28,9 +31,89 @@ namespace ShopApp.Controllers
 
         [HttpGet]
         [Route("thong-tin-ca-nhan")]
-        public IActionResult Detail()
+        public IActionResult Detail(int id)
         {
-            return View();
+            var user = _context.Accounts.Find(id);
+            return View(user);
+        }
+
+        [HttpPost]
+        [Route("thong-tin-ca-nhan")]
+        public async Task<IActionResult> Detail(string? oldImage, IFormFile? fileUpload, Account account)
+        {
+            if (account == null)
+            {
+                return BadRequest("Account is null");
+            }
+            if (string.IsNullOrWhiteSpace(account.UserName))
+            {
+                ModelState.AddModelError("UserName", "Tên tài khoản không được bỏ trống!");
+            }
+            else if (AccountUserNameExists(account.UserName, account.UserId))
+            {
+                ModelState.AddModelError("UserName", "Tên tài khoản đã tồn tại trong hệ thống!");
+            }
+
+            if (string.IsNullOrWhiteSpace(account.UserFullName))
+            {
+                ModelState.AddModelError("UserFullName", "Tên đầy đủ không được bỏ trống!");
+            }
+
+            if (string.IsNullOrWhiteSpace(account.UserEmail))
+            {
+                ModelState.AddModelError("UserEmail", "Email không được bỏ trống!");
+            }
+            else if (AccountEmailExists(account.UserEmail, account.UserId))
+            {
+                ModelState.AddModelError("UserEmail", "Email đã tồn tại trong hệ thống!");
+            }
+            // Nếu ModelState không hợp lệ, trả lại view với dữ liệu lỗi
+            if (!ModelState.IsValid)
+            {
+                return View(account);
+            }
+            var user = _context.Accounts.Find(account.UserId);
+            if (fileUpload != null)
+            {
+                var rootPath = _environment.ContentRootPath;
+
+                var path = Path.Combine(rootPath, "wwwroot", "Uploads", "accounts", fileUpload.FileName);
+
+                if (!string.IsNullOrEmpty(oldImage))
+                {
+                    var pathOldFile = Path.Combine(rootPath, "wwwroot", "Uploads", "accounts", oldImage);
+                    System.IO.File.Delete(pathOldFile);
+
+                }
+
+                using (var file = System.IO.File.Create(path))
+                {
+                    fileUpload.CopyTo(file);
+                }
+
+                user.UserAvatar = fileUpload.FileName;
+
+            }
+            else
+            {
+                user.UserAvatar = oldImage;
+            }
+            user.UserName = account.UserName;
+            user.UserFullName = account.UserFullName;
+            user.UserEmail = account.UserEmail;
+            user.UserPhone = account.UserPhone;
+            user.UserGender = account.UserGender;
+            user.UserAddress = account.UserAddress;
+            _context.Update(user);
+            _toastNotification.Success("Cập nhật thông tin tài khoản thành công!");
+            _context.Entry(user).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            // update session
+            HttpContext.Session.SetInt32("customerID", user.UserId);
+            HttpContext.Session.SetString("customerName", user.UserName);
+            HttpContext.Session.SetString("customerAvatar", user.UserAvatar != null ? user.UserAvatar : "null");
+            HttpContext.Session.SetString("customerEmail", user.UserEmail != null ? user.UserEmail : "null");
+            return RedirectToAction("Detail", new { id = account.UserId });
         }
 
         [HttpGet]
@@ -355,6 +438,82 @@ namespace ShopApp.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        [HttpGet]
+        [Route("ExportOrder")]
+        public async Task<FileResult> ExportOrder(int id)
+        {
+            if (id != null)
+            {
+                var orderFound = await _context.Orders.Include(o => o.User)
+                               .Include(o => o.OrderDetails)
+                               .FirstOrDefaultAsync(x => x.OrderId == id);
+                var orderDetails = await _context.OrderDetails.Include(od => od.Product)
+                    .Where(x => x.OrderId == orderFound.OrderId).ToListAsync();
+                var fileName = "Chi tiết đơn hàng.xlsx";
+                return GenerateExcel(fileName, orderFound, orderDetails);
+            }
+            return null;
+        }
+
+        private FileResult GenerateExcel(string fileName, Order order, IEnumerable<OrderDetail> orderDetails)
+        {
+            // Tạo DataTable cho thông tin đơn hàng
+            DataTable orderInfoTable = new DataTable("Thông tin đơn hàng");
+            orderInfoTable.Columns.AddRange(new DataColumn[]
+            {
+        new DataColumn("Chi tiết đơn hàng"),
+        new DataColumn("Giá trị")
+            });
+
+            // Thêm thông tin đơn hàng vào DataTable
+            orderInfoTable.Rows.Add("Chi tiết đơn hàng #" + order.OrderId, "");
+            orderInfoTable.Rows.Add("Khách hàng:", order.OrderFullName);
+            orderInfoTable.Rows.Add("Địa chỉ:", order.OrderAddress);
+            orderInfoTable.Rows.Add("Số điện thoại:", order.OrderPhone);
+            orderInfoTable.Rows.Add("Tổng giá trị đơn hàng:", Convert.ToDouble(order.OrderAmount).ToString("N0") + " VND");
+
+            // Tạo DataTable cho danh sách mặt hàng
+            DataTable itemsTable = new DataTable("Chi tiết đơn hàng");
+            itemsTable.Columns.AddRange(new DataColumn[]
+            {
+        new DataColumn("Tên sản phẩm"),
+        new DataColumn("Giá sản phẩm"),
+        new DataColumn("Số lượng"),
+        new DataColumn("Tổng tiền")
+            });
+
+            // Thêm các mặt hàng vào DataTable
+            foreach (var item in orderDetails)
+            {
+                itemsTable.Rows.Add(item.Product.ProductName, Convert.ToDouble(item.Price).ToString("N0") + " VND", item.Quantity, Convert.ToDouble((item.Price * item.Quantity)).ToString("N0") + " VND");
+            }
+
+            using (XLWorkbook wb = new XLWorkbook())
+            {
+                // Thêm worksheet cho thông tin đơn hàng
+                var orderInfoWorksheet = wb.Worksheets.Add(orderInfoTable);
+                orderInfoWorksheet.Column(1).Width = 30; // Đặt chiều rộng cho cột thông tin
+                orderInfoWorksheet.Column(2).Width = 20; // Đặt chiều rộng cho cột giá trị
+                orderInfoWorksheet.Rows(1, orderInfoTable.Rows.Count).Style.Font.Bold = true; // Để chữ đậm cho tiêu đề
+
+                // Thêm worksheet cho danh sách mặt hàng
+                var itemsWorksheet = wb.Worksheets.Add(itemsTable);
+                itemsWorksheet.Column(1).Width = 30; // Đặt chiều rộng cho cột tên sản phẩm
+                itemsWorksheet.Column(2).Width = 20; // Đặt chiều rộng cho cột giá sản phẩm
+                itemsWorksheet.Column(3).Width = 10; // Đặt chiều rộng cho cột số lượng
+                itemsWorksheet.Column(4).Width = 20; // Đặt chiều rộng cho cột tổng tiền
+                itemsWorksheet.Rows(1, itemsTable.Rows.Count).Style.Font.Bold = true; // Để chữ đậm cho tiêu đề
+
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    wb.SaveAs(stream);
+                    return File(stream.ToArray(),
+                        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        fileName);
+                }
+            }
+        }
+
         public string BodyRegisterMail(string fullName)
         {
             string body = string.Empty;
@@ -414,6 +573,16 @@ namespace ShopApp.Controllers
         private bool AccountUserNameExists(string username)
         {
             return _context.Accounts.Any(e => e.UserName == username);
+        }
+
+        private bool AccountUserNameExists(string userName, int currentAccountId)
+        {
+            return _context.Accounts.Any(a => a.UserName == userName && a.UserId != currentAccountId);
+        }
+
+        private bool AccountEmailExists(string email, int currentAccountId)
+        {
+            return _context.Accounts.Any(a => a.UserEmail == email && a.UserId != currentAccountId);
         }
     }
 }

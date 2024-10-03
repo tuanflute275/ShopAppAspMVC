@@ -106,7 +106,7 @@
                                             @if (HttpContextAccessor.HttpContext.Session.GetString("customerName") != null)
                                             {
                                                 <li class="user-menu__item">
-                                                    <a class="user-menu-link" asp-area="" asp-controller="User" asp-action="Detail">
+                                                <a class="user-menu-link" asp-area="" asp-controller="User" asp-action="Detail" asp-route-id="@HttpContextAccessor.HttpContext.Session.GetInt32("customerID")">
                                                         <img src="~/icon/user.png" alt="trophy_icon" width="20"
                                                              height="20" />
                                                         <div>Thông tin cá nhân</div>

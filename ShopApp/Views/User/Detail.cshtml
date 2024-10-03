@@ -2,7 +2,182 @@
     ViewData["Title"] = "Thông tin cá nhân";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@model ShopApp.Data.Account
+@section Styles {
+    <style>
+
+        .img-account-profile {
+            height: 10rem;
+        }
+
+        .rounded-circle {
+            border-radius: 50% !important;
+        }
+
+        .card {
+            box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+        }
+
+            .card .card-header {
+                font-weight: 500;
+            }
+
+        .card-header:first-child {
+            border-radius: 0.35rem 0.35rem 0 0;
+        }
+
+        .card-header {
+            padding: 1rem 1.35rem;
+            margin-bottom: 0;
+            background-color: rgba(33, 40, 50, 0.03);
+            border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+        }
+
+        .form-control,
+        .dataTable-input {
+            display: block;
+            width: 100%;
+            padding: 0.875rem 1.125rem;
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 1;
+            color: #69707a;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #c5ccd6;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0.35rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .nav-borders .nav-link.active {
+            color: #0061f2;
+            border-bottom-color: #0061f2;
+        }
+
+        .nav-borders .nav-link {
+            color: #69707a;
+            border-bottom-width: 0.125rem;
+            border-bottom-style: solid;
+            border-bottom-color: transparent;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    </style>
+}
 
 <main>
+    <div class="container-xl px-4 mt-4">
+        <form asp-action="Detail" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" name="oldImage" value="@Model.UserAvatar" />
+            <input type="hidden" asp-for="UserId" />
+            <div class="row">
+                <div class="col-xl-4">
+                    <!-- Profile picture card-->
+                    <div class="card mb-4 mb-xl-0">
+                        <div class="card-header">Ảnh đại diện</div>
+                        <div class="card-body text-center">
+                            <img style="height: 200px;width: 200px; cursor: pointer;"
+                                 class="thumbnail rounded-circle" data-toggle="tooltip"
+                                 title="Nhấn để thay đổi hình ảnh" data-placement="bottom"
+                            <img src="@(string.IsNullOrEmpty(Model.UserAvatar)
+                                    ? Url.Content("~/images/add-image-icon.jpg")
+                                    : Url.Content("~/Uploads/accounts/" + Model.UserAvatar))" alt="Avatar">
+                            <input name="fileUpload" type="file" onchange="changeImg(this)" multiple
+                                   style="display: none;"
+                                   class="image form-control-file mt-3">
+                            <div class="small font-italic text-muted mb-4">Hình ảnh không lớn hơn 5 MB</div>
+                            <button class="btn thumbnail text-white" style="background: #79a206 !important;" type="button">Tải lên hình ảnh mới</button>
+                            <input name="fileUpload" type="file" onchange="changeImg(this)" multiple style="display: none;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <!-- Account details card-->
+                    <div class="card mb-4">
+                        <div class="card-header">Thông tin tài khoản</div>
+                        <div class="card-body">
+                            <!-- Form Group (username)-->
+                            <div class="row gx-3 mb-3">
+                                <div class="col-md-6">
+                                    <label asp-for="UserName" class="mb-1" for="userName">Tên tài khoản</label>
+                                    <input class="form-control" asp-for="UserName" id="userName" type="text" placeholder="Nhập tên tài khoản tại đây">
+                                    <span asp-validation-for="UserName" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label asp-for="UserFullName" class="mb-1" for="fullName">Tên đầy đủ</label>
+                                    <input asp-for="UserFullName" class="form-control" placeholder="Nhập tên đầy đủ tại đây..." />
+                                    <span asp-validation-for="UserFullName" class="text-danger"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="row gx-3 mb-3">
+                                <div class="col-md-6">
+                                    <label asp-for="UserEmail" class="control-label">Email</label>
+                                    <input asp-for="UserEmail" class="form-control" placeholder="Nhập email tại đây..." />
+                                    <span asp-validation-for="UserEmail" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label asp-for="UserPhone" class="control-label">Số điện thoại</label>
+                                    <input asp-for="UserPhone" class="form-control" placeholder="Nhập số điện thoại tại đây..." />
+                                    <span asp-validation-for="UserPhone" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="UserGender" class="control-label">Giới tính</label>
+                                <select asp-for="UserGender" class="form-control py-0">
+                                    <option value="1">Nam</option>
+                                    <option value="0">Nữ</option>
+                                </select>
+                                <span asp-validation-for="UserGender" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="UserAddress" class="control-label">Địa chỉ</label>
+                                <textarea asp-for="UserAddress" class="form-control" placeholder="Nhập địa chỉ tại đây..." rows="4"></textarea>
+                                <span asp-validation-for="UserAddress" class="text-danger"></span>
+                            </div>
+                            
+                            <!-- Save changes button-->
+                            <button class="btn text-white" style="background: #79a206 !important;" type="submit">Lưu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+        <script>
+            function changeImg(input) {
+                //Nếu như tồn thuộc tính file, đồng nghĩa người dùng đã chọn file mới
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+                    //Sự kiện file đã được load vào website
+                    reader.onload = function (e) {
+                        //Thay đổi đường dẫn ảnh
+                        $(input).siblings('.thumbnail').attr('src', e.target.result);
+                    }
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
+            //Khi click #thumbnail thì cũng gọi sự kiện click #image
+            $(document).ready(function () {
+                $('.thumbnail').click(function () {
+                    $(this).siblings('.image').click();
+                });
+            });
+        </script>
+    }
 
 </main>

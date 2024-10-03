@@ -8,7 +8,6 @@ using System.Data;
 using X.PagedList;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
-using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace ShopApp.Areas.Admin.Controllers
 {
@@ -160,7 +159,7 @@ namespace ShopApp.Areas.Admin.Controllers
         private FileResult GenerateExcel(string fileName, Order order, IEnumerable<OrderDetail> orderDetails)
         {
             // Tạo DataTable cho thông tin đơn hàng
-            DataTable orderInfoTable = new DataTable("OrderInfo");
+            DataTable orderInfoTable = new DataTable("Thông tin đơn hàng");
             orderInfoTable.Columns.AddRange(new DataColumn[]
             {
         new DataColumn("Chi tiết đơn hàng"),
@@ -175,7 +174,7 @@ namespace ShopApp.Areas.Admin.Controllers
             orderInfoTable.Rows.Add("Tổng giá trị đơn hàng:", Convert.ToDouble(order.OrderAmount).ToString("N0") + " VND");
 
             // Tạo DataTable cho danh sách mặt hàng
-            DataTable itemsTable = new DataTable("OrderDetails");
+            DataTable itemsTable = new DataTable("Chi tiết đơn hàng");
             itemsTable.Columns.AddRange(new DataColumn[]
             {
         new DataColumn("Tên sản phẩm"),
