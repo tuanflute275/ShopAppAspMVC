@@ -1121,6 +1121,10 @@
       "PackagePath": "staticwebassets\\Admin\\js\\wow.min.js"
     },
     {
+      "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\avatar.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\avatar.jpg"
+    },
+    {
       "Id": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\logo.jpg",
       "PackagePath": "staticwebassets\\Uploads\\accounts\\logo.jpg"
     },

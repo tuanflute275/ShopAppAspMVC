@@ -10,7 +10,7 @@ using ShopApp.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+//
 // Add AutoMapper Service
 builder.Services.AddAutoMapper(typeof(Program));
 

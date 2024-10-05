@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "StQkPu6znol4kwe2HsuUXAyN/tOEKSuQq5Dzg7M2IYQ=",
+  "Hash": "V4zwesogtFMQsoTbJYDCRGpZ17nCvVCREYg/mKm1HiE=",
   "Source": "ShopApp",
   "BasePath": "_content/ShopApp",
   "Mode": "Default",
@@ -10617,6 +10617,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\plugins\\OwlCarousel2-2.3.4\\test\\unit\\core.js"
+    },
+    {
+      "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\avatar.jpg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "Uploads/accounts/avatar.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\accounts\\avatar.jpg"
     },
     {
       "Identity": "D:\\Code\\Csharp\\ASP_WEB_MVC\\ASP_WEB_ShopApp\\ShopApp\\wwwroot\\Uploads\\accounts\\logo.jpg",

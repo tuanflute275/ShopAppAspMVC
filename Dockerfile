@@ -29,5 +29,5 @@ ENTRYPOINT ["dotnet", "ShopApp.dll"]
 
 
 # docker build -t shopapp-asp:1.0.0 -f ./Dockerfile .
-# docker tag shopapp-asp:1.0.0 tuanflute/asp-web:1.0.0
+# docker tag shopapp-asp:1.0.1 tuanflute/asp-web:1.0.0
 # docker push tuanflute/asp-web:1.0.0
