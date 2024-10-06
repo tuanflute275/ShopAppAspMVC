@@ -75,3 +75,10 @@ networks:
 # kiểm tra network
 # docker network ls
 # docker network inspect 07e49996e124
+
+# copy project local to cloud
+# scp -pr . root@159.89.205.32:/root/ShopApp/
+
+# cloud vps
+# ssh root@159.89.205.32 
+# GA5rgmDKbQkdx
