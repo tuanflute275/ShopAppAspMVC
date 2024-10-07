@@ -113,10 +113,11 @@ GO
 
 
 -- INSERT DATA TO TABLE ACCOUNTS
-INSERT INTO Accounts (userName, userActive, userAddress, userAvatar, userEmail, userFullName, userGender, userPassword, userPhone) VALUES
-('admin', 0, 'Ba Vì - Hà Nội', 'http://res.cloudinary.com/dxo2y5smg/image/upload/v1715758983/avatar/w7h3fidb4hrihitihcd0.jpg', 'admin@gmail.com', 'admin', 1, '123456', '0982467073'),
-('tuanflute', 0, 'Ha Noi', 'http://res.cloudinary.com/dxo2y5smg/image/upload/v1715759179/avatar/dlog2z2uulqsqaeikjhd.jpg', 'tuanflute27052004@gmail.com', 'tuanflute275', 1, '123456', '0982467073'),
-('user', 0, 'Ba Vì - Hà Nội', NULL, 'user@gmail.com', 'user', 0, '123456', '0386564543');
+INSERT INTO Accounts (userName, userActive, userRole, userAddress, userAvatar, userEmail, userFullName, userGender, userPassword, userPhone) VALUES
+('admin', 1,1, 'Ba Vì - Hà Nội', '', 'admin@gmail.com', 'admin', 1, '96E79218965EB72C92A549DD5A330112', '0982467073'),
+('tuanflute',1,0 , 'Ha Noi', '', 'tuanflute27052004@gmail.com', 'tuanflute275', 1, '96E79218965EB72C92A549DD5A330112', '0982467073'),
+('user', 0,0, 'Ba Vì - Hà Nội', NULL, 'user@gmail.com', 'user', 0, '96E79218965EB72C92A549DD5A330112', '0386564543');
+GO
 
 -- INSERT DATA TO TABLE CATEGORIES
 INSERT INTO Categories (categoryName,categorySlug, categoryStatus) VALUES

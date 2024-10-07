@@ -71,11 +71,16 @@
     </script>
     <script>
         function ChangeToSlug() {
-            var slug = document.getElementById("slug").value;
+            var slug = document.getElementById("slug").value.trim();
+            if (slug === "") {
+                alert("Vui lòng nhập một giá trị hợp lệ.");
+                return;
+            }
+            slug = slug.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
             slug = slug.toLowerCase();
-            slug = slug.replace(/ /g, "-"); // Thay thế khoảng trắng bằng dấu gạch nối
-            slug = slug.replace(/[^\w-]+/g, ""); // Xóa các ký tự không phải là chữ cái, số hoặc dấu gạch
-            document.getElementById("Slug").value = slug; // Cập nhật slug vào ô nhập
+            slug = slug.replace(/ /g, "-");
+            slug = slug.replace(/[^\w-]+/g, "");
+            document.getElementById("Slug").value = slug;
         }
     </script>
     <script>

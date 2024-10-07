@@ -91,7 +91,7 @@ namespace ShopApp.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(IFormFile fileUpload, [Bind("BlogId, BlogDescription, BlogImage, BlogName")] Blog blog)
+        public async Task<IActionResult> Create(IFormFile fileUpload, [Bind("BlogId,Slug, BlogDescription, BlogImage, BlogName")] Blog blog)
         {
             if (fileUpload != null)
             {

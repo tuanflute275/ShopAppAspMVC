@@ -23,10 +23,10 @@
                                        class="col-md-3 col-form-label">Image</label>
                                 <div class="col-md-9 col-xl-8">
                                     <img style="height: 200px;width: 200px; cursor: pointer;object-fit:contain;"
-                                         class="thumbnail" data-toggle="tooltip"
+                                         class="thumbnail" data-toggle="tooltip" id="imgUpload"
                                          title="Click to change the image" data-placement="bottom"
                                     <img src="@(Url.Content("~/images/add-image-icon.jpg"))" alt="Avatar">
-                                    <input name="fileUpload" type="file" onchange="changeImg(this)" multiple
+                                    <input name="fileUpload" type="file" id="fileUpload" onchange="changeImg(this)" multiple
                                            style="display: none;"
                                            class="image form-control-file mt-3">
                                     </br>
@@ -40,26 +40,26 @@
                             </div>
                             <div class="form-group">
                                 <label asp-for="Slug" class="control-label">Slug</label>
-                                <input asp-for="Slug" class="form-control" />
+                                <input asp-for="Slug" id="Slug_inp" class="form-control" />
                                 <span asp-validation-for="Slug" class="text-danger"></span>
                             </div>
                             <div class="form-group">
                                 <label asp-for="ProductPrice" class="control-label">Giá sản phẩm</label>
-                                <input asp-for="ProductPrice" class="form-control" placeholder="Nhập giá sản phẩm..." />
+                                <input asp-for="ProductPrice" id="price" class="form-control" placeholder="Nhập giá sản phẩm..." />
                                 <span asp-validation-for="ProductPrice" class="text-danger"></span>
                             </div>
                             <div class="form-group">
                                 <label asp-for="ProductSalePrice" class="control-label">Giá sản phẩm</label>
-                                <input asp-for="ProductSalePrice" class="form-control" placeholder="Nhập giá khuyến mãi..." />
+                                <input asp-for="ProductSalePrice" id="salePrice" class="form-control" placeholder="Nhập giá khuyến mãi..." />
                                 <span asp-validation-for="ProductSalePrice" class="text-danger"></span>
                             </div>
                             <div class="form-group">
                                 <label asp-for="ProductCategoryId" class="control-label">Danh mục</label>
-                                <select asp-for="ProductCategoryId" class="form-control" asp-items="ViewBag.ProductCategoryId"></select>
+                                <select asp-for="ProductCategoryId" id="categoryId_select" class="form-control" asp-items="ViewBag.ProductCategoryId"></select>
                             </div>
                             <div class="form-group">
                                 <label asp-for="ProductStatus" class="control-label">Trạng thái</label>
-                                <select asp-for="ProductStatus" class="form-control">
+                                <select asp-for="ProductStatus" id="status_select" class="form-control">
                                     <option value="1" selected>Hiển thị</option>
                                     <option value="0">Tạm ẩn</option>
                                 </select>
@@ -67,11 +67,11 @@
                             </div>
                             <div class="form-group">
                                 <label asp-for="ProductDescription" class="control-label">Mô tả sản phẩm</label>
-                                <textarea asp-for="ProductDescription" class="form-control" placeholder="Nhập mô tả sản phẩm..." rows="4"></textarea>
+                                <textarea asp-for="ProductDescription" id="description" class="form-control" placeholder="Nhập mô tả sản phẩm..." rows="4"></textarea>
                                 <span asp-validation-for="ProductDescription" class="text-danger"></span>
                             </div>
-                            <button type="submit" class="btn btn-primary">Gửi</button>
-                            <a asp-action="Index" class="btn btn-danger">Trở lại</a>
+                            <button type="submit" id="btn-submit" class="btn btn-primary">Gửi</button>
+                            <a asp-action="Index" id="btn-cancel" class="btn btn-danger">Trở lại</a>
                         </form>
                     </div>
                 </div>
@@ -88,11 +88,16 @@
     </script>
     <script>
         function ChangeToSlug() {
-            var slug = document.getElementById("slug").value;
+            var slug = document.getElementById("slug").value.trim();
+            if (slug === "") {
+                alert("Vui lòng nhập một giá trị hợp lệ.");
+                return;
+            }
+            slug = slug.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
             slug = slug.toLowerCase();
-            slug = slug.replace(/ /g, "-"); // Thay thế khoảng trắng bằng dấu gạch nối
-            slug = slug.replace(/[^\w-]+/g, ""); // Xóa các ký tự không phải là chữ cái, số hoặc dấu gạch
-            document.getElementById("Slug").value = slug; // Cập nhật slug vào ô nhập
+            slug = slug.replace(/ /g, "-");
+            slug = slug.replace(/[^\w-]+/g, "");
+            document.getElementById("Slug_inp").value = slug;
         }
     </script>
     <script>

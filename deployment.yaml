@@ -61,12 +61,24 @@ networks:
 # docker-compose -f ./deployment.yaml rm -s -f sqlserver-container
 # docker-compose -f ./deployment.yaml up -d sqlserver-container
 
-# truy cập vào database
+# truy cập vào database local
 # sqlcmd -S localhost -U SA -P "Admin@1234"
+
+# truy cập vào database cloud
+# tải các thư viện cần thiết cho sql server
+# curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+# curl https://packages.microsoft.com/config/ubuntu/22.04/prod.list | tee /etc/apt/sources.list.d/msprod.list
+# apt-get update
+# /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "Admin@1234"
+# sử dụng sql với command ...
+
 
 # kiểm tra tất cả database
 # EXEC sp_databases;
 # GO
+
+# kiểm tra tất cả các table của database
+# SELECT name AS TableName FROM sys.tables;
 
 # tạo image docker asp web
 # docker-compose -f ./deployment.yaml rm -s -f asp-web-container

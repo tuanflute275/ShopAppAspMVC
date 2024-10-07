@@ -30,8 +30,10 @@ namespace ShopApp.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
+            int limit = 10;
+            page = page <= 1 ? 1 : page;
             // lấy ra số lượng của từng bảng
             GetRemoteHostIpAddress(HttpContext);
             var userCount = _context.Accounts.Count();
@@ -50,7 +52,7 @@ namespace ShopApp.Areas.Admin.Controllers
 
             // lấy ra danh sách nhật ký hoạt động người dùng khi đăng nhập vào
             var logs = await _context.Logs.Where(x => x.TimeLogin != null || x.TimeLogout != null || x.TimeActionRequest == null).ToListAsync();
-            var pagedLogs = logs.ToPagedList(1, 5);
+            var pagedLogs = logs.ToPagedList(page, limit);
             return View(pagedLogs);
         }
 

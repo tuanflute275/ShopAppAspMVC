@@ -41,7 +41,7 @@
                                     <input name="returnUrl" value="@ViewBag.returnUrl" type="hidden" />
                                     <div class="form-group">
                                         <label for="email">Tên tài khoản</label>
-                                        <input asp-for="Username" type="text" class="form-control mb-0" id="email"
+                                        <input asp-for="Username" type="text" class="form-control mb-0" id="username"
                                                placeholder="Nhập tên tài khoản...">
                                         <span asp-validation-for="Username" id="username_err" class="text-danger"></span>
                                     </div>
@@ -53,7 +53,7 @@
                                     </div>
                                     
                                     <div class="sign-info text-center">
-                                        <button type="submit" class="btn btn-white d-block w-100 mb-2">Đăng nhập</button>
+                                        <button type="submit" id="btnLogin" class="btn btn-white d-block w-100 mb-2">Đăng nhập</button>
                                     </div>
                                 </form>
                             </div>
