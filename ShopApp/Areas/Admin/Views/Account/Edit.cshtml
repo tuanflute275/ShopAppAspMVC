@@ -84,6 +84,14 @@
                                 </select>
                                 <span asp-validation-for="UserActive" class="text-danger"></span>
                             </div>
+                            <div class="form-group">
+                                <label asp-for="UserRole" class="control-label">Quyền hạn</label>
+                                <select asp-for="UserRole" class="form-control">
+                                    <option value="1" selected="@(Model.UserRole == 1)">Người quản trị</option>
+                                    <option value="0" selected="@(Model.UserRole == 0)">Người dùng</option>
+                                </select>
+                                <span asp-validation-for="UserRole" class="text-danger"></span>
+                            </div>
                             <button type="submit" class="btn btn-primary">Gửi</button>
                             <a asp-action="Index" class="btn btn-danger">Trở lại</a>
                         </form>

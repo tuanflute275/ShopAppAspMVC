@@ -41,9 +41,15 @@
                         @String.Format("{0:#,0} VND", detail.ProductPrice)
                     }
                 </p>
+                @{
+                    var description = detail.ProductDescription;
+                    var truncatedDescription = description.Length > 50
+                    ? description.Substring(0, 300) + "..."
+                    : description;
+                }
+
                 <p>
-                        @Html.Raw(detail.ProductDescription)
-                    
+                    @Html.Raw(truncatedDescription)
                 </p>
                 <hr />
                 <form class="form-block mt-3" asp-controller="Cart" asp-action="AddToCart" method="post">

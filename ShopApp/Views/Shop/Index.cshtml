@@ -124,7 +124,7 @@
                 {
                     <nav aria-label="Page navigation example">
                         <ul class="pagination mt-3" style="justify-content: center;">
-                            @Html.PagedListPager(Model, page => Url.Action("Shop", new { page = page }),
+                            @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }),
                                      new PagedListRenderOptions
                         {
                             LiElementClasses = new[] { "page-item" },

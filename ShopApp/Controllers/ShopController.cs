@@ -49,7 +49,7 @@ namespace ShopApp.Controllers
             ViewBag.names = name;
             ViewBag.sorts = sort;
             // lisst cate
-            var categories = await _context.Categories.ToListAsync();
+            var categories = await _context.Categories.Where(x => x.CategoryStatus == 1).ToListAsync();
             ViewBag.Categories = categories;
 
             var products = await _context.Products.OrderByDescending(x => x.ProductId).Include(p => p.ProductCategory).ToListAsync();
