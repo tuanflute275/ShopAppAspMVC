@@ -32,7 +32,7 @@ namespace ShopApp.Controllers
                 log.WorkTation = workstationName;
                 ipAddress = ipAddress.Equals("::1") ? "127.0.0.1" : ipAddress;
                 log.IpAdress = ipAddress;
-                log.UserName = User.Identity.Name;
+                log.UserName = HttpContext.Session.GetString("customerName");
                 string fullUrl = $"{Request.Scheme}://{Request.Host}{Request.Path}{Request.QueryString}";
                 log.Request = fullUrl;
                 log.Response = "";
@@ -71,7 +71,7 @@ namespace ShopApp.Controllers
                 log.WorkTation = workstationName;
                 ipAddress = ipAddress.Equals("::1") ? "127.0.0.1" : ipAddress;
                 log.IpAdress = ipAddress;
-                log.UserName = User.Identity.Name;
+                log.UserName = HttpContext.Session.GetString("customerName");
                 string fullUrl = $"{Request.Scheme}://{Request.Host}{Request.Path}{Request.QueryString}";
                 log.Request = fullUrl;
                 log.Response = "";
@@ -97,7 +97,7 @@ namespace ShopApp.Controllers
                 log.WorkTation = workstationName;
                 ipAddress = ipAddress.Equals("::1") ? "127.0.0.1" : ipAddress;
                 log.IpAdress = ipAddress;
-                log.UserName = User.Identity.Name;
+                log.UserName = HttpContext.Session.GetString("customerName");
                 string fullUrl = $"{Request.Scheme}://{Request.Host}{Request.Path}{Request.QueryString}";
                 log.Request = fullUrl;
                 log.Response = "";
@@ -124,7 +124,7 @@ namespace ShopApp.Controllers
                 log.WorkTation = workstationName;
                 ipAddress = ipAddress.Equals("::1") ? "127.0.0.1" : ipAddress;
                 log.IpAdress = ipAddress;
-                log.UserName = User.Identity.Name;
+                log.UserName = HttpContext.Session.GetString("customerName");
                 string fullUrl = $"{Request.Scheme}://{Request.Host}{Request.Path}{Request.QueryString}";
                 log.Request = fullUrl;
                 log.Response = "";
@@ -156,7 +156,7 @@ namespace ShopApp.Controllers
                 log.WorkTation = workstationName;
                 ipAddress = ipAddress.Equals("::1") ? "127.0.0.1" : ipAddress;
                 log.IpAdress = ipAddress;
-                log.UserName = User.Identity.Name;
+                log.UserName = HttpContext.Session.GetString("customerName");
                 string fullUrl = $"{Request.Scheme}://{Request.Host}{Request.Path}{Request.QueryString}";
                 log.Request = fullUrl;
                 log.Response = "";

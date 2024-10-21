@@ -286,6 +286,29 @@ namespace ShopApp.Controllers
         [Route("dang-nhap")]
         public IActionResult Login(LoginViewModel model, string? returnUrl)
         {
+            try
+            {
+                Log log = new Log();
+                log.TimeActionRequest = null;
+                log.TimeLogout = null;
+                log.TimeLogin = DateTime.Now;
+                string ipAddress = HttpContext.Connection.RemoteIpAddress?.ToString();
+                string workstationName = ipAddress != null ? System.Net.Dns.GetHostEntry(ipAddress).HostName : "Unknown";
+                log.WorkTation = workstationName;
+                ipAddress = ipAddress.Equals("::1") ? "127.0.0.1" : ipAddress;
+                log.IpAdress = ipAddress;
+                log.UserName = model.Username;
+                string fullUrl = $"{Request.Scheme}://{Request.Host}{Request.Path}{Request.QueryString}";
+                log.Request = fullUrl;
+                log.Response = "";
+                // save to db log
+                _context.Logs.Add(log);
+                _context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
 
             if (!ModelState.IsValid)
             {
@@ -428,6 +451,29 @@ namespace ShopApp.Controllers
         [Route("dang-xuat")]
         public IActionResult Logout()
         {
+            try
+            {
+                Log log = new Log();
+                log.TimeActionRequest = null;
+                log.TimeLogout = DateTime.Now;
+                log.TimeLogin = null;
+                string ipAddress = HttpContext.Connection.RemoteIpAddress?.ToString();
+                string workstationName = ipAddress != null ? System.Net.Dns.GetHostEntry(ipAddress).HostName : "Unknown";
+                log.WorkTation = workstationName;
+                ipAddress = ipAddress.Equals("::1") ? "127.0.0.1" : ipAddress;
+                log.IpAdress = ipAddress;
+                log.UserName = HttpContext.Session.GetString("customerName");
+                string fullUrl = $"{Request.Scheme}://{Request.Host}{Request.Path}{Request.QueryString}";
+                log.Request = fullUrl;
+                log.Response = "";
+                // save to db log
+                _context.Logs.Add(log);
+                _context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             _toastNotification.Success("Đăng xuất thành công !", 3);
             HttpContext.Session.Remove("customerID");
             HttpContext.Session.Remove("customerName");
